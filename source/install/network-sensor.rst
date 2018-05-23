@@ -41,12 +41,12 @@ You can install Network Sensor on a Physical Machine or Virtual Machine
 #. Configure Network Management Interface
 
    - In case the interface eth0 is connected to 802.1Q trunk port  up to 182 VLANs
-   - Enter VLAN IDs (**Concatenated by comma**)
+   - Enter VLAN IDs (*Concatenated by comma*)
    - Enter VLAN ID for management interface
    - IP Address
    - Netmask
    - Default Gateway
-   - DNS IP addresses (**concatenated by comma**)
+   - DNS IP addresses (*concatenated by comma*)
 
 #. Verify all information
 
@@ -59,7 +59,7 @@ You can install Network Sensor on a Physical Machine or Virtual Machine
    - IP address
    - Netmask
    - Default Gateway
-   - DNS IP addresses (**concatenated by comma**)
+   - DNS IP addresses (*concatenated by comma*)
 
 #. Verify all information
 
