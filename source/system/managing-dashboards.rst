@@ -17,4 +17,4 @@ Dashboards are a collection of Widgets. Dashboards give you an overview of the r
 .. toctree::
    :maxdepth: 2
 
-   adding-dashboards
+   add-dashboards
