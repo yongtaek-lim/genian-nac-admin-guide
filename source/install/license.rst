@@ -1,7 +1,7 @@
 Installing Genian NAC License
 =============================
 
-Genian NAC is free for up to 300 devices with the Basic Edition (Visibility only). If you require Visibility and Control, then you will need to obtain a license for the Professional Edition. You can get a trial license to experience the Professional Edition for 30 days by going to the Trial License Page
+Genian NAC is free for up to 300 devices with the Basic Edition (Visibility only). If you require Visibility and Control, then you will need to obtain a license for the Professional Edition. You can get a trial license to experience the Professional Edition for 30 days by going to the `Trial License Page`_
 (*The trial license only allows you to manage up to 300 devices)
 
 To Install License
@@ -35,3 +35,4 @@ To Purchase Go To Shop
 #. On-Premises
 
 .. _Where is my Server ID located?: https://www.genians.com/faq/find-server-id/
+.. _Trial License Page: https://www.genians.com/trial/
