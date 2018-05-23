@@ -19,3 +19,4 @@ Dashboards are a collection of Widgets. Dashboards give you an overview of the r
 
    add-dashboards
    managing-widgets
+   google-map
