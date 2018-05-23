@@ -5,7 +5,7 @@ Genian NAC uses 2-Step Authentication with OTP Google Authenticator to add a sec
 authentication to an account log-in. Once Google Authenticator is installed a QR Code will
 display so you can scan it with your smartphone or tablet. A six digit code will then be
 presented to then enter as the final step in your 2-Step Authentication.
-(*Google Authenticator six-digit code is continuously changing so enter it in quickly)
+(*Google Authenticator six-digit code is continuously changing so enter it in quickly*)
 
 To Enable 2-Step Authentication For Administrator Account
 ---------------------------------------------------------
