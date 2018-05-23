@@ -30,9 +30,11 @@ To Install License
 To Purchase Go To Shop
 ----------------------
 
-#. Cloud
+`Cloud`_
 
-#. On-Premises
+`On-Premises`_
 
 .. _Where is my Server ID located?: https://www.genians.com/faq/find-server-id/
 .. _Trial License Page: https://www.genians.com/trial/
+.. _Cloud: https://www.genians.com/buy-cloud/
+.. _On-Premises: https://www.genians.com/buy-license-onprem/
