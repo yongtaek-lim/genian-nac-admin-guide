@@ -6,3 +6,4 @@ Installing Policy Server
 
    gui
    ssh
+   license
