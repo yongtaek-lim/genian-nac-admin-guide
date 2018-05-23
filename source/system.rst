@@ -7,4 +7,4 @@ Systems consist of Policy Server and Sensor. You can customize admin interface, 
    :maxdepth: 2
 
    system/managing-dashboards
-   sustem/managing-admin
+   system/managing-admin
