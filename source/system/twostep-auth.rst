@@ -17,9 +17,9 @@ To Enable 2-Step Authentication For Administrator Account
 #. Find General: 2-Step Authentication section in the main window
 #. Click OTP (Google Authenticator) in drop-down
 #. Find Notification Options section. Enter the following:
-#. Mobile Phone (*e.g. 123-456-7890)
-#. Display Phone Number (*This is an optional number you want visible to sender)
-#. Email (*Multiple Email Addresses separated by commas)
+#. Mobile Phone (*e.g. 123-456-7890*)
+#. Display Phone Number (*This is an optional number you want visible to sender*)
+#. Email (*Multiple Email Addresses separated by commas*)
 #. Click Update
 
 To Enable 2-Step Authentication For The Policy Server
@@ -39,8 +39,8 @@ To Setup Google Authenticator
 #. 2-Step Authentication wizard appears to setup Google Authenticator
 #. Click Start
 #. Select Mobile Phone type, Android or iPhone
-#. Select Application Method to Install via QR Code (*QR Code will appear as an example)
-#. Click OK then Next (*Make sure you have Google Authenticator installed on Mobile Phone and ready to scan QR Code)
+#. Select Application Method to Install via QR Code (*QR Code will appear as an example*)
+#. Click OK then Next (*Make sure you have Google Authenticator installed on Mobile Phone and ready to scan QR Code*)
 #. Select QR Code in drop-down and then click Generate Security Key
 #. Using Mobile Phone scan the QR Code that was just generated
 #. Mobile Phone will present a 6 digit code that you will need to remember and quickly enter it into the Google Authenticator Wizard
