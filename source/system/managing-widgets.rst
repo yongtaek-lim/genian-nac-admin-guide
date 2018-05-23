@@ -7,13 +7,9 @@ To Choose a Widget
 ------------------
 
 #. Go to Dashboard in the top panel
-
 #. Click Tools > Add Widget
-
 #. Find Category section in the Add Widget window. Select Category
-
 #. Find Widget section in the Add Widget window
-
 #. Click Add Widget
 
 To Arrange Widgets
@@ -30,9 +26,6 @@ To Delete a Widget
 ------------------
 
 #. Go to Dashboard in the top panel
-
 #. Find Widget and hover over the title bar
-
 #. Click X  
-
 #. Click Ok
