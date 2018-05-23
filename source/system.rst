@@ -6,4 +6,4 @@ Systems consist of Policy Server and Sensor. You can customize admin interface, 
 .. toctree::
    :maxdepth: 2
 
-   managing-systems/managing-dashboards
+   systems/managing-dashboards
