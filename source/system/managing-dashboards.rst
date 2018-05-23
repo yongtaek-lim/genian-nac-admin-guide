@@ -13,3 +13,8 @@ Dashboards are a collection of Widgets. Dashboards give you an overview of the r
 - Chart
 - Other
 - Custom (Enterprise Edition only)
+
+.. toctree::
+   :maxdepth: 2
+
+   system/managing-dashboards
