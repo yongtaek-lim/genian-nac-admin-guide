@@ -18,3 +18,4 @@ Dashboards are a collection of Widgets. Dashboards give you an overview of the r
    :maxdepth: 2
 
    add-dashboards
+   managing-widgets
