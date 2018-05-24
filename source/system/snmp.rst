@@ -11,7 +11,7 @@ To Download Genian NAC MIB File
 #. Find SNMP Trap Options section in the main Log window
 #. Select On from the drop-down
 #. Enter Community String
-#. Click Download GENIAN MIB (*Zip file will download to the local machine)
+#. Click Download GENIAN MIB (*Zip file will download to the local machine*)
 #. Click Update
 #. Unzip the GENIAN-MIB.zip file
 #. Add the GENIAN-MIB.mib file to your desired Network Management System
