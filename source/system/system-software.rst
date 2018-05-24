@@ -15,3 +15,4 @@ You can manage your System Software (Policy Server, Sensor, and Agent). Software
 
    update-server-sensor
    update-agent
+   snmp
