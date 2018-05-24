@@ -8,3 +8,8 @@ configure each one. As a Remote Site is added and a Network Sensor is installed
 it will inherit the configurations from the Network Appliance settings. 
 If Additional VLANs are configured then these VLANs will inherit configurations from the Sensor settings.
 
+.. toctree::
+   :maxdepth: 2
+
+   default-settings-appliance
+   default-settings-sensor
