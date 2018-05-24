@@ -9,3 +9,4 @@ Systems consist of Policy Server and Sensor. You can customize admin interface, 
    system/managing-dashboards
    system/managing-admin
    system/cli
+   system/config-network
