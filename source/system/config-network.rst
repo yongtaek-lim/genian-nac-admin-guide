@@ -7,3 +7,4 @@ You can connect through command line console change the interface IP address, or
    :maxdepth: 2
 
    change-ip
+   dhcp-interface
