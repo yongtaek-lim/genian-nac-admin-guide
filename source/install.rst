@@ -6,5 +6,6 @@ You can install and configure the Policy Server, Network Sensor, and Agent on va
 .. toctree::
    :maxdepth: 2
 
-   install/policy-server
-   install/network-sensor
+   install/installing-policy-server
+   install/installing-network-sensor
+   install/installing-agent   
