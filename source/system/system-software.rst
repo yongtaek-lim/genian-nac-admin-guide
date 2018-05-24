@@ -7,4 +7,4 @@ You can manage your System Software (Policy Server, Sensor, and Agent). Software
 - GNAC-SS – Sensor Software
 - NAC-AGENT – Agent Software
 
-.. image:: Genians-Revision-Numbering2.png
+.. image:: /images/Genians-Revision-Numbering2.png
