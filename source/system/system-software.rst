@@ -8,3 +8,4 @@ You can manage your System Software (Policy Server, Sensor, and Agent). Software
 - NAC-AGENT – Agent Software
 
 .. image:: /images/Genians-Revision-Numbering2.png
+   :width: 300 px
