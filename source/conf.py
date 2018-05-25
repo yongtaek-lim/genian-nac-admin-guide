@@ -172,3 +172,6 @@ html_context = {
     "github_version": "master", # Version
     "conf_py_path": "/source/", # Path in the checkout to the docs root
 }
+
+def setup(app):
+	app.add_stylesheet('css/my_style.css')
