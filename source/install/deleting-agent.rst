@@ -35,4 +35,7 @@ To Delete Agent Using Policy
 #. **Policy Preferences** tab click **Next**
 #. **Agent Action** tab click **Next**
 #. **Threat Definition** tab click **Finish**
-#. In **Node Policy**, you should see your newly created Policy and a number of **Node(s)** in Nodes column (*Device will not be prompted to do anything upon connecting to the network. Administrator will soon see these Nodes without the Agent Icon in the Management Node list*)
+
+#. In **Node Policy**, you should see your newly created Policy and a number of **Node(s)** in Nodes column 
+(*Device will not be prompted to do anything upon connecting to the network. Administrator will soon see these 
+Nodes without the Agent Icon in the Management Node list*)

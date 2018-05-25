@@ -7,14 +7,18 @@ and network requirements
 
 Allowed Ports
 
+.. image:: images/Chart.png
+   :target: ../../html/deploy.html 
+   :align: center
+   :alt: Deploying Genian NAC page
+   :name: Deploying Genian NAC page
+   :width: 800px
 
+(*The above ports need to be open and accessible to allow the Policy Server to get weekly/monthly updates from the Genians Platform DB*)
 
 .. toctree::
    :maxdepth: 2
 
-   deploying/deploying-agent-intro
-   deploying/agent-gpo
-   deploying/agent-cwp
-   deploying/agent-manually
-   deploying/cloud-managed
    deploying/on-premise
+   deploying/cloud-managed
+   deploying/deploying-agent-intro

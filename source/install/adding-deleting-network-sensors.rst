@@ -6,7 +6,6 @@ You can add Sensors to manage these newly created VLANs by adding additional int
 Network Sensor CLI. If you add additional remote locations you can add Network Sensor Appliances 
 to the sites to have these locations managed through Genian NAC.
 
-
 To Add Additional Network Sensors (VLANs)
 -----------------------------------------
 
@@ -16,8 +15,10 @@ to the existing eth0 or eth1 interface.*)
 #. Connect through SSH client to Policy Server/Network Sensor `Connecting To Command Line Interface`_
 #. Enter global configuration mode by typing **configure terminal**
 #. Enter the following commands below for each Network Sensor to be added:
+ 
    -  interface eth0 vlan 1,10,15,20 (*Adding VLAN 20 for network 10.1.20.5*)
    -  interface eth0.20 address 10.1.20.5 255.255.255.0
+
 #. exit
 
 (*Commands are instantly written so there is no need to do “write” or “copy run start” commands*)
@@ -30,18 +31,16 @@ To Delete A Specific VLAN Network Sensor
 #. Connect through SSH client to Policy Server/Network Sensor `Connecting To Command Line Interface`_
 #. Enter global configuration mode by typing configure terminal
 #. Enter the following commands below for each Network Sensor (VLAN) to be removed:
+
    -  interface eth0 vlan 1,10,15 (*Removing VLAN 20 for network 10.1.20.5*)
    -  no interface eth0.20 address 10.1.20.5 255.255.255.0
+
 #. Exit from CLI
 #. Go to System in the top panel
 #. Go to System > Sensor in the System Management panel
 #. Find and click on the IP Address of desired Network Sensor
 #. Find and click Delete in General tab
-#. click OK to confirm
-
-
-
-
+#. click **OK** to confirm
 
 To Add Network Sensor Hardware At New Remote Site
 -------------------------------------------------
@@ -61,7 +60,7 @@ To Delete A Network Sensor System
 
 #. Disconnect Network Sensor from the network and power down
 #. Access Policy Server UI to delete Network Sensor
-#. Go to System in the top panel
+#. Go to **System** in the top panel
 #. Go to System > System in the System Management panel
 #. Find and click on the Checkbox of desired Network Sensor
 #. Go to Tasks > Delete System
