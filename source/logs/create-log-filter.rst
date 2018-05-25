@@ -12,7 +12,7 @@ To Create a New Log Filter
 #. Click **Save As**
 #. In the **Log Filter** screen enter in the following information:
 
-   - **Name** (*Make sure it is unique from your current Log Filters and it is easily understood)
+   - **Name** (*Make sure it is unique from your current Log Filters and it is easily understood*)
    - **Description**
    - **Tree & Log Monitor** (*Checked displays under **Log Filter**, unchecked will keep it hidden from list*)
    - Choose the columns you would like to display
