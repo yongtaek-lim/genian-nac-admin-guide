@@ -11,7 +11,16 @@ The switch port can be a standard connection or can be a trunked port for up to 
 
 `Image 1`_
 
+.. image:: images/Deploying-PolicyServer-NetworkSensor-Combined.png
+   :target: ../../html/deploying/on-premise.html 
+   :align: center
+   :alt: On-Premise page
+   :name: On-Premise page
+   :width: 800px 
+
 `Image 2`_
+
+.. image:: images/Deploying-PolicyServer-NetworkSensor.png
 
 .. _Image 1: https://www.genians.com/wp-content/uploads/2017/10/Deploying-PolicyServer-NetworkSensor-Combined.png
 .. _Image 2: https://www.genians.com/wp-content/uploads/2017/10/Deploying-PolicyServer-NetworkSensor.png
