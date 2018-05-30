@@ -6,7 +6,7 @@ You can collect shared network folder information, control access, and specify p
 To See the Configuration of the Plugin
 --------------------------------------
 
-- Go to **System > Update > Genian Software > Plugin > Control Network Folder Sharingv
+- Go to **System > Update > Genian Software > Plugin > Control Network Folder Sharing**
 
 To Add the Agent Action to a Policy
 -----------------------------------

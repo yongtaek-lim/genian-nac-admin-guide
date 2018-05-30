@@ -16,8 +16,8 @@ To Add the Agent Action to a Policy
 #. Click the **desired Policy ID** in Node Policy window
 #. Find **Agent Action**. Click **Assign**
 #. Find **Collect System Information Using WMI** in the **Available** section. Select and drag it into the **Selected** section
-#. Click **Add
-#. Click **Update
+#. Click **Add**
+#. Click **Update**
 
 To Collect Windows System info using WMI
 ----------------------------------------
