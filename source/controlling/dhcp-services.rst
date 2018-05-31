@@ -35,4 +35,4 @@ To Configure DHCP Services To Network Sensor In Operation
 #. All **other settings** are **optional**
 #. Click **Update**
 
-.. image:: images/Genian-NAC-DHCP-Options-1.png
+.. image:: /images/Genian-NAC-DHCP-Options-1.png
