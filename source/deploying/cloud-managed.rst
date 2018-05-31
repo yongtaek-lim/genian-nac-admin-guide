@@ -5,4 +5,6 @@ Cloud-Managed
 
 `Image 3`_
 
+.. image:: /images/Deploying-PolicyServer-NetworkSensor-Cloud.png
+
 .. _Image 3: https://www.genians.com/wp-content/uploads/2017/10/Deploying-PolicyServer-NetworkSensor-Cloud.png
