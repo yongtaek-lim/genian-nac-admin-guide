@@ -88,7 +88,7 @@ You can install **Policy Server** on a **Physical Machine** or **Virtual Machine
 #. Login to Genian NAC web console
 
 .. _download page: https://www.genians.com/download#now
-.. _bootable USB flash drive: https://www.genians.com/knows/create-a-bootable-usb-drive/
+.. _bootable USB flash drive: file:///C:/Users/Bill%20Eaton/genian-nac-admin-guide/build/html/install/bootable-usbdrive.html
 
 .. toctree::
    :maxdepth: 2
