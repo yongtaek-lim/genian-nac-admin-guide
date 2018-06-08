@@ -19,4 +19,5 @@ Genian NAC inspects network traffic to identify abnormalities in the network and
    threats/understanding-threat
    threats/threat-definition
    threats/blocking-threats
+   threats/macip-clone
    
