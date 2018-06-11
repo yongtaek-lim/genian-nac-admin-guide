@@ -1,69 +1,90 @@
 Installing Network Sensor
 =========================
+    
+Prepare Hardware
+----------------
 
-You can install **Network Sensor** on a **Physical Machine** or **Virtual Machine**
+You can install Network Sensor on a physical machine or virtual machine. Please refer `minimum specification`_.
 
-#. Create an installation media
+Physical Machine
+    You can use generic intel server like HP, Dell or Mini PC for testing and small deployment. 
+    If you have any hardware comparability issue, please `contact us`_
+    
+Virtual Machine
+    You can install Network Sensor on virtual machine. We support various hypervisor 
 
-   - Download the Policy Server ISO file from the www.genians.com `download page`_
-   - Create a CD-ROM or `bootable USB flash drive`_
+Prepare Network Connection
+--------------------------
 
-#. Check out your network connection
+Genian NAC requires a network connection with at least one static IP address. 
+You can use an 802.1Q trunk port to manage multiple VLANs on a single network connection.
+If you are using a virtual machine, be sure to select the network interface type in **Bridge** mode.
 
-   - Connect at least one wired network cable to the machines network interface
-   - Genian NAC supports access port and trunk (802.1q) port connection within a switch
-   - A Static IP is required for the management interface
-   - Network interface type: **Bridged** (*Virtual Machine*)
+Download Software
+-----------------
+
+   -  Download the Policy Server ISO file from the `download page`_
+   -  Create a CD-ROM or :doc:`/install/bootable-usbdrive` for physical machine installation
+
+Installing Genian NAC
+---------------------
 
 #. Boot up your machine
 
-   - Plug the CD-ROM or bootable USB flash drive into your physical machine
-   - Change the boot sequence to boot from the CD-ROM or USB drive
-   - Boot it up! (* This process will copy the image from the CD-ROM or bootable USB flash drive to your physical machine.)
-   - Press enter to start installation
-   - Install a Genian NAC Network Sensor
+    * Plug the CD-ROM or bootable USB flash drive into your physical machine
+    * Change the boot sequence to boot from the CD-ROM or USB drive
+    * On virtual machine, select ISO file for installation media
 
-     - Type "i" to proceed
-     - Type "e" to exit
+#. Type “2” for **Genian NAC Sensor**
+
+#. Type “i” to proceed
 
 #. Reboot your system
 
-   - Remove the installation media (*e.g. USB*)
-   - Press Enter to reboot
+    * Remove the installation media (*e.g. USB*)
+    * Press Enter to reboot
 
-#. Create admin account
-#. Set up a system time
+Initial Configuration
+---------------------
 
-   - Continent, City
-   - NTP Server (* Leave it blank if you don’t have one)
+#. Create admin account for SSH connection
 
-#. Configure Network Management Interface
+    * Enter superadmin account name. (default is *admin*)
+    * Enter superadmin password
+    
+#. Set up a system time zone and NTP server
 
-   - In case the interface eth0 is connected to 802.1Q trunk port  up to 182 VLANs
-   - Enter VLAN IDs (*Concatenated by comma*)
-   - Enter VLAN ID for management interface
-   - IP Address
-   - Netmask
-   - Default Gateway
-   - DNS IP addresses (*Concatenated by comma*)
+    * Enter number of your continent and city
+    * Enter NTP server IP or FQDN (default is *pool.ntp.org*)
 
+#. Select connection type
+
+    * In case the interface eth0 is connected access port (regular port)
+    
+        * Type "n"
+        
+    * In case the interface eth0 is connected to 802.1Q trunk port
+
+        * Type "y"
+        * Enter VLAN IDs for service (*Concatenated by comma or A-B for range. e.g: 10,20-30*)
+        * Enter VLAN ID for management interface
+
+#. Network configuration
+
+    * Enter IP address
+    * Enter netmask
+    * Enter default gateway
+    * Enter DNS IP addresses (*Concatenated by comma*)
+    
+#. Enter Policy Server IP or FQDN.
+    
 #. Verify all information
-#. Type “y” to start
-#. In case the interface eth0 is not connected to 802.1Q trunk port (*a single network*)
-#. Enter Network Interface information
 
-   - IP address
-   - Netmask
-   - Default Gateway
-   - DNS IP addresses (*concatenated by comma*)
+    * Everythings correct. Type “y” to start
+    * Something wrong. Type "n" to restart configuration
+    
+#. If the connection to the policy server is successful, you can check the newly added network sensor in **System> System** menu of the management UI.
 
-#. Verify all information
-#. Type "y" to start
-
-.. _download page: https://www.genians.com/download#now
-.. _bootable USB flash drive: file:///C:/Users/Bill%20Eaton/genian-nac-admin-guide/build/html/install/bootable-usbdrive.html
-
-.. toctree::
-   :maxdepth: 2
-
-   adding-deleting-network-sensors
+.. _minimum specification: https://www.genians.com/download/
+.. _contact us: https://www.genians.com/hello/
+.. _download page: https://www.genians.com/download/

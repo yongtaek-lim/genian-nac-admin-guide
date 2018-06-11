@@ -33,9 +33,6 @@ All files in the USB drive will be deleted during the process so back up your fi
 
 Now, you got the bootable USB drive to install Genian NAC into your desired machine. Congrats!
 
-- Back to `Installing Policy Server`_
-- Back to `Installing Network Sensor`_
-
 .. _UNETbootin: https://unetbootin.github.io/
 .. _Windows: http://launchpad.net/unetbootin/trunk/625/+download/unetbootin-windows-625.exe
 .. _Mac OS X: http://launchpad.net/unetbootin/trunk/625/+download/unetbootin-mac-625.dmg

@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Genian NAC'
+project = 'Genian NAC Documentation'
 copyright = '2018, GENIANS, INC'
 author = 'GENIANS, INC.'
 
