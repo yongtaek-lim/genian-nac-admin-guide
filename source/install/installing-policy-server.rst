@@ -1,99 +1,105 @@
 Installing Policy Server
 ========================
 
-You can install **Policy Server** on a **Physical Machine** or **Virtual Machine**
+Choose Deployment Type
+----------------------
 
-#. Create an installation media
+Policy Server can be run two diffrent deployment type.
 
-   -  Download the Policy Server ISO file from the www.genians.com `download page`_
+Policy Server Only
+    System only work for Policy Server functionality. In general, on a large network, separate the policy server and network sensor 
+    for performance and reliability. At least two systems are required for this deployment type.
 
-   -  Create a CD-ROM or `bootable USB flash drive`_
+Policy Server + Network Sensor (All-in-One)
+    In a small network, a system can function as a policy server and network sensor.
+    
+Prepare Hardware
+----------------
 
-#. Check out your network connection
+You can install Policy Server on a physical machine or virtual machine. Please refer `minimum specification`_.
 
-   -  Connect at least one wired network cable to the machines network interface
+Physical Machine
+    You can use generic intel server like HP, Dell or Mini PC for testing and small deployment. 
+    If you have any hardware comparability issue, please `contact us`_
+    
+Virtual Machine
+    You can install Policy Server on virtual machine. We support various hypervisor 
 
-   -  Genian NAC supports access port and trunk (802.1q) port connection within a switch
+Prepare Network Connection
+--------------------------
 
-   -  A Static IP is required for the management interface
+Genian NAC requires a network connection with at least one static IP address. 
+If you configure the All-in-One to use the network sensor function, You can use an 802.1Q trunk port to manage multiple VLANs on a single network connection.
+If you are using a virtual machine, be sure to select the network interface type in **Bridge** mode.
 
-   -  Network interface type: **Bridged** (*Virtual Machine*)
+Download Software
+-----------------
+
+Download the Policy Server ISO file from the `download page`_
+and create a CD-ROM or bootable USB for physical machine installation
+   
+.. toctree::
+   :maxdepth: 1
+
+   bootable-usbdrive
+
+Installing Genian NAC
+---------------------
 
 #. Boot up your machine
 
-  1. Plug the CD-ROM or bootable USB flash drive into your physical machine
-  2. Change the boot sequence to boot from the CD-ROM or USB drive
-  3. Boot it up! (*This process will copy the image from the CD-ROM or bootable USB flash drive to your physical machine.*)
+    * Plug the CD-ROM or bootable USB flash drive into your physical machine
+    * Change the boot sequence to boot from the CD-ROM or USB drive
+    * On virtual machine, select ISO file for installation media
 
-#. Select a Product
+#. Type “1” for **Genian NAC Policy Server + Sensor**
 
-   -  Type “1” for Genian NAC Policy Server + Sensor
-
-#. Install a Product
-
-   -  Type “i” to proceed
-
-   -  Type “e” to exit
+#. Type “i” to proceed
 
 #. Reboot your system
 
-   -  Remove the installation media (*e.g. USB*)
+    * Remove the installation media (*e.g. USB*)
+    * Press Enter to reboot
 
-   -  Press Enter to reboot
+Initial Configuration
+---------------------
 
-#. Create admin account
+#. Create admin account for Web UI and SSH connection
 
-#. Set up a system time
+    * Enter superadmin account name. (default is *admin*)
+    * Enter superadmin password
 
-   -  Continent, City
+#. Set up a system time zone and NTP server
 
-   -  NTP Server (*Leave it blank if you don’t have one*)
+    * Enter number of your continent and city
+    * Enter NTP server IP or FQDN (default is *pool.ntp.org*)
 
-#. Configure Network Management Interface
+#. Select connection type
 
-   -  In case the interface eth0 is connected to 802.1Q trunk port up to 182 VLANs
+    * In case the interface eth0 is connected access port (regular port)
+    
+        * Type "n"
+        
+    * In case the interface eth0 is connected to 802.1Q trunk port
 
-    1. Enter VLAN IDs (*Concatenated by comma*)
+        * Type "y"
+        * Enter VLAN IDs for service (*Concatenated by comma or A-B for range. e.g: 10,20-30*)
+        * Enter VLAN ID for management interface
 
-    2. Enter VLAN ID for management interface
+#. Network configuration
 
-      -  IP Address
+    * Enter IP address
+    * Enter netmask
+    * Enter default gateway
+    * Enter DNS IP addresses (*Concatenated by comma*)
 
-      -  Netmask
+#. Verify all information
 
-      -  Default Gateway
+    * Everythings correct. Type “y” to start
+    * Something wrong. Type "n" to restart configuration
 
-      -  DNS IP addresses (*Concatenated by comma*)
+#. Login to Genian NAC management UI. :doc:`gui`
 
-    3. Verify all information
-
-    4. Type “y” to start
-
-   -  In case the interface eth0 is not connected to 802.1Q trunk port (*a single network*)
-
-    1. Enter Network Interface information
-
-      -  IP address
-
-      -  Netmask
-
-      -  Default Gateway
-
-      -  DNS IP addresses (*concatenated by comma*)
-
-    2. Verify all information
-
-    3. Type “y” to start
-
-#. Login to Genian NAC web console
-
-.. _download page: https://www.genians.com/download#now
-.. _bootable USB flash drive: file:///C:/Users/Bill%20Eaton/genian-nac-admin-guide/build/html/install/bootable-usbdrive.html
-
-.. toctree::
-   :maxdepth: 2
-
-   gui
-   ssh
-   license
-   high-availability
+.. _minimum specification: https://www.genians.com/download/
+.. _contact us: https://www.genians.com/hello/
+.. _download page: https://www.genians.com/download/
