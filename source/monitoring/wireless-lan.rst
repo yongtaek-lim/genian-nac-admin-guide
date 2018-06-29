@@ -6,6 +6,7 @@ Network Sensor with built-in Wireless Adapter scans the network and detects all 
 .. toctree::
    :maxdepth: 2
    
+   wireless-adapter-compatibility
    browsing-ssids
    searching-ssids
    wireless-groups
