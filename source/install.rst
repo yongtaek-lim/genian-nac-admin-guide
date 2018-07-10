@@ -22,7 +22,6 @@ Genian NAC is organized by three main components.
    install/gui
    install/license
    install/ssh
-   install/installing-agent
-   
-.. install/bootable-usbdrive   
-.. install/high-availability
+   install/installing-agent  
+   install/bootable-usbdrive   
+   install/high-availability

@@ -88,3 +88,9 @@ Initial Configuration
 .. _minimum specification: https://www.genians.com/download/
 .. _contact us: https://www.genians.com/hello/
 .. _download page: https://www.genians.com/download/
+
+.. toctree::
+   :maxdepth: 2
+
+   adding-deleting-network-sensors
+
