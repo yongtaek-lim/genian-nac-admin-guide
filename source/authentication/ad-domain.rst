@@ -25,5 +25,5 @@ To Verify AD Domain Login
 #. Find and click **IP Address** of Endpoint
 #. Go to the **General** tab. Find **Domain** (*You should see the Domain this endpoint is logged into*)
 
-.. _Configuring Active Directory: https://www.genians.com/docs/administrators-guide/?section=configuring-active-directory
-.. _Creating Enforcement Policy for Node Group: https://www.genians.com/docs/administrators-guide/?section=creating-enforcement-policy-node-group
+.. _Configuring Active Directory: https://docs.genians.com/authentication/active-directory.html
+.. _Creating Enforcement Policy for Node Group: https://docs.genians.com/controlling/policy-nodegroup.html?highlight=enforcement
