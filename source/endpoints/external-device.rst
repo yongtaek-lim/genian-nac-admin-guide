@@ -1,7 +1,7 @@
 Controlling External Device
 ===========================
 
-You can Control External Devices by disabling or uninstalling them and to force users to request for approval to use them for a set period of time
+You can Control External Devices by disabling or uninstalling them and to force users to request for approval to use them for a set period of time. (External Devices can be any devices found within the Device Manager providing you know the Class Name and Vendor Name e.g. Class Name: "Universal Serial Bus controllers" Vendor Name: "USB Mass Storage Device")
 
 To See The Configuration Of The Plugin
 --------------------------------------
@@ -39,5 +39,6 @@ To Make The Agent Action Run Now
 .. toctree::
    :maxdepth: 2
 
-   externaldevice-policy
+   externalusbstorage-policy
+   externalusbprinters-policy
    
