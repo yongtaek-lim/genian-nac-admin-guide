@@ -14,3 +14,4 @@ To Synchronize User Directories with LDAP
 #. Find **Advanced > External DB** section in main window. Select **LDAP**
 #. Find **Advanced >** (**User, Department, Job Title, Node, and LifeCycle Information**) sections in main window. Add in information as needed (*Leave blank if using CSV*)
 #. Click **Tasks > Synchronize Now**
+   

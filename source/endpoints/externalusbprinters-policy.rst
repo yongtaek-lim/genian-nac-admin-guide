@@ -1,6 +1,8 @@
 Creating External USB Printer Policy
 ====================================
 
+You can create an External USB Storage Device policy for Windows devices. This Policy can be used for Printers, Keyboards, Mice etc...
+
 To Configure Control External Device Plugin
 -------------------------------------------
 
