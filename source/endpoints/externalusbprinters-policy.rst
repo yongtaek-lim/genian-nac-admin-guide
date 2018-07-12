@@ -12,8 +12,8 @@ To Configure Control External Device Plugin
 #. Find **Agent Action > Control Methods** section and choose to **Disable** or **Uninstall**
 #. Click **Update**
       
-Create External Device Group
-----------------------------
+To Create External Device Group
+-------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Group > External Device** in the left Policy panel
@@ -29,8 +29,8 @@ Create External Device Group
    
 (*You can build Policies to Identify and Disable anything found in the Device Manager with Proper Class Name and Vendor Name*)   
  
-Create External Device Policy
------------------------------
+To Create External Device Policy
+--------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action > External Device** in the left Policy panel
@@ -41,8 +41,8 @@ Create External Device Policy
 #. Click **Update**
 #. Click **Apply**
 
-Create Node Policy for External Device Policy
----------------------------------------------
+To Create Node Policy for External Device Policy
+------------------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy** in the left Policy panel
