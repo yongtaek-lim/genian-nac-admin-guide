@@ -32,7 +32,7 @@ To Delete A Specific VLAN Network Sensor
 #. Enter global configuration mode by typing **configure terminal**
 #. Enter the following commands below for each Network Sensor (VLAN) to be removed:
 
-   -  interface eth0 vlan 1,10,15 (*Removing VLAN 20 for network 10.1.20.5*)
+   -  interface eth0 vlan 1,10,15 (*This command removes VLAN 20 for network 10.1.20.5*)
    -  no interface eth0.20 address 10.1.20.5 255.255.255.0
 
 #. Exit from **CLI**
