@@ -54,12 +54,10 @@ To Enable Email Authentication for RADIUS
 #. Go to **Preferences** in the top panel
 #. Go to **Service > RADIUS Server** in the left Preferences panel
 #. Find **RADIUS Server: Email Authentication** section and select **On** in drop-down
-#. Need IMAP/POP3/SMTP configured, `See Configuring IMAP/POP3/SMTP Server`_
+#. Need IMAP/POP3/SMTP configured, :doc:`imap-pop3-smtp`
 #. Click **Update**
 
 .. toctree::
    :maxdepth: 2
 
    mac-authentication
-
-.. _See Configuring IMAP/POP3/SMTP Server: https://www.genians.com/docs/administrators-guide/?section=configuring-imappop3smtp-server
