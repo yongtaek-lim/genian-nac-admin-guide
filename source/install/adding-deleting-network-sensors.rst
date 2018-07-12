@@ -16,7 +16,7 @@ to the existing eth0 or eth1 interface.*)
 #. Enter global configuration mode by typing **configure terminal**
 #. Enter the following commands below for each Network Sensor to be added:
  
-   -  interface eth0 vlan "Include all VLANs and add in the new VLAN ID" (*If you do not iunclude **ALL VLAN IDs** then the one left out will be deleted*)
+   -  interface eth0 vlan "Include all VLANs and add in the new VLAN ID" (*If you do not iunclude* **ALL VLAN IDs** *then the one left out will be deleted*)
    -  interface eth0.x address 10.1.x.5 255.255.255.0
 
 #. exit
@@ -32,7 +32,7 @@ To Delete A Specific VLAN Network Sensor
 #. Enter global configuration mode by typing **configure terminal**
 #. Enter the following commands below for each Network Sensor (VLAN) to be removed:
 
-   -  interface eth0 vlan 1,10,15 "Include all VLANs except the one you want to delete" (*If you do not iunclude **ALL VLAN IDs** then the one left out will be deleted*)
+   -  interface eth0 vlan 1,10,15 "Include all VLANs except the one you want to delete" (*If you do not iunclude* **ALL VLAN IDs** *then the one left out will be deleted*)
    -  no interface eth0.x address 10.1.x.5 255.255.255.0
 
 #. Exit from **CLI**
