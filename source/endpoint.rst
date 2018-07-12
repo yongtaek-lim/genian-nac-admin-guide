@@ -12,5 +12,6 @@ You can control Windows and macOS endpoint devices with the Genian NAC Policy Se
    :maxdepth: 3
 
    endpoints/understanding-agentaction
+   endpoints/listofantivirus
    endpoints/controlling-windows
    endpoints/controlling-macos
