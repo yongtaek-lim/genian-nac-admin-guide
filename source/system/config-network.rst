@@ -8,3 +8,5 @@ You can connect through command line console change the interface IP address, or
 
    change-ip
    dhcp-interface
+   adding-deleting-network-sensors
+   

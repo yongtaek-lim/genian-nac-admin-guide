@@ -11,6 +11,7 @@ You can control Windows devices with the Agent installed using **33 Plugins**.
 .. toctree::
    :maxdepth: 2
 
+   windows-antivirus-info
    os-info
    hardware-info
    monitor-info

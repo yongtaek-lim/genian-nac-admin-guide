@@ -1,7 +1,7 @@
 Controlling Antivirus Software
 ==============================
 
-Policy Server communicates with the Agent to collect information on the Antivirus Software installed on end users Windows devices so you can  control scans, and force updates
+Policy Server communicates with the Agent to collect information on the Antivirus Software installed on end users Windows devices so you can  control scans, and force updates.
 
 To See the Configuration of the Plugin
 --------------------------------------

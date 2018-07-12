@@ -1,7 +1,7 @@
 Collecting Antivirus Software Information
 =========================================
 
-Policy Server communicates with the Agent to collect antivirus software information that is installed on your macOS devices
+Policy Server communicates with the Agent to collect antivirus software information that is installed on your Windows devices
 
 List of Supported Antivirus by Version
 --------------------------------------
@@ -11,19 +11,39 @@ See all Antivirus supported with Genian NAC by version.
 +---------------+--------------------------------+---------------+
 |Vendor         |Product                         |Genian Version |
 +===============+================================+===============+
+|Ahnlab         |V3 Internet Security            |3.5.0          |
++---------------+--------------------------------+---------------+
+|Avira          |Avira Antivirus                 |5.0.3          |  
++---------------+--------------------------------+---------------+
 |BitDefender    |BitDefender                     |5.0.14         |
 +---------------+--------------------------------+---------------+
 |ESET           |ESET NOD32 ANTIVIRUS 9          |5.0.3          |
 +---------------+--------------------------------+---------------+
 |Estsecurity    |AIYak                           |3.5.0          |
 +---------------+--------------------------------+---------------+
+|Hauri          |ViRobot VRIS 2011, ViRobot 5.5  |3.5.0          |
++---------------+--------------------------------+---------------+
+|Hauri          |ViRobot 7.0                     |3.5.0          |
++---------------+--------------------------------+---------------+
+|INCA internet  |Anti-Virus/Spyware 3.0          |4.0.11/3.5.19  | 
++---------------+--------------------------------+---------------+
 |Kaspersky      |Kaspersky                       |3.5.0          |
 +---------------+--------------------------------+---------------+
 |McAfee         |McAfee                          |4.0.23/3.5.19  |
 +---------------+--------------------------------+---------------+
+|Microsoft      |MS Forefront                    |4.0.7/3.5.1    |  
++---------------+--------------------------------+---------------+
+|Microsoft      |MS Security Essentials          |5.0.3          | 
++---------------+--------------------------------+---------------+
+|Microsoft      |MS System Center                |5.0.3          |  
++---------------+--------------------------------+---------------+
+|Microsoft      |Windows Defender                |4.0.14         |  
++---------------+--------------------------------+---------------+
 |Symantec       |Norton Antivirus                |4.0.2/3.5.0    |
 +---------------+--------------------------------+---------------+
 |Trend Micro    |OfficeScan                      |3.5.0          |   
++---------------+--------------------------------+---------------+
+|Virus Chaser   |Virus Chaser                    |4.0.2/3.5.0    | 
 +---------------+--------------------------------+---------------+
 
 To See the Configuration of the Plugin
