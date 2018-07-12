@@ -30,6 +30,7 @@ Genians provides the industry’s leading Network Access Control (NAC) solution,
    :maxdepth: 1
    :caption: Administrator's Guide
 
+   intro
    install
    deploy
    monitor
@@ -39,4 +40,4 @@ Genians provides the industry’s leading Network Access Control (NAC) solution,
    endpoint
    threat
    events
-   system
+   system  
