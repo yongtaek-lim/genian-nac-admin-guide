@@ -1,9 +1,8 @@
 Deploying Genian NAC
 --------------------
 
-Upon completing the installation of the software, you can now deploy Policy Server, Network Sensor, 
-and Agent into the production environment. There are several ways to do this depending on your environment 
-and network requirements
+Genian NAC can be either On-Premise or Cloud Managed depending on your environment and network requirements.
+The Allowed Ports graphic shows what ports will be used by Genian NAC.
 
 Allowed Ports
 
