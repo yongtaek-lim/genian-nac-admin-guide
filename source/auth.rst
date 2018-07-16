@@ -1,5 +1,5 @@
-User Authentication
--------------------
+Managing User Authentication
+----------------------------
 
 User Authentication means verifying the identity of someone (User) behind a device that wants to access the network. User Authentication also enables accountability, by using user ID and password which makes it possible to link access and actions to specific identities. Genians provides the ability to Authenticate Users in several ways.
 
