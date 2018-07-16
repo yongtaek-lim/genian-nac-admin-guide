@@ -1,5 +1,5 @@
-Hardware Sizing Guide
-=====================
+Hardware Sizing
+===============
 
 Four ​steps ​to ​specifying ​the ​right ​software ​and ​hardware
 ----------------------------------------------------------------

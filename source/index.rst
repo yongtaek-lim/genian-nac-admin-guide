@@ -32,7 +32,6 @@ Genians provides the industry’s leading Network Access Control (NAC) solution,
 
    intro
    deploy
-   sizing
    install
    monitor
    control

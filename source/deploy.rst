@@ -20,4 +20,4 @@ Allowed Ports
 
    deploying/on-premise
    deploying/cloud-managed
-   deploying/deploying-agent-intro
+   deploying/sizing
