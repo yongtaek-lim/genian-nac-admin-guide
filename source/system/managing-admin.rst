@@ -1,4 +1,4 @@
-Managing Administrators 
+Managing Administrators
 =======================
 
 By default, 3 administrative roles are provided:
@@ -13,7 +13,7 @@ Auditor
 To manage administrative users, you can define administrative roles and assign a role to users.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    admin-account
    admin-roles

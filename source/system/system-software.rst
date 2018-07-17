@@ -11,7 +11,7 @@ You can manage your System Software (Policy Server, Sensor, and Agent). Software
    :width: 300 px
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    update-server-sensor
    update-agent

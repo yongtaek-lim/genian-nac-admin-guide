@@ -5,7 +5,7 @@ You can monitor **Nodes** by grouping, filtering, and listing by various perspec
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    browsing-nodes
    filtering-nodes

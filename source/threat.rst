@@ -14,7 +14,7 @@ Genian NAC inspects network traffic to identify abnormalities in the network and
 - **Unknown Service Requested**: Detects for Unknown Requested Services
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    threats/understanding-threat
    threats/threat-definition

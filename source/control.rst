@@ -10,7 +10,7 @@ To control network access, you can use a Node Group, which can be enforced by 5 
 - **Agent Action**: Agents provide Network Interface Shutdown, Wireless Connection Block, PC Shutdown and Notification plugins to help control devices directly.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    controlling/configuring-networksensor
    controlling/ipam-networkaccess

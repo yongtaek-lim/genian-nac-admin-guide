@@ -5,7 +5,7 @@ You can find specific data by searching, filtering, tagging, and visualizing in 
 By default, Genian NAC provides 3 Logs based on severities, and 11 pre-defined Log Filters based on common usage.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    search-logs
    time-graph

@@ -14,7 +14,7 @@ Log view consists of four main sections.
 .. image:: /images/Log-View-Lettered.png
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    logs/logs
    logs/notification

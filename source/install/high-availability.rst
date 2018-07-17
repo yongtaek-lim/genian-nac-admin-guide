@@ -1,5 +1,5 @@
-Configuring Policy Server for High Availability
-===============================================
+Configuring High Availability
+=============================
 
 Genians can be set up using two Appliances in a active/passive configuration, one acting as a primary while the other as a secondary. 
 These two Appliances communicate with each other to synchronize data and will failover from one to the other in the event of a system failure.
@@ -23,12 +23,12 @@ Serial Connection to Server if SSH is not established
 - Stop Bits: **1**
 
 
-How to configure Policy Servers for High Availability
------------------------------------------------------
-#. Connect to each Policy Server by connecting to Command Line Interface
+How to configure Servers for High Availability
+----------------------------------------------
+#. Connect to each Server by connecting to Command Line Interface
 #. Run a show configuration to see current configuration. (*Record Master Server device-id as this needs to be the same on both Policy Servers*)
 #. Enter Global Config mode: config terminal
-#. On each Policy Server enter the following configurations:
+#. On each Server enter the following configurations:
 
 
 Master Policy Server
@@ -199,6 +199,51 @@ Slave Policy Server
  log-server enable
  log-server cluster-name GENIAN
  log-server cluster-peers 172.29.20.11
+
+Master Sensor
+-------------
+.. code:: bash
+
+ device-id xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+
+ interface eth0.10 address 192.168.10.100 255.255.255.0
+ interface eth0.10 gateway 192.168.10.254
+ interface eth0.10 ha group 100
+ interface eth0.10 ha priority 200
+ interface eth0.11 address 192.168.11.100 255.255.255.0
+ interface eth0.11 gateway 192.168.11.254
+ interface eth0.11 ha group 110
+ interface eth0.12 address 192.168.12.100 255.255.255.0
+ interface eth0.12 gateway 192.168.12.254
+ interface eth0.12 ha group 120
+ interface eth0 vlan 10,11,12
+ ip default-gateway 192.168.10.254
+ ip name-server 168.126.63.1
+ 
+ node-server ip 192.168.100.100
+
+
+SLAVE Sensor
+------------
+.. code:: bash
+
+ device-id xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+
+ interface eth0.10 address 192.168.10.101 255.255.255.0
+ interface eth0.10 gateway 192.168.10.254
+ interface eth0.10 ha group 100
+ interface eth0.10 ha priority 100
+ interface eth0.11 address 192.168.11.101 255.255.255.0
+ interface eth0.11 gateway 192.168.11.254
+ interface eth0.11 ha group 110
+ interface eth0.12 address 192.168.12.101 255.255.255.0
+ interface eth0.12 gateway 192.168.12.254
+ interface eth0.12 ha group 120
+ interface eth0 vlan 10,11,12
+ ip default-gateway 192.168.10.254
+ ip name-server 168.126.63.1
+ 
+ node-server ip 192.168.100.100
 
 How to test DB replication
 --------------------------
