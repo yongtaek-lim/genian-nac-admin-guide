@@ -3,15 +3,8 @@ Controlling MacOS
 
 You can control macOS devices with the Agent installed using **6 Plugins**
 
-- **Collect Computer OS Information**
-- **Collect Hardware Information**
-- **Collect Software Information**
-- **Collect Network Information**
-- **Collect Antivirus Software Information**
-- **Update macOS**
-
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    macos-info
    mac-hardware-info

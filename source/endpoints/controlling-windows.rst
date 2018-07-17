@@ -1,15 +1,10 @@
 Controlling Windows
 ===================
 
-You can control Windows devices with the Agent installed using **33 Plugins**.
-
-- **Collect System Information (7)**
-- **Control System Settings (17)**
-- **Control Software Applications (5)**
-- **Miscellaneous (4)**
+You can control Windows devices with the Agent installed using following plugins.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    windows-antivirus-info
    os-info
