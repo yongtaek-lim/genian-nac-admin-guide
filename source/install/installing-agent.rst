@@ -6,7 +6,7 @@ and authenticate users. The Agent can be installed onto **Windows** and **MacOS*
 Policy. Once installed, the Agent then communicates with the Policy Server keeping device compliant with policies.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    windows-agent
    macos-agent

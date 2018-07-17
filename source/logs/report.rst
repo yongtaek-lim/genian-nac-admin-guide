@@ -6,6 +6,6 @@ Administrators can use reports to efficiently document and archive or report dat
 Time Graph Reports, and Automatic Reports.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    report-manage

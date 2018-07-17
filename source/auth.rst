@@ -12,7 +12,7 @@ Users Authenticate against the local database created within the Genians Policy 
 Genians can integrate with External Authentication sources to permit user access upon successful login using proper credentials.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    authentication/enabling-authentication
    authentication/managing-directories

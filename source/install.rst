@@ -15,7 +15,7 @@ Genian NAC is organized by three main components.
 
         
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    install/installing-policy-server
    install/installing-network-sensor

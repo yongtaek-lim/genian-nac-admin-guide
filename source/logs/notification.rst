@@ -22,7 +22,7 @@ To Setup Email Account
 #. Click **Test** to test configuration settings and send e-mail
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    notification-event
    notification-snmp

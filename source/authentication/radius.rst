@@ -58,6 +58,6 @@ To Enable Email Authentication for RADIUS
 #. Click **Update**
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    mac-authentication

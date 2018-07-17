@@ -16,7 +16,7 @@ Allowed Ports
 (*The above ports need to be open and accessible to allow the Policy Server to get weekly/monthly updates from the Genians Platform DB*)
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    deploying/on-premise
    deploying/cloud-managed

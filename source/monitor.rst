@@ -2,9 +2,10 @@ Monitoring Network Assets
 -------------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    monitoring/network-nodes
    monitoring/ip-address
    monitoring/switch
    monitoring/wireless-lan
+   

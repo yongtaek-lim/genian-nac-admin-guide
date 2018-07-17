@@ -15,7 +15,7 @@ Dashboards are a collection of Widgets. Dashboards give you an overview of the r
 - Custom (Enterprise Edition only)
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    add-dashboards
    managing-widgets

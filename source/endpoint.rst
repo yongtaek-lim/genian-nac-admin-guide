@@ -9,7 +9,7 @@ You can control Windows and macOS endpoint devices with the Genian NAC Policy Se
 - **macOS (6)**
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    endpoints/understanding-agentaction
    endpoints/controlling-windows

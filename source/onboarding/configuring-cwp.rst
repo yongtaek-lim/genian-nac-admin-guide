@@ -13,7 +13,7 @@ There are 3 types of Captive Web Portals:
 - **Custom URL**: Displays a customized company page for user authentication
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    enabling-cwp
    messages
