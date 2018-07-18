@@ -6,11 +6,11 @@ Choose Deployment Type
 
 Policy Server can be run two diffrent deployment type.
 
-Policy Server Only
+**Policy Server Only**
     System only work for Policy Server functionality. In general, on a large network, separate the policy server and network sensor 
     for performance and reliability. At least two systems are required for this deployment type.
 
-Policy Server + Network Sensor (All-in-One)
+**Policy Server + Network Sensor (All-in-One)**
     In a small network, a system can function as a policy server and network sensor.
     
 Prepare Hardware
@@ -18,11 +18,11 @@ Prepare Hardware
 
 You can install Policy Server on a physical machine or virtual machine. Please refer `minimum specification`_.
 
-Physical Machine
+**Physical Machine**
     You can use generic intel server like HP, Dell or Mini PC for testing and small deployment. 
     If you have any hardware comparability issue, please `contact us`_
     
-Virtual Machine
+**Virtual Machine**
     You can install Policy Server on virtual machine. We support various hypervisor 
 
 Prepare Network Connection
@@ -53,9 +53,7 @@ Installing Genian NAC
     * On virtual machine, select ISO file for installation media
 
 #. Type “1” for **Genian NAC Policy Server + Sensor**
-
 #. Type “i” to proceed
-
 #. Reboot your system
 
     * Remove the installation media (*e.g. USB*)

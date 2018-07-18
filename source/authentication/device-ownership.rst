@@ -3,8 +3,8 @@ Configuring Device Ownership
 
 To set up the ability for your users to automatically be assigned an **IP** or **Device** for **Authentication**
 
-To Set Up a Device Ownership
-----------------------------
+Set Up a Device Ownership
+-------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > User Authentication** in the left Preferences panel

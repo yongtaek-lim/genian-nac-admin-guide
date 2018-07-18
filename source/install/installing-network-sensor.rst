@@ -6,11 +6,11 @@ Prepare Hardware
 
 You can install Network Sensor on a physical machine or virtual machine. Please refer `minimum specification`_.
 
-Physical Machine
+**Physical Machine**
     You can use generic intel server like HP, Dell or Mini PC for testing and small deployment. 
     If you have any hardware comparability issue, please `contact us`_
     
-Virtual Machine
+**Virtual Machine**
     You can install Network Sensor on virtual machine. We support various hypervisor 
 
 Prepare Network Connection
@@ -36,9 +36,7 @@ Installing Genian NAC
     * On virtual machine, select ISO file for installation media
 
 #. Type “2” for **Genian NAC Sensor**
-
 #. Type “i” to proceed
-
 #. Reboot your system
 
     * Remove the installation media (*e.g. USB*)

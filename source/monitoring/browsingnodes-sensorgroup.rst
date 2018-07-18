@@ -3,8 +3,8 @@ Browsing Nodes based on Sensor or Group
 
 You can browse Nodes by Network Sensor or Node Group.
 
-To Find Nodes by Network Sensor
--------------------------------
+Find Nodes by Network Sensor
+----------------------------
 
 #. Go to **Management > Node** in the top panel
 #. Go to **Sensor** tab in left panel
@@ -12,8 +12,8 @@ To Find Nodes by Network Sensor
 
 (*You will see the Nodes in the main Node view based off of the Network Sensors location*)
 
-To Edit and Create Subfolders for Multiple Sensors
---------------------------------------------------
+Edit and Create Subfolders for Multiple Sensors
+-----------------------------------------------
 
 #. Go to **Management > Node** in the top panel
 #. Go to **Sensor** tab in left panel
@@ -26,8 +26,8 @@ To Edit and Create Subfolders for Multiple Sensors
 #. Find and click **Name** or **IP** of Network Sensor
 #. Click **OK**
 
-To Find Nodes by Node Group
----------------------------
+Find Nodes by Node Group
+------------------------
 
 #. Go to **Management > Node** in the top panel
 #. Go to **Group** tab in left panel
@@ -40,8 +40,8 @@ To Find Nodes by Node Group
 
 (*These are provided by default, but you can create other Node Groups by going to `Creating Node Groups`_*)
 
-To Edit and Create Node Categories for Sensors and Node Groups
---------------------------------------------------------------
+Edit and Create Node Categories for Sensors and Node Groups
+-----------------------------------------------------------
 
 #. Go to **Management > Node** in the top panel
 #. Go to **Group** tab in left panel

@@ -3,8 +3,8 @@ Sending Notification Using SNMP
 
 You can send notifications using SNMP when specific logs are generated.
 
-To Send Notifications using SNMP
---------------------------------
+Send Notifications using SNMP
+-----------------------------
 
 #. Go to **Log** in the top panel
 #. Go to **Log > Log Filter** in the left Log panel

@@ -3,8 +3,8 @@ To Change The Interface IP Address
 
 You can edit and change the appliance IP Address of any interface through the CLI
 
-To Change The Interface IP Address
-----------------------------------
+Step 1. Change The Interface IP Address
+---------------------------------------
 
 #. Login to the CLI
 #. Enter Config mode
@@ -17,8 +17,8 @@ To Change The Interface IP Address
     Stopping Service...done
     genian(config)# exit
     
-To Confirm Interface IP Address Change
---------------------------------------
+Step 2. Confirm Interface IP Address Change
+-------------------------------------------
 
 #. Enter "show configuration | grep interface eth0" as seen below
 

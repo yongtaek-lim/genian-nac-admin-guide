@@ -3,8 +3,8 @@ Viewing Connected Stations
 
 **Stations** also referred to as **STA**, are devices that have the capability to use the 802.11 protocol. These can be fixed, or mobile
 
-To View the Stations Connected in your Network
-----------------------------------------------
+View the Stations Connected in your Network
+-------------------------------------------
 
 #. Go to **Management > WLAN** in the top panel
 #. Find **Stations** column in the main **WLANs** window. Click **Stations** to sort column

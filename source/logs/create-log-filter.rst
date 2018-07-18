@@ -3,8 +3,8 @@ Creating Log Filter
 
 You can create custom **Log Filters** and save them as your commonly used **Log Filters**
 
-To Create a New Log Filter
---------------------------
+Create a New Log Filter
+-----------------------
 
 #. Click **Log** in the top panel
 #. Go to **Logs** in the left **Log** panel
@@ -19,8 +19,8 @@ To Create a New Log Filter
 
 #. Click **Save**
 
-To Edit Log Filters
--------------------
+Edit Log Filters
+----------------
 
 #. Click **Log** in the top panel
 #. Go to **Log Filter** in the left Log panel
@@ -29,8 +29,8 @@ To Edit Log Filters
 #. Make changes as needed
 #. Click **Update**
 
-To Delete Log Filters
----------------------
+Delete Log Filters
+------------------
 
 #. Click **Log** in the top panel
 #. Go to **Log Filter** in the left **Log** panel

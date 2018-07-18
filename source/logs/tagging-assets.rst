@@ -3,8 +3,8 @@ Tagging Assets Using Event
 
 You can tag assets using events to help you identify current and future events
 
-To Add a Tag to an Event
-------------------------
+Add a Tag to an Event
+---------------------
 
 #. Go to **Log** in the top panel
 #. Go to **Log > Log Filter** in the left Log panel
@@ -13,8 +13,8 @@ To Add a Tag to an Event
 #. Click **Add**
 #. Click **Update**
 
-To Delete a Tag to an Event
----------------------------
+Delete a Tag to an Event
+------------------------
 
 #. Go to **Log** in the top panel
 #. Go to **Log > Log Filter** in the left **Log** panel

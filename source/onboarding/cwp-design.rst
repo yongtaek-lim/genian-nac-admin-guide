@@ -15,8 +15,8 @@ Four tabs will be displayed to allow you to customize your CWP page
    - **User Verification Message**
 - **Image** tab allows you to upload custom images to make CWP look and feel like your own
 
-To Customize Default Captive Web Portal Page Design
----------------------------------------------------
+Customize Default Captive Web Portal Page Design
+------------------------------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Captive Web Portal > Page Design** in the left Preferences panel
@@ -37,8 +37,8 @@ To Customize Default Captive Web Portal Page Design
    </tr>
    </table>
 
-To Create Your Own Custom CWP Page
-----------------------------------
+Create Your Own Custom CWP Page
+-------------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Captive Web Portal > Page Design** in the left Preferences panel
@@ -46,13 +46,13 @@ To Create Your Own Custom CWP Page
 #. You can edit **Custom Page** field using supported **HTML**, **CSS**, and **JavaScript**
 #. Click **Update**
 
-To Check and Verify Page Changes
---------------------------------
+Check and Verify Page Changes
+-----------------------------
 
 #. Find and click **Preview** button for either **Default CWP Page** or **Custom CWP Page**
 
-To Add Custom CWP Page In A Enforcement Policy
-----------------------------------------------
+Add Custom CWP Page In A Enforcement Policy
+-------------------------------------------
 
 #. Go to **Policy** in the top panel/li>
 #. Go to **Enforcement Policy** in the left Policy panel

@@ -3,8 +3,8 @@ Searching Logs
 
 You can do basic searching, advanced searching, or use any one of the pre-defined searches
 
-To Do Basic Search
-------------------
+Do Basic Search
+---------------
 
 #. Go to **Log** in the top panel
 #. Find **Logs** in left **Log** panel. Select one of the three default Logs (*Error, Threat, and Warning Logs*)
@@ -12,8 +12,8 @@ To Do Basic Search
 #. Click **Logs** in left **Log** panel. Find **Search** section in left **Log** panel. Enter search criteria
 #. Click **Search** (*You can click Save As if you do these searches often to save it as a Log Filter*)
 
-To Do Advanced Search
----------------------
+Do Advanced Search
+------------------
 
 #. Go to **Status & Filter** > **Advanced Search**
 #. Select **Log Type, Log ID**, or enter in info. Click **Search** (*You can select more than one Log Type or Log ID*)

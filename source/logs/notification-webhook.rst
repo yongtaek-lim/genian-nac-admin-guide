@@ -3,8 +3,8 @@ Sending Notification Using Webhook
 
 You can choose to have a URL page called upon when a specific log is generated.
 
-To Send Notification using Webbook
-----------------------------------
+Send Notification using Webbook
+-------------------------------
 
 #. Go to **Log** in the top panel
 #. Go to **Log > Log Filter** in the left **Log** panel

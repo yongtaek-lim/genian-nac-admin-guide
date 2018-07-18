@@ -8,3 +8,4 @@ Policy Server can receive Syslog information and SNMP traps from third party sec
 
    receive-syslog
    receive-snmp
+   

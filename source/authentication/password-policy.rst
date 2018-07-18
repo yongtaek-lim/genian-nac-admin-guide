@@ -3,8 +3,8 @@ Configuring Password Policy
 
 To configure Password Policy that is enforced onto your end users
 
-To Configure Password Policy
-----------------------------
+Configure Password Policy
+-------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > User Account** in the left Preferences panel

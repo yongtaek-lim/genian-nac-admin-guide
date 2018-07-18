@@ -6,8 +6,8 @@ The MAC authentication feature is a mechanism by which incoming traffic originat
 - If RADIUS authentication for the MAC address is successful, traffic from the MAC address is forwarded in hardware
 - If the RADIUS server cannot validate the user’s MAC address, then it is considered an authentication failure, and a specified authentication-failure action can be taken
 
-To Enable MAC Authentication
-----------------------------
+Enable MAC Authentication
+-------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Service > RADIUS Server** in the left Preferences panel

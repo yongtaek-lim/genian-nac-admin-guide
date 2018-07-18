@@ -12,3 +12,4 @@ By default, Genian NAC provides 3 Logs based on severities, and 11 pre-defined L
    realtime-monitoring
    create-log-filter
    tagging-assets
+   

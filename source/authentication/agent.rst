@@ -3,8 +3,8 @@ Configuring User Authentication by Agent
 
 **Agent** not only assists in determining the posture of the endpoint device, but can also collect system information, access control, and authenticate users. You can configure the **Policy Server** to force users to authenticate using the **Agent** with the **Authenticate User Using Genian Agent** plugin. Once Users credentials have been Authenticated the **Agent** then communicates with the Policy Server every 2 minutes continually validating the User behind the endpoint device.
 
-To Create Node Group for Authentication by Agent
-------------------------------------------------
+Step 1. Create Node Group for Authentication by Agent
+-----------------------------------------------------
 
 #. Go to **Policy** in top panel
 #. Go to **Group > Node** in the left Policy panel
@@ -20,8 +20,8 @@ To Create Node Group for Authentication by Agent
 #. Click **Save**
 #. Click **Apply** in the top right. Click Close
 
-To Create Node Policy for Agent Authentication
-----------------------------------------------
+Step 2. Create Node Policy for Agent Authentication
+---------------------------------------------------
 
 #. Go to **Policy** in top panel
 #. Go to **Policy > Node Policy** in the left Policy panel
@@ -34,8 +34,8 @@ To Create Node Policy for Agent Authentication
 #. Click **Finish**
 #. Click **Apply** in the top right. Click Close
 
-To Configure User Authentication by Agent Plugin
-------------------------------------------------
+Step 3. Configure User Authentication by Agent Plugin
+-----------------------------------------------------
 
 #. Go to **Policy** in top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel
@@ -46,8 +46,8 @@ To Configure User Authentication by Agent Plugin
 
 (*Steps below are optional to use an existing Node Policy if you prefer not to create a new one*)
 
-To Assign Agent Action to Node Policy
--------------------------------------
+Step 4. Assign Agent Action to Node Policy
+------------------------------------------
 
 #. Go to **Policy** in top panel
 #. Go to **Policy > Node Policy** in the left Policy panel
@@ -57,8 +57,8 @@ To Assign Agent Action to Node Policy
 #. Click **Add**
 #. Click **Apply** in the top right. Click Close
 
-To Remove Agent Action from Node Policy
----------------------------------------
+Remove Agent Action from Node Policy
+------------------------------------
 
 #. Go to **Policy** in top panel
 #. Go to **Policy > Node Policy** in the left Policy panel

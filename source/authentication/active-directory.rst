@@ -3,8 +3,8 @@ Configuring Active Directory
 
 You can configure **Policy Server** to integrate with **Active Directory** for **User Authentication**
 
-To Configure Active Directory Integration
------------------------------------------
+Step 1. Configure Active Directory Integration
+----------------------------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > Authentication Integration** in the left Preferences panel
@@ -22,8 +22,8 @@ To Configure Active Directory Integration
 #. Click **Update**
 #. Click **Test** to test configuration settings (*Test account can be any User Account found within the Base DN*)
 
-To Synchronize Data With Active Directory
------------------------------------------
+Step 2. Synchronize Data With Active Directory
+----------------------------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > Data Synchronization** in the left Preferences panel

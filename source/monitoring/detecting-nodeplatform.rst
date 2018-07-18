@@ -40,8 +40,8 @@ Each Platform has a Node Type, such as:
    - VOIP
    - Other
 
-To Define a Node Platform Manually
-----------------------------------
+Define a Node Platform Manually
+-------------------------------
 
 #. Go to **Management > Node** in the top panel
 #. Select the desired node’s **IP Address**
@@ -49,8 +49,8 @@ To Define a Node Platform Manually
 #. Manually enter in **Platform Name**
 #. Click **Update**
 
-To Create a User-defined Node Type
-----------------------------------
+Create a User-defined Node Type
+-------------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Properties > Node** Type in the left Preferences panel
@@ -65,8 +65,8 @@ To Create a User-defined Node Type
 #. In the **General** tab, click **Manually Define Checkbox** next to **Node Type**, and select **User-defined Node Type**
 #. Click Update
 
-To Report Wrong Platform Information
-------------------------------------
+Report Wrong Platform Information
+---------------------------------
 
 If for some reason Genian NAC cannot detect the Platform of a device, one of the following could be the underlying reason:
 

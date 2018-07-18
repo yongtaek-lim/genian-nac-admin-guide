@@ -3,8 +3,8 @@ Configuring IMAP/POP3/SMTP Server
 
 You can configure **Policy Server** to integrate with **IMAP**, **POP3**, or **SMTP Servers**
 
-To Configure IMAP Integration
------------------------------
+Configure IMAP Integration
+--------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > Authentication Integration** in the left Preferences panel
@@ -13,8 +13,8 @@ To Configure IMAP Integration
 #. Click **Test** to test configuration settings
 #. Click **Update**
 
-To Configure POP3 Integration
------------------------------
+Configure POP3 Integration
+--------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > Authentication Integration** in the left Preferences panel
@@ -23,8 +23,8 @@ To Configure POP3 Integration
 #. Click **Test** to test configuration settings
 #. Click **Update**
 
-To Configure SMTP Integration
------------------------------
+Configure SMTP Integration
+--------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > Authentication Integration** in the left Preferences panel

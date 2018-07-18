@@ -3,8 +3,8 @@ Sending Notification Using Event
 
 You can send notifications to groups when specific logs are generated from specific events.
 
-To Send Notifications
----------------------
+Send Notifications
+------------------
 
 #. Go to **Log** in the top panel
 #. Go to **Log > Log Filter** in the left **Log** panel
@@ -12,8 +12,8 @@ To Send Notifications
 #. Check off **Notification** to configure options
 #. Click **Update**
 
-To Create a Network Sensor Disconnected Log Filter and Notification
--------------------------------------------------------------------
+Create a Network Sensor Disconnected Log Filter and Notification
+----------------------------------------------------------------
 
 #. Go to **Log** in the top panel
 #. Go to **Logs** in the left **Log** panel
@@ -37,8 +37,8 @@ To Create a Network Sensor Disconnected Log Filter and Notification
 
 #. Click **Save**
 
-To Add Macros To Log Notifications Message Box
-----------------------------------------------
+Add Macros To Log Notifications Message Box
+-------------------------------------------
 
 Genian NAC uses Macros as a placeholder text that gets replaced with specific data when inserted into the 
 Log Notifications message box. You can add and customize these Macros to present the data however you like. 

@@ -3,11 +3,11 @@ Managing Administrators
 
 By default, 3 administrative roles are provided:
 
-superAdmin
+**superAdmin**
    Full Administrative Privileges
-ipAppManager
+**ipAppManager**
    IP Address provisioning. (The Enterprise Edition only)
-Auditor
+**Auditor**
    Log and event analysis.
 
 To manage administrative users, you can define administrative roles and assign a role to users.

@@ -3,8 +3,8 @@ Enabling RADIUS Authentication
  
 You can configure the Genian NAC Policy Server to use it’s built-in RADIUS Server to act the same as integrating with an external RADIUS Server.
 
-To Enable Built-In RADIUS Authentication
-----------------------------------------
+Enable Built-In RADIUS Authentication
+-------------------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Service > RADIUS Server** in the left Preferences panel
@@ -20,8 +20,8 @@ To Enable Built-In RADIUS Authentication
 
 #. Click **Update**
 
-To Enable AD Account for RADIUS
--------------------------------
+Enable AD Account for RADIUS
+----------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Service > RADIUS Server** in the left Preferences panel
@@ -34,8 +34,8 @@ To Enable AD Account for RADIUS
 
 #. Click **Update**
 
-To Enable URL Account for RADIUS
---------------------------------
+Enable URL Account for RADIUS
+-----------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Service > RADIUS Server** in the left Preferences panel
@@ -48,8 +48,8 @@ To Enable URL Account for RADIUS
 
 #. Click **Update**
 
-To Enable Email Authentication for RADIUS
------------------------------------------
+Enable Email Authentication for RADIUS
+--------------------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Service > RADIUS Server** in the left Preferences panel
