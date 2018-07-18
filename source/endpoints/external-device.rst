@@ -1,8 +1,8 @@
 Controlling External Device
 ===========================
 
-Control External Devices by disabling or uninstalling them and to force users to request for approval to use them for a set period of time. (External Devices can be any devices found within the Device Manager providing you know the Class Name and Vendor Name (*e.g. Class Name: "Universal Serial Bus controllers" Vendor Name: "USB Mass Storage Device"*)
-
+External devices is anything that can connect to the Windows machine. This can be USB flash drives, USB disc drive, external USB hard drives, printers, keyboards, mice, and anything else found within the Device Manager. You can control external devices by disabling, or uninstalling them to force users to request for approval for a set period of time. 
+(*External Devices can be any devices found within the Device Manager providing you know the Class Name and Vendor Name. (e.g. Class Name: "Universal Serial Bus controllers" Vendor Name: "USB Mass Storage Device")*)
 
 Step 1. Create Device Group
 ---------------------------

@@ -1,5 +1,5 @@
-Hardware Sizing
-===============
+Sizing
+======
 
 Four ​steps ​to ​specifying ​the ​right ​software ​and ​hardware
 ----------------------------------------------------------------
@@ -14,8 +14,8 @@ using ​the ​following ​step-by-step ​procedure:
   #. Find ​the ​​“Total ​Agent ​Applied ​Device”​ ​Number
   #. Check Availabilit ​and ​Reliability​ ​Requirements
 
-1. ​Identify ​the ​“Total ​Active ​Devices/Nodes” ​Number
----------------------------------------------------------
+Step 1. ​Identify ​the ​“Total ​Active ​Devices/Nodes” ​Number
+--------------------------------------------------------------
 
 The ​license ​of ​Genian ​NAC ​Software ​is ​based ​on ​the ​number ​of ​devices ​connected ​to ​the ​network ​and
 running. ​The ​number ​of ​devices ​is ​measured ​by ​the ​number ​of ​unique ​MAC ​addresses ​connected ​to ​the
@@ -46,8 +46,8 @@ minimum ​specifications ​for ​policy ​server:
 |Storage    |SSD 128 GB            |SSD 256 GB                |SSD 512 GB                 |
 +-----------+----------------------+--------------------------+---------------------------+
 
-2. ​Identify ​the ​“Total ​Managed ​Networks” ​Number
------------------------------------------------------
+Step 2. ​Identify ​the ​“Total ​Managed ​Networks” ​Number
+----------------------------------------------------------
 
 Genian ​NAC ​requires ​the ​installation ​of ​a ​sensor ​for ​every ​single ​layer ​2 ​broadcast ​domain. ​Therefore,
 the ​number ​of ​managed ​broadcast ​domains ​is ​an ​important ​factor ​in ​determining ​the ​sizing ​of ​the
@@ -65,8 +65,8 @@ the ​case, ​you ​will ​need ​to ​configure ​a ​separate ​senso
 For ​example, ​if ​you ​have ​a ​corporate ​network ​with ​60 ​VLANs ​and ​two ​branch ​offices ​with ​3 ​VLANs ​each,
 you ​will ​need ​a ​total ​of ​three ​sensors.
 
-3. ​Identify ​the ​“Total Agent ​Applied ​Devices” ​Number
-----------------------------------------------------------
+Step 3. ​Identify ​the ​“Total Agent ​Applied ​Devices” ​Number
+---------------------------------------------------------------
 
 The ​number ​of ​systems ​requiring ​agent ​installation ​is ​closely ​related ​to ​the ​capacity ​of ​the ​policy ​server.
 Data ​and ​various ​events ​collected ​by ​the ​agent ​are ​sent ​directly ​to ​the ​policy ​server. ​Therefore, ​when ​the
@@ -94,8 +94,8 @@ operating ​environment, ​it ​is ​common ​for ​two ​functions ​to
 large-scale ​operating ​environment, ​the ​two ​functions ​can ​be ​operated ​as ​separate ​servers. ​If ​your 
 network ​consists ​of ​more ​than ​10,000 ​nodes, ​consider ​configuring ​the ​node ​server ​and ​database separately.
 
-4. ​Availability ​and ​Reliability ​Requirements
-------------------------------------------------
+Step 4. ​Availability ​and ​Reliability ​Requirements
+-----------------------------------------------------
 
 For ​availability ​and ​reliability, ​Genian ​NAC ​supports ​Active ​Standby ​configuration. ​By ​configuring ​Backup
 system ​for ​policy ​server ​and ​network ​sensor, ​service ​can ​be ​provided ​without ​interruption ​in ​case ​of
