@@ -6,8 +6,8 @@ A **Node Group** is a group of **Nodes** that are similar to each other based of
 - **Policy Group**: is group based on Node-related information such as Node type, IP/MAC information, User information, Authentication, and more. `Policy Group`_
 - **Status Group**: is group based on the Node status, measured by Node Policies and the outcome of associated conditions. `Status Group`_
 
-To Create a Node Group
-----------------------
+Create a Node Group
+-------------------
 
 #. Click **Policy** in the top panel
 #. Go to **Group > Node** in the left Policy panel

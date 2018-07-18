@@ -3,8 +3,8 @@ Shutdown Switch Port
 
 You can administratively shutdown **Switch Ports**.
 
-To Shut Down a Switch Port
---------------------------
+Shut Down a Switch Port
+-----------------------
 
 #. Go to **Management > Switch** in the top panel
 #. Click on a **Port** in the main **Switch Ports** window

@@ -3,8 +3,8 @@ Finding SSID Physical Location
 
 In a BYOD environment, unknown devices appear at any given time, and when they do, it is the Network Administrators job to track them down. To figure out what devices are in or outside of a network, various different steps are needed to locate that device’s physical location
 
-To Discover what SSID a Device belongs to
------------------------------------------
+Discover what SSID a Device belongs to
+--------------------------------------
 
 If a rogue device shows up on the network, the first step to tracking it down is to find which SSID it is connected to
 
@@ -14,8 +14,8 @@ If a rogue device shows up on the network, the first step to tracking it down is
 
 All information relevant to that SSID is now displayed in the main panel
 
-To View the Signal Strength of a Device
----------------------------------------
+View the Signal Strength of a Device
+------------------------------------
 
 A devices relative location can be determined by monitoring the signal strength to figure out which direction and how close it is. The stronger the signal, the closer the device
 

@@ -3,8 +3,8 @@ Managing Custom Buttons
 
 You can create **Custom Buttons** that get inserted onto the **Captive Web Portal** page to redirect users to other web pages
 
-To Create a Button
-------------------
+Create a Button
+---------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Captive Web Portal > Custom Button** in the left Preferences panel
@@ -14,8 +14,8 @@ To Create a Button
 #. Add a **Hyperlink** for the button
 #. Click **Save**
 
-To Delete a Button
-------------------
+Delete a Button
+---------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Captive Web Portal > Custom Button** in the left Preferences panel
@@ -23,8 +23,8 @@ To Delete a Button
 #. Click **Tasks > Delete**
 #. Click **Ok**
 
-To Reorder Buttons
-------------------
+Reorder Buttons
+---------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Captive Web Portal > Custom Button** in the left Preferences panel

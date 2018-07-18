@@ -3,8 +3,8 @@ Creating Threat Definition
  
 By default, there are seven pre-defined **Threat Definitions** that are frequently used. With the steps provided below, you can create your own threat definitions.
 
-To Create a Threat Definition
------------------------------
+Step 1. Create a Threat Definition
+----------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Threat Definition** in the left Policy panel
@@ -13,8 +13,8 @@ To Create a Threat Definition
 #. Find **Threat Definitions** Settings section. Enter criteria
 #. Click **Create**
 
-To Assign Threat Definitions to Node Policies
----------------------------------------------
+Step 2. Assign Threat Definitions to Node Policies
+--------------------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy** in the left Policy panel

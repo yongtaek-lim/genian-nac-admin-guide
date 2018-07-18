@@ -3,8 +3,8 @@ Configuring User Authentication by AD Domain Login
 
 You can configure the **Policy Server** to integrate with Active Directory Domain Login for User Authentication
 
-To Configure User Authentication by AD Domain Login
----------------------------------------------------
+Step 1. Configure User Authentication by AD Domain Login
+--------------------------------------------------------
 
 #. A **Domain** must be configured in Active Directory
 #. **User Account** must be set up in the **Domain**
@@ -18,8 +18,8 @@ To Configure User Authentication by AD Domain Login
 #. Click **Update**
 #. Endpoint devices should be logged into the **Domain**
 
-To Verify AD Domain Login
--------------------------
+Step 2. Verify AD Domain Login
+------------------------------
 
 #. Go to **Management > Node** in top panel
 #. Find and click **IP Address** of Endpoint

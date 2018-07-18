@@ -3,8 +3,8 @@ Browsing Switches
 
 To identify a **Switch**, Genian NAC sends out an **SNMP request**. If the response to the request comes back with an OID (dot1dBaseBridgeAddress(1.3.6.1.2.1.17.1.1)), then Genian NAC labels that **MAC Address** as a **Switch**. If switches are not identified with the public community string you will need to check the community string configuration or run a SNMPWALK to verify switch is responding properly.
 
-To Set Node Scan Interval On Network Sensor
--------------------------------------------
+Set Node Scan Interval On Network Sensor
+----------------------------------------
 
 #. Go to **System** in the top panel
 #. Go to **System > Sensor** in the left System Management window
@@ -14,8 +14,8 @@ To Set Node Scan Interval On Network Sensor
 #. Find **Node Scan: Update Interval** section. Edit **Number** then select **minutes, hours, days, weeks, months** from the drop-down
 #. Click **Update**
 
-To Set SNMP Settings For SNMP Scan
-----------------------------------
+Set SNMP Settings For SNMP Scan
+-------------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **General > Node** in the left Preferences window
@@ -28,8 +28,8 @@ To Set SNMP Settings For SNMP Scan
 
 #. Click **Run Now** button for SNMP to scan instantly
 
-To Use SNMPWALK on Windows machine To Verify Switch Response
-------------------------------------------------------------
+Use SNMPWALK on Windows machine To Verify Switch Response
+---------------------------------------------------------
 
 (*If a Switch fails to populate in Switch List first check Switch Community strings on switch then run a SNMPWALK*)
 
@@ -42,8 +42,8 @@ To Use SNMPWALK on Windows machine To Verify Switch Response
    - Run the snmpwalk using this command: **snmpwalk -Os -c public -v 2c “Switch-IP” .1.3.6.1.2.1.17.1.1** (*e.g. snmpwalk-Os -c public -v 2c 192.168.50.5 .1.3.6.1.2.1.17.1.1*)
    - Should display **mib-2.17.1.1.0 = Hex-STRING: XX XX XX XX XX XX** (*This determines that the switch is responding properly to SNMP Requests*)
 
-To Configure Read/Write Community
----------------------------------
+Configure Read/Write Community
+------------------------------
 
 #. Go to **Management > Switch** in the top panel
 #. Go to **Switches** in the left Switch Management window 

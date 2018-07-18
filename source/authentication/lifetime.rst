@@ -3,8 +3,8 @@ Configuring Authentication Lifetime
 
 The Authentication Lifetime is the length of time, in minutes, before the authentication expires and the user must log in again. You can configure Authentication Lifetimes for Users, and Nodes
 
-To Configure User Authentication Lifetime
------------------------------------------
+Configure User Authentication Lifetime
+--------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy** in the left Policy panel
@@ -12,8 +12,8 @@ To Configure User Authentication Lifetime
 #. Specify how long **User** stays logged on
 #. Click **Update**
 
-To Configure Node Authentication Lifetime
------------------------------------------
+Configure Node Authentication Lifetime
+--------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy** in the left Policy panel

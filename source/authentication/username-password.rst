@@ -3,7 +3,7 @@ Configuring Find Username & Password
 
 To setup the ability for your users to find out what their username or password is with a security question
 
-To Find Username & Password
+Finding Username & Password
 ---------------------------
 
 #. Go to **Preferences** in the top panel

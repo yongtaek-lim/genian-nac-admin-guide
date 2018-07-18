@@ -6,8 +6,8 @@ You can add Sensors to manage these newly created VLANs by adding additional int
 Network Sensor CLI. If you add additional remote locations you can add Network Sensor Appliances 
 to the sites to have these locations managed through Genian NAC.
 
-To Add Additional Network Sensors (VLANs)
------------------------------------------
+Add Additional Network Sensors (VLANs)
+--------------------------------------
 
 (*Network Sensors cannot be added through UI, they must be configured through CLI by adding sub-interfaces 
 to the existing eth0 or eth1 interface.*)
@@ -19,12 +19,12 @@ to the existing eth0 or eth1 interface.*)
    -  interface eth0 vlan "**All VLAN IDs** separated by comma and hyphen" (*e.g. interface eth0 vlan 1,10-15*)
    -  interface eth0.x address 10.1.x.5 255.255.255.0
 
-#. exit
+#. Type **exit**
 
 (*Commands are instantly written so there is no need to do “write” or “copy run start” commands*)
 
-To Delete A Specific VLAN Network Sensor
-----------------------------------------
+Delete A Specific VLAN Network Sensor
+-------------------------------------
 
 (*This deletes a single VLAN Network Sensor and all Nodes and Node information*)
 
@@ -42,8 +42,8 @@ To Delete A Specific VLAN Network Sensor
 #. Find and click **Delete** in General tab
 #. click **OK** to confirm
 
-To Add Network Sensor Hardware
-------------------------------
+Add Network Sensor Hardware
+---------------------------
 
 If you have added a new remote location, here are the steps to adding an additional Network 
 Sensor hardware to your Policy Server.
@@ -53,8 +53,8 @@ Sensor hardware to your Policy Server.
 #. Deploy **Network Sensor** onto Network :doc:`/deploying/on-premise`
 #. Should see **Network Sensor** in UI under **System > Sensor and Management > Node**
 
-To Delete A Network Sensor System
----------------------------------
+Delete A Network Sensor System
+------------------------------
 
 (*This deletes a Network Sensor System and all VLANs(Up to 128) with Nodes and Node information for all associated networks*)
 

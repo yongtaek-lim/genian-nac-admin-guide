@@ -9,3 +9,4 @@ Time Graph Reports, and Automatic Reports.
    :maxdepth: 1
 
    report-manage
+   

@@ -3,8 +3,8 @@ Real Time Monitoring
 
 You can view logs in real-time as the events occur
 
-To Configure a imeT to Monitor in Real-Time
--------------------------------------------
+Configure a imeT to Monitor in Real-Time
+----------------------------------------
 
 #. Click **Log** in the top panel
 #. Find **Real-Time Monitoring** button in main **Logs** window. Click

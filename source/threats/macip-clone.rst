@@ -11,8 +11,8 @@ to another platform, allowing administrators to see when changes are made, and t
 unauthorized platform changes are detected.
 
 
-To Enable MAC/IP Clone on the Network Sensor
---------------------------------------------
+Step 1. Enable MAC/IP Clone on the Network Sensor
+-------------------------------------------------
 
 #. Go to **System** in the top panel
 #. Go to **System > Sensor** in the left System Management panel
@@ -20,8 +20,8 @@ To Enable MAC/IP Clone on the Network Sensor
 #. Find **Node Status Scan: MAC+IP Clone Detection** section. Select **On** from drop-down
 #. Click **Update**
 
-To Create Status Group For MAC/IP Cloning
------------------------------------------
+Step 2. Create Status Group For MAC/IP Cloning
+----------------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Group > Node** in the left Policy panel
@@ -33,8 +33,8 @@ To Create Status Group For MAC/IP Cloning
 
 #. Click **Update**
    
-To Create Enforcement Policy For MAC/IP Cloning
------------------------------------------------
+Step 3. Create Enforcement Policy For MAC/IP Cloning
+----------------------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Enforcement Policy** in the left Policy panel

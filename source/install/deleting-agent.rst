@@ -3,8 +3,8 @@ Deleting Agent
 
 You can uninstall the Agent on the endpoints by using a Group Policy which allows you to group many devices together and uninstall the Agent as each device comes onto the network. This is useful if you have a large number of devices that will no longer be seen on the network. (*e.g. A School with Seniors graduating will have no need for the Agent to remain on their devices.*)
 
-To Create Node Group To Delete Agent
-------------------------------------
+Create Node Group To Delete Agent
+---------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Group > Node** in the Policy panel
@@ -23,8 +23,8 @@ To Create Node Group To Delete Agent
 
 #. Click **Update**
 
-To Delete Agent Using Policy
-----------------------------
+Delete Agent Using Policy
+-------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy** in the Policy panel

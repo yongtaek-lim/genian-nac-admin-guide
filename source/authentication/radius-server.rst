@@ -3,8 +3,8 @@ Configuring RADIUS Server
 
 You can configure Policy Server to integrate with Radius Server for User Authentication
 
-To Enable Policy Server through CLI RADIUS Server
--------------------------------------------------
+Enable Policy Server through CLI RADIUS Server
+----------------------------------------------
 
 #. Log in to **CLI** and **Enable Radius Server** feature
 #. Get into configuration mode (**configure terminal**)
@@ -19,8 +19,8 @@ configure terminal
 interface eth0.55 radius-server enable
 exit
 
-To Configure RADIUS Server Service
-----------------------------------
+Configure RADIUS Server Service
+-------------------------------
 
 #. Login into your device **https://<IP Address>/mc/**  (*See Connecting Administrator Management Interface*)
 #. Go to **Preferences** in the top panel
@@ -46,8 +46,8 @@ To Configure RADIUS Server Service
 
 #. Click Update
 
-To Configure RADIUS Authentication
-----------------------------------
+Configure RADIUS Authentication
+-------------------------------
 
 #. Login into your device **https://<IP Address>/mc/**  (*See Connecting Administrator Management Interface*)
 #. Go to **Preferences** in the top panel

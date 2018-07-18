@@ -3,8 +3,8 @@ Synchronizing User Directories with LDAP
 
 Using the Enterprise Edition you can synchronize user information with LDAP on a scheduled basis
 
-To Synchronize User Directories with LDAP
------------------------------------------
+Synchronize User Directories with LDAP
+--------------------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > Data Synchronization** in the left Preferences panel

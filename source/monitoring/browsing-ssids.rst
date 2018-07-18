@@ -3,13 +3,13 @@ Browsing SSIDs
 
 You can find any wifi-enabled device and list them by **Network Sensor** or **WLAN AP** status (*SSID usage, security status, frequency, 802.11 protocol, signal strength, detected date, connected wireless devices, etc.*)
 
-To View All the Detected SSIDs on your Network
-----------------------------------------------
+View All the Detected SSIDs on your Network
+-------------------------------------------
 
 #. Go to **Management > WLAN** in the top panel
 
-To Customize Table Columns
---------------------------
+Customize Table Columns
+-----------------------
 
 #. Click **Tasks** in the top left of the WLAN Node list
 #. Select **Edit Columns**
