@@ -6,18 +6,18 @@ On-Premise
 
 **Policy Server** and **Network Sensor** can be deployed one of two ways
 
-   -  Policy Server/Network Sensor combined (Image 1)
-   -  Policy Server and Network Sensor separated (Image 2)
+   -  Policy Server/Network Sensor combined
+   -  Policy Server and Network Sensor separated
    
 The switch port can be a standard connection or can be a trunked port for up to 128 VLANs. If your location has more than 128 VLANs then a second Network Sensor would be required
 (*If you have 2 Network Sensors on the same network or overlapping networks in an 802.1q environment you will have duplicate nodes. There is no harm in having duplicated nodes, it is just something to be aware of.*)
 
-Image 1
+Policy Server and Network Sensor Combined
 
 .. image:: /images/Deploying-PolicyServer-NetworkSensor-Combined.png
    :width: 850px
 
-Image 2
+Policy Server and Network Sensor Separated
 
 .. image:: /images/Deploying-PolicyServer-NetworkSensor.png
    :width: 850px
