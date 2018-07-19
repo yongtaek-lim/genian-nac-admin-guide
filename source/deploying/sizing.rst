@@ -19,8 +19,7 @@ Step 1. ​Identify ​the ​“Total ​Active ​Devices” ​Number for Lic
 
 The ​license ​of ​Genian ​NAC ​Software ​is ​based ​on ​the ​number ​of ​devices ​connected ​to ​the ​network ​and
 running. ​The ​number ​of ​devices ​is ​measured ​by ​the ​number ​of ​unique ​MAC ​addresses ​connected ​to ​the
-network. ​In ​order ​to ​purchase ​Genian ​NAC ​in ​the ​right ​size, ​it ​is ​necessary ​to ​know ​the ​number ​of ​the
-customer's ​devices ​in ​operation. ​This ​value ​can ​usually ​be ​found ​in ​the ​following ​ways:
+network. ​In ​order ​to ​purchase ​Genian ​NAC ​in ​the ​right ​size, ​it ​is ​necessary ​to ​know ​the ​number ​of ​devices ​in ​operation. ​This ​value ​can ​usually ​be ​found ​in ​the ​following ​ways:
 
    - The ​number ​recognized ​by ​the ​IT ​/ ​Network ​Administrator
    - The ​existing ​IT ​management ​system ​(Asset ​Mgmt, ​Network ​Monitoring)
