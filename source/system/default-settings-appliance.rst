@@ -28,7 +28,7 @@ Proxy For Windows Updates
 -------------------------
 
 #. Find **Proxy** for **Windows Updates** section and select **On** in drop-down
-#. Select **Network Grou**p for Proxy Service to use
+#. Select **Network Group** for Proxy Service to use
 #. Click **Update**
 
 Setup SNMP Agent
