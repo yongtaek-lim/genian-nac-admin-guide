@@ -1,33 +1,39 @@
 Sizing
 ======
 
-Four ​steps ​to ​specifying ​the ​right ​software ​and ​hardware
+Five ​steps ​to ​specifying ​the ​right ​software ​and ​hardware
 ----------------------------------------------------------------
 
-This ​document ​provides ​a ​guideline ​for ​choosing ​the ​right ​Genian ​NAC ​software ​and ​hardware ​for ​your
-customer. ​Specifying ​the ​right ​software ​and ​hardware ​is ​dependent ​on ​a ​number ​of ​factors ​and ​involves
+This ​document ​provides ​a ​guideline ​for ​choosing ​the ​right ​Genian ​NAC ​software ​and ​hardware. ​Specifying ​the ​right ​software ​and ​hardware ​is ​dependent ​on ​a ​number ​of ​factors ​and ​involves
 developing ​a ​usage ​profile ​for ​the ​users ​and ​the ​network ​environment. ​For ​best ​results ​we ​recommend
 using ​the ​following ​step-by-step ​procedure:
 
-  #. Find ​the ​“Total ​Active ​Device/Node”​ ​Number
-  #. Find ​the ​​“Total ​Managed ​Network” ​Number
-  #. Find ​the ​​“Total ​Agent ​Applied ​Device”​ ​Number
-  #. Check Availabilit ​and ​Reliability​ ​Requirements
+  #. Find ​the ​“Total ​Active ​Devices”​ ​Number
+  #. Find ​the ​“Total ​Active ​Nodes”​ ​Number
+  #. Find ​the ​​“Total ​Managed ​Networks” ​Number
+  #. Find ​the ​​“Total ​Agent ​Applied ​Devices”​ ​Number
+  #. Check Availability ​and ​Reliability​ ​Requirements
 
-Step 1. ​Identify ​the ​“Total ​Active ​Devices/Nodes” ​Number
---------------------------------------------------------------
+Step 1. ​Identify ​the ​“Total ​Active ​Devices” ​Number for License
+--------------------------------------------------------------------
 
 The ​license ​of ​Genian ​NAC ​Software ​is ​based ​on ​the ​number ​of ​devices ​connected ​to ​the ​network ​and
 running. ​The ​number ​of ​devices ​is ​measured ​by ​the ​number ​of ​unique ​MAC ​addresses ​connected ​to ​the
-network. ​In ​order ​to ​purchase ​Genian ​NAC ​in ​the ​right ​size, ​it ​is ​necessary ​to ​know ​the ​number ​of ​the
-customer's ​device ​in ​operation. ​This ​value ​can ​usually ​be ​found ​in ​the ​following ​ways:
+network. ​In ​order ​to ​purchase ​Genian ​NAC ​in ​the ​right ​size, ​it ​is ​necessary ​to ​know ​the ​number ​of ​devices ​in ​operation. ​This ​value ​can ​usually ​be ​found ​in ​the ​following ​ways:
 
- - The ​number ​recognized ​by ​the ​IT ​/ ​network ​administrator
- - The ​existing ​IT ​management ​system ​(Asset ​Mgmt, ​Network ​Monitoring)
- - Verifying ​actual ​numbers ​through ​Genian ​NAC ​Trial ​Version
+   - The ​number ​recognized ​by ​the ​IT ​/ ​Network ​Administrator
+   - The ​existing ​IT ​management ​system ​(Asset ​Mgmt, ​Network ​Monitoring)
+   - Verifying ​actual ​numbers ​through `Genian NAC Trial Version`_ (Download and Identify Devices)
 
-You ​need ​to ​know ​the ​number ​of ​devices ​for ​licensing, ​but ​you ​need ​to ​know ​the ​number ​of ​nodes ​to
-estimate ​the ​capacity ​of ​the ​policy ​server. ​A ​node ​is ​an ​endpoint ​on ​the ​network ​consisting ​of ​a
+As your network grows, and the number of devices exceed your License limit, the information and logs of those devices will be hidden and cannot be used.
+When devices are no longer seen on the network the License will then be carried over to the next active and running device.
+If you purchase an on-premise product, there are no licensing deadlines, only maintenance expirations. If maintenance contract expires, 
+then you cannot upgrade to a newer version or update any of the various databases.
+
+Step 2. ​Identify ​the ​“Total ​Active ​Nodes” ​Number for Hardware
+-------------------------------------------------------------------
+
+You ​need ​to ​know ​the ​number ​of ​nodes ​to estimate ​the ​capacity ​of ​the ​policy ​server. ​A ​node ​is ​an ​endpoint ​on ​the ​network ​consisting ​of ​a
 combination ​of ​IP ​and ​MAC. ​If ​a ​system ​with ​a ​single ​MAC ​address ​is ​using ​multiple ​IPs ​at ​the ​same ​time,
 the ​number ​of ​devices ​is ​one, ​but ​the ​number ​of ​nodes ​can ​be ​several. ​Because ​Genian ​NAC ​manages
 all ​information ​on ​a ​per-node ​basis, ​it ​is ​closely ​related ​to ​the ​number ​of ​nodes ​in ​the ​capacity ​of ​the
@@ -46,7 +52,7 @@ minimum ​specifications ​for ​policy ​server:
 |Storage    |SSD 128 GB            |SSD 256 GB                |SSD 512 GB                 |
 +-----------+----------------------+--------------------------+---------------------------+
 
-Step 2. ​Identify ​the ​“Total ​Managed ​Networks” ​Number
+Step 3. ​Identify ​the ​“Total ​Managed ​Networks” ​Number
 ----------------------------------------------------------
 
 Genian ​NAC ​requires ​the ​installation ​of ​a ​sensor ​for ​every ​single ​layer ​2 ​broadcast ​domain. ​Therefore,
@@ -65,7 +71,7 @@ the ​case, ​you ​will ​need ​to ​configure ​a ​separate ​senso
 For ​example, ​if ​you ​have ​a ​corporate ​network ​with ​60 ​VLANs ​and ​two ​branch ​offices ​with ​3 ​VLANs ​each,
 you ​will ​need ​a ​total ​of ​three ​sensors.
 
-Step 3. ​Identify ​the ​“Total Agent ​Applied ​Devices” ​Number
+Step 4. ​Identify ​the ​“Total Agent ​Applied ​Devices” ​Number
 ---------------------------------------------------------------
 
 The ​number ​of ​systems ​requiring ​agent ​installation ​is ​closely ​related ​to ​the ​capacity ​of ​the ​policy ​server.
@@ -94,7 +100,7 @@ operating ​environment, ​it ​is ​common ​for ​two ​functions ​to
 large-scale ​operating ​environment, ​the ​two ​functions ​can ​be ​operated ​as ​separate ​servers. ​If ​your 
 network ​consists ​of ​more ​than ​10,000 ​nodes, ​consider ​configuring ​the ​node ​server ​and ​database separately.
 
-Step 4. ​Availability ​and ​Reliability ​Requirements
+Step 5. ​Availability ​and ​Reliability ​Requirements
 -----------------------------------------------------
 
 For ​availability ​and ​reliability, ​Genian ​NAC ​supports ​Active ​Standby ​configuration. ​By ​configuring ​Backup
@@ -133,3 +139,6 @@ Please ​answer the ​following ​questions:
 +--------------------------------------------+--------------------------------------------+
 |High Availability for Network Sensor        |  YES / NO                                  |
 +--------------------------------------------+--------------------------------------------+
+
+.. _Genian NAC Trial Version: https://www.genians.com/trial-buy/
+
