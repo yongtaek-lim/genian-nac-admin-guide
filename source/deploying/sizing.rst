@@ -4,8 +4,7 @@ Sizing
 Five ​steps ​to ​specifying ​the ​right ​software ​and ​hardware
 ----------------------------------------------------------------
 
-This ​document ​provides ​a ​guideline ​for ​choosing ​the ​right ​Genian ​NAC ​software ​and ​hardware ​for ​your
-customer. ​Specifying ​the ​right ​software ​and ​hardware ​is ​dependent ​on ​a ​number ​of ​factors ​and ​involves
+This ​document ​provides ​a ​guideline ​for ​choosing ​the ​right ​Genian ​NAC ​software ​and ​hardware. ​Specifying ​the ​right ​software ​and ​hardware ​is ​dependent ​on ​a ​number ​of ​factors ​and ​involves
 developing ​a ​usage ​profile ​for ​the ​users ​and ​the ​network ​environment. ​For ​best ​results ​we ​recommend
 using ​the ​following ​step-by-step ​procedure:
 
