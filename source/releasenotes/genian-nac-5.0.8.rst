@@ -1,6 +1,8 @@
 Genian NAC v5.0.8 Release Notes
 ===============================
 
+Release Date: 5/22/2017
+
 **New Feature & Improvement**
 
 - #15992 – Add user count and link to user group list

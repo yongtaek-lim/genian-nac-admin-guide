@@ -1,6 +1,8 @@
 Genian NAC v5.0.7 Release Notes
 ===============================
 
+Release Date: 3/27/2017
+
 **New Feature & Improvement**
 
 - #15779 – Improved the license registration method (copy & paste)

@@ -1,6 +1,8 @@
 Genian NAC v5.0.9 Release Notes
 ===============================
 
+Release Date: 8/16/2017
+
 **New Feature & Improvement**
 
 - #16457 Add multi-node registration function to IP MatrixView

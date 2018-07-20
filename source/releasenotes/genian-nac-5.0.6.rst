@@ -1,6 +1,8 @@
 Genian NAC v5.0.6 Release Notes
 ===============================
 
+Release Date: 2/24/2017
+
 **New Feature & Improvement**
 
 - #15863 – Improve product management console screen output with iPad Pro

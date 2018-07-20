@@ -1,6 +1,8 @@
 Genian NAC v5.0.10 Release Notes
 ================================
 
+Release Date: 10/19/2017
+
 **New Feature & Improvement**
 
 - #16579 HTTPS CWP Redirect Support

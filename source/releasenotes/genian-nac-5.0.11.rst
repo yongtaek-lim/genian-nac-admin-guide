@@ -1,6 +1,8 @@
 Genian NAC v5.0.11 Release Notes
 ================================
 
+Release Date: 12/5/2017
+
 **New Feature & Improvement**
 
 - #16828 Added the ability to check the port information used by the product
