@@ -41,3 +41,10 @@ Genians provides the industry’s leading Network Access Control (NAC) solution,
    threat
    events
    system  
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Release Notes
+
+   releasenotes/genian-nac-5.0
+   

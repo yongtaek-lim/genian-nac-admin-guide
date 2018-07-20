@@ -1,5 +1,5 @@
-Sizing
-======
+Software and Hardware Sizing
+============================
 
 Five ​steps ​to ​specifying ​the ​right ​software ​and ​hardware
 ----------------------------------------------------------------
