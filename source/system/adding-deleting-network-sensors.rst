@@ -50,7 +50,7 @@ Sensor hardware to your Policy Server.
 
 #. Go to :doc:`/install/installing-network-sensor` (*During the Installation of Network Sensor a question will be presented to point to a node-server host*)
 #. For **node-server host** enter **IP Address (On-Premise)** or use **FQDN (Cloud)** (*e.g. node-server host 192.168.50.50 or node-server host somename.domain.net*)
-#. Deploy **Network Sensor** onto Network :doc:`/deploying/on-premise`
+#. Deploy **Network Sensor** onto Network :doc:`/deploying/deployment-type`
 #. Should see **Network Sensor** in UI under **System > Sensor and Management > Node**
 
 Delete A Network Sensor System

@@ -14,14 +14,18 @@ Update the Policy Server and Sensor
 Update the Policy Server and Sensor Manually
 --------------------------------------------
 
-#. Link to download new software https://www.genians.com/download/
+This is done by obtaining Genian NAC Software from Genians and store locally on your machine to then upload onto the servers.
+
 #. Go to **System** in the top panel
 #. Find **Update** section in the left System Management panel. Go to **Genian Software**
-#. Find **Manual Upload** button in Genian Software window. Click **Manual Upload**
+#. Find and click **Upload File** button in Genian Software window
 #. Click **Select File** in Upload window
-#. Locate **Genian Software** in **File Upload** window. Highlight file. Click **Open**
+#. Locate **Genian Software** in **File Upload** window. Double click on desired file
+#. Click **Upload**
 #. Go to **System** in the top panel
 #. Go to **System > System** in the left System Management panel
 #. Find **Policy Server/Sensor** in System window. Click **Checkbox**
 #. Click **Tasks**
 #. Click **Update Specific System Image** (*If you selected Policy Server and ALL sensors in Step 9, Click Update All System Images*)
+
+(*System will update and reboot*)
