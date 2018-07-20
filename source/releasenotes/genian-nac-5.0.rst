@@ -1,5 +1,5 @@
-Genian NAC v5.0 Release Notes
-=============================
+Release Notes
+=============
 
 .. toctree::
    :maxdepth: 1
