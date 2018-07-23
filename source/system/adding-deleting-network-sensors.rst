@@ -21,8 +21,6 @@ to the existing eth0 or eth1 interface.*)
 
 #. Type **exit**
 
-(*Commands are instantly written so there is no need to do “write” or “copy run start” commands*)
-
 Delete A Specific VLAN Network Sensor
 -------------------------------------
 
