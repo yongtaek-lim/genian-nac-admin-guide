@@ -42,10 +42,6 @@ Signup at `GitHub`_
  # pip install Sphinx
  # pip install sphinx_rtd_theme
 
-
-Editing contents using Eclipse
-------------------------------
-
 **Install Eclipse**
 
    - Go to `Eclipse`_ to download
@@ -88,18 +84,84 @@ Editing contents using Eclipse
 .. image:: /images/Eclipse-project-properties.png
    :width: 500px
 
+Editing contents using Eclipse
+------------------------------
+
+**Create New Folder and File**
+
+   - Right Click on >source > New > Folder
+   - Folder Name should be one word in lowercase that best describes section
+   
+**Create New File within Folder**
+
+   - Right click on desired folder > New > File
+   - Filename should be lowercase, and a hyphen between words. .rst must follow the name. (*e.g. some-name.rst*)
+
+**Sample Page Formatting**
+
+.. code:: bash
+
+ (Header) <Some Title>
+ =====================
+ <Space Needed>
+ (Intro) <Some Intro>
+ <Space Needed>
+ (Sub-Title) <To Do Something>
+ -----------------------------
+ <Space Needed>
+ #. <Go to somewhere and do something>
+ #. <Next Step>
+ <Space Needed>
+    -  <Sub-step>
+    -  <Sub-step>
+    -  <Sub-step>
+    -  <Sub-step>    
+ <Space Needed>
+ #. <Next Step>
+ 
+**Add Images To File**
+
+   - Copy image files from local machine to Eclipse images folder
+   - Add code for images where you would like your image to be
+   
+.. code:: bash
+
+ .. image:: /images/some-image.png
+    :width: 500px
+ 
+**Add Table To File**
+
+.. code:: bash 
+
+ +-----------+-----------+-----------+
+ |1st Column |2nd Column |3rd Column | <-----Title Block
+ +===========+===========+===========+ 
+ |           |           |           |  <-----First Data Block
+ +-----------+-----------+-----------+ 
+
+**Add CLI Coding Box**
+
+.. code:: bash
+
+ .. code:: bash
+ <Space Needed>
+  Lines of Code with no spaces to follow (*Single space before "Lines" needed)
+  
 **Compile Document**
 
-   - Press Ctrl-B on editor
-   - Generated HTML will place under genian-nac-admin-guide/build/html directory
-   - Open index.html  
+   - Press Ctrl-B within the editor and see changes and errors in Console on right
+   - Generated HTML will be placed under genian-nac-admin-guide/build/html directory
+   - Open index.html page to review and verify changes 
 
 (*e.g.  file:///C:/Users/Bill%20Eaton/genian-nac-admin-guide/build/html/index.html*)
 
-**If you change any doctree:: or add new page would require to clean build**
+**If you change any doctree:: or add new pages, it will require to clean build**
 
    - Select Project > Clean
    - Press Ctrl-B
+
+Apply your change to main repository
+------------------------------------
 
 **Commit and Push to your repo**
 
@@ -109,6 +171,15 @@ Editing contents using Eclipse
    - Add a “Commit Message”
    - Click “Commit and Push” button
 
+.. image:: /images/eclipse-commit.png
+   :width: 500px
+ 
+.. image:: /images/eclipse-commit-push.png
+   :width: 500px
+
+Stay current with Main Repo changes
+-----------------------------------
+      
 **Update main repo changes to your local repo**
 
    - Right click on Top of Project Explorer
@@ -121,10 +192,7 @@ Editing contents using Eclipse
    
 .. image:: /images/eclipse-pull.png
    :width: 500px
-
-Apply your change to main repository
-------------------------------------
-
+   
 **Make Pull Request**
 
    - Visit your repo on GitHub (*https://github.com/USERNAME/genian-nac-admin-guide*)
