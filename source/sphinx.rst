@@ -87,7 +87,7 @@ Signup at `GitHub`_
 Editing contents using Eclipse
 ------------------------------
 
-**Create New Folder and File**
+**Create New Folder for Files**
 
    - Right Click on >source > New > Folder
    - Folder Name should be one word in lowercase that best describes section
