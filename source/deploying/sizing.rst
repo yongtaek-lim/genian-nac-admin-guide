@@ -24,6 +24,8 @@ network. ​In ​order ​to ​purchase ​Genian ​NAC ​in ​the ​right
    - The ​number ​recognized ​by ​the ​IT ​/ ​Network ​Administrator
    - The ​existing ​IT ​management ​system ​(Asset ​Mgmt, ​Network ​Monitoring)
    - Verifying ​actual ​numbers ​through `Genian NAC Trial Version`_ (Download and Identify Devices)
+   
+**All devices that use TCP / IP communication, such as IP phones, surveillance cameras, as well as PCs should be considered as devices.**
 
 As your network grows, and the number of devices exceed your License limit, the information and logs of those devices will be hidden and cannot be used.
 When devices are no longer seen on the network the License will then be carried over to the next active and running device.
