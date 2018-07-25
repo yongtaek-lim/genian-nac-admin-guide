@@ -45,8 +45,7 @@ Once the Sensors and Agent receives policies from the Policy Server, they run th
 
 NOTE: For small networks, a single box is often sufficient to cover the role of the Policy Server and the Sensors. You could also use the Policy Server separately and a single Sensor can act as the Network Sensor and Wireless Sensor.
 
-Visibility, plus more
----------------------
+**Visibility, plus more**
 
 The Admin Web User Interface can be customized for your specific monitoring and management needs. For instance, you can set up your own widgets for condition-based Node groups, and you can even create role-based Admin user accounts for personalized dashboard views.
 
@@ -55,7 +54,7 @@ Additionally, Genian NAC can provide Geo-based Critical Event monitoring by the 
 Your visibility increases as you progress through discovery of: (1) network devices (2) users, and (3) endpoint devices. This greater granularity presents total transparency into your network.
 
 Network Visibility
-------------------
+******************
 
 Before deploying Genian NAC to your network, you may have had an idea of what is on the network, based on your IT lists of company assets. However, it is probable that you will not know about all of the other devices connected to the network. Your asset list is likely to be out-of-date. This is often true when there is a shortage of IT resources to maintain documentation as resources are moved, updated, or removed (End of Life).
 
@@ -88,7 +87,7 @@ NOTE: *The Agent installed in the endpoint can act as Wireless Sensor using the 
 This view shows general user information as well as a different level of Administrators. It allows you to set up internal user accounts for your IT staff, and displays their status and roles, such as Administrators; Super Admin, Policy Auditor, IP Address Manager.
 
 User Visibility
----------------
+***************
 
 To know your users as well as inform them about your network security policies, you need to first identify who they are, and then continue to manage those users.
 
@@ -104,7 +103,7 @@ Once a new user is identified, he or she is automatically associated with the us
 User identity and behavior is important to the outcome of your security strategy. Users who are ignorant of the importance of security and the reasons for maintaining a healthy device for your network environment will unwittingly carry malicious threats to your internal network. Not only will an informed user have better computing performance because of complying with your security policies, but will be a good member of the network community.
 
 Endpoint Visibility
--------------------
+*******************
 
 The Network and Wireless Sensors collect such information about endpoint devices as platform type (e.g., laptop, smartphone, tablet), address (IP/MAC), vendor, connected switch port, services (Web, DNS, NAT, AP), and abnormal traffic. The authentication process collects and verifies information about the device’s user. But you still do not have the detailed information about what is inside of the company-owned devices and what has been changed by authenticated users.
 
@@ -136,7 +135,7 @@ The primary objective of setting up your compliance requirements is to assess yo
 With Genian NAC, you can fix your IT security practices effectively by setting up the Node groups, Policies, Actions, and Permissions that will define security compliance for your network environment.
 
 Node Groups
------------
+***********
 
 To simplify the process of setting up your security baseline, you will work with Nodes and Policies, which define specific conditions that must be met to be “in compliance”. There are two groups that define what you are controlling:
 
@@ -153,7 +152,7 @@ Both groups can be used to assess the current security practices in your organiz
 Grouping Nodes provides significant administrative benefits by simplifying tasks, organizing resources, and applying policies dynamically across the network. When you need to make changes affecting every Node in a group, it is easier to modify the settings for the Node group.
 
 Policies, Actions, and Permissions
-----------------------------------
+**********************************
 
 Once a targeted Node group is ready, you can set up specific policies with appropriate actions and permissions.
 
@@ -191,7 +190,7 @@ Once the Node policy is turned on, you can immediately see those devices that ar
 Preventing network access by non-compliant requires the Enforcement Policy. This Policy is referred to as “Control”, which often entails preventing access until endpoints remediates the non-compliance issues (refer to “Endpoint Control”).
 
 Audit and Report
-----------------
+****************
 
 *“The ultimate authority must always rest with the individual’s own reason and critical analysis.” – Dalai Lama*
 
@@ -204,8 +203,8 @@ Control
 
 Once the IT Security Baseline has been established, Genian NAC Policy Server with Sensors and Agent is positioned to enforce compliance with your IT security policies.
 
-Access Control
---------------
+Network Access Control
+**********************
 
 There are a variety of enforcement and control options available, such as using Address Resolution Protocol (ARP) poisoning, Port mirroring, or TCP/IP connection reset:
 
@@ -248,7 +247,7 @@ In addition, you can turn on the AP function in the Wireless Sensor so you can r
 You can control user information, such as role, password, activation, IP/MAC information, basic contact information.
 
 Endpoint Control
-----------------
+****************
 
 The endpoint is the ultimate threat to the safety and security of the internal network. Geni Networks recognizes the importance of the end user experience when accessing the network environment. As a consequence, the Agent communicating with the Genian NAC Policy Server manipulates endpoint devices through two possible ways: Configuration Management or User Awareness.
 
