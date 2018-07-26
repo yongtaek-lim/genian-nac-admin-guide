@@ -1,5 +1,7 @@
-Sphinx Documentation System How To
-==================================
+How To Contribute Documents
+===========================
+
+You may contribute to these documents through the following process.
 
 Preparation
 -----------
