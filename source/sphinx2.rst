@@ -121,17 +121,13 @@ Apply your change to main repository
 
 **Commit and Push to your repo**
 
-   - Right click on Top of Project Explorer
-   - Select Team > Commit
+   - Add a “Commit Message” on Left of GitHub Desktop
+   - Click Commit
+   - Click Push on Top of GitHub Desktop
    - Make sure your change file on Staged Changes
-   - Add a “Commit Message”
+
    - Click “Commit and Push” button
 
-.. image:: /images/eclipse-commit.PNG
-   :width: 500px
- 
-.. image:: /images/eclipse-commit-push.PNG
-   :width: 500px
 
 Stay current with Main Repo changes
 -----------------------------------
