@@ -134,10 +134,8 @@ Stay current with Main Repo changes
       
 **Update main repo changes to your local repo**
 
-   - Right click on Top of Project Explorer
-   - Select Team > Pull (second one)
-   - Change Remote from “origin” to “upstream”
-   - Click “Finish”
+   - Click Branch > Create pull request on Top Menu
+   - Add a "Comment Message"
 
 .. image:: /images/eclipse-2ndpull.PNG
    :width: 500px
