@@ -126,27 +126,22 @@ Apply your change to main repository
    - Click Push on Top of GitHub Desktop
    - Make sure your change file on Staged Changes
 
-   - Click “Commit and Push” button
-
 
 Stay current with Main Repo changes
 -----------------------------------
       
 **Update main repo changes to your local repo**
 
-   - Click Branch > Create pull request on Top Menu
-   - Add a "Comment Message"
 
-.. image:: /images/eclipse-2ndpull.PNG
+
+.. image:: /images/push.PNG
    :width: 500px
    
-.. image:: /images/eclipse-pull.PNG
-   :width: 500px
    
 **Make Pull Request**
 
-   - Visit your repo on GitHub (*https://github.com/USERNAME/genian-nac-admin-guide*)
-   - Click “New Pull request”
+   - Click Branch > Create pull request on Top Menu
+   - Add a "Comment Message"
 
 (*Main repository moderator will approve changes, or ask you to make some suggested changes*)
 
