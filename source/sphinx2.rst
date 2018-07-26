@@ -25,7 +25,7 @@ Signup at `GitHub`_
 **Execute GitHub Desktop enter following:**
 
    - Select File > Clone repository
-   - Type repository “USERNAME/genian-nac-admin-guide”
+   - Enter repository “USERNAME/genian-nac-admin-guide”
 
 
 **Install Sublime Text on your PC**
@@ -103,18 +103,6 @@ Editing contents using Sublime Text
  <Space Needed>
   Lines of Code with no spaces to follow (*Single space before "Lines" needed)
   
-**Compile Document**
-
-   - Press Ctrl-B within the editor and see changes and errors in Console on right
-   - Generated HTML will be placed under genian-nac-admin-guide/build/html directory
-   - Open index.html page to review and verify changes 
-
-(*e.g.  file:///C:/Users/Bill%20Eaton/genian-nac-admin-guide/build/html/index.html*)
-
-**If you change any doctree:: or add new pages, it will require to clean build**
-
-   - Select Project > Clean
-   - Press Ctrl-B
 
 Apply your change to main repository
 ------------------------------------
@@ -140,6 +128,9 @@ Stay current with Main Repo changes
 
    - Click Branch > Create pull request on Top Menu
    - Add a "Comment Message"
+
+.. image:: /images/pullrequest.PNG
+   :width: 500px
 
 (*Main repository moderator will approve changes, or ask you to make some suggested changes*)
 
