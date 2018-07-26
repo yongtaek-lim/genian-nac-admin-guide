@@ -77,7 +77,7 @@ Editing contents using Sublime Text
  
 **Add Images To File**
 
-   - Copy image files from local machine to Eclipse images folder
+   - Copy image files from local machine to genian-nac-admin-guide\source\images folder
    - Add code for images where you would like your image to be
    
 .. code:: bash
@@ -92,7 +92,7 @@ Editing contents using Sublime Text
  +-----------+-----------+-----------+
  |1st Column |2nd Column |3rd Column | <-----Title Block
  +===========+===========+===========+ 
- |           |           |           |  <-----First Data Block
+ |           |           |           | <-----First Data Block
  +-----------+-----------+-----------+ 
 
 **Add CLI Coding Box**
@@ -131,8 +131,6 @@ Stay current with Main Repo changes
 -----------------------------------
       
 **Update main repo changes to your local repo**
-
-
 
 .. image:: /images/push.PNG
    :width: 500px
