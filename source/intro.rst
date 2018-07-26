@@ -240,8 +240,6 @@ Provisioning IP addresses is critical to manage all types of Nodes more efficien
 
 With so many Wifi-enabled devices accessing through APs, it is important to detect which APs belong to your internal network or not. Also, it is important to guide users to use verified APs only. You can allow or deny Wifi-enabled devices accessing different SSIDs based on the policy compliance by Node groups, such as Authorized AP, Rogue AP, Misconfigured AP, Tethering device, and more.
 
-In addition, you can turn on the AP function in the Wireless Sensor so you can run the Wireless Sensor as AP.
-
 **User Control**
 
 You can control user information, such as role, password, activation, IP/MAC information, basic contact information.
