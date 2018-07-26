@@ -16,24 +16,22 @@ Signup at `GitHub`_
 
 **Make local repository on your PC**
 
-   - If you use Windows, you need to install the git
-   - `Download Git`_ 
+   - If you use Windows, you need to install the GitHub Desktop
+   - `Download GitHub Desktop`_ 
 
-.. image:: /images/Git-Download.PNG
+.. image:: /images/git-desktop.PNG
    :width: 500px
    
-**Open Command Prompt enter following:**
+**Execute GitHub Desktop enter following:**
 
-.. code:: bash
-   
- # git clone https://github.com/USERNAME/genian-nac-admin-guide
- # git remote add upstream https://github.com/USERNAME/genian-nac-admin-guide
+   - Select File > Clone repository
+   - Type repository “USERNAME/genian-nac-admin-guide”
 
 
 **Install Sublime Text on your PC**
 
-   - If you use Windows you need to install Python
-   - Go to `Python`_ to download
+   - If you use Windows you need to install Sublime Text
+   - Go to `Sublime Text`_ to download
 
 
 **Import Project**
@@ -158,7 +156,6 @@ Stay current with Main Repo changes
 
 (*Main repository moderator will approve changes, or ask you to make some suggested changes*)
 
-.. _GitHub: https://github.com/
-.. _Download Git: https://git-scm.com/download/win
-.. _Python: https://www.python.org/downloads/release/python-365/
-.. _Eclipse: https://www.eclipse.org/downloads/
+.. _GitHub : https://desktop.github.com/
+.. _Download GitHub Desktop: https://desktop.github.com/
+.. _Sublime Text: https://www.sublimetext.com/
