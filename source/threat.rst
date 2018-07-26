@@ -8,7 +8,7 @@ Genian NAC inspects network traffic to identify abnormalities in the network and
 - **Ad Hoc Network Connected**: Detects direct client-to-client communication
 - **ARP Bomb**: Detects flooding of ARP requests
 - **ARP Spoofing**: Detects spoofing of ARP Requests (Man-In-the-Middle)
-- **Invalid Gateway Used**: Detects a node having an Invalid Gateway set
+- **Invalid Gateway Used**: Detects a Node having an Invalid Gateway set
 - **MAC / IP Clone**: Detects spoofing of IP/MAC Addresses
 - **Port Scan**: Scans network for open ports to detect possible vulnerabilities
 - **Unknown Service Requested**: Detects for Unknown Requested Services
