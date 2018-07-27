@@ -1,5 +1,7 @@
-Sphinx Documentation System How To
-==================================
+How To Contribute Documents
+===========================
+
+You may contribute to these documents through the following process.
 
 Preparation
 -----------
@@ -32,6 +34,9 @@ Signup at `GitHub`_
 
    - If you use Windows you need to install Sublime Text
    - Go to `Sublime Text`_ to download
+     
+.. image:: /images/sublime.PNG
+   :width: 500px
 
 
 **Import Project**
@@ -114,6 +119,8 @@ Apply your change to main repository
    - Click Push on Top of GitHub Desktop
    - Make sure your change file on Staged Changes
 
+.. image:: /images/Commit.PNG
+   :width: 500px
 
 Stay current with Main Repo changes
 -----------------------------------
