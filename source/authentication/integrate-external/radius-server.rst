@@ -1,5 +1,5 @@
-Configuring RADIUS Server
-=========================
+RADIUS
+======
 
 You can configure Policy Server to integrate with Radius Server for User Authentication
 
