@@ -15,9 +15,8 @@ Genians can integrate with External Authentication sources to permit user access
    :maxdepth: 1
 
    authentication/enabling-authentication
-   authentication/managing-directories
-   authentication/synch-directory
+   authentication/managing-users
    authentication/integrate-external
-   authentication/authentication-options
-   authentication/radius  
+   authentication/synch-directory
+   authentication/authentication-options   
    
