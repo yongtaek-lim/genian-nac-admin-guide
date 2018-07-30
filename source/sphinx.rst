@@ -119,7 +119,7 @@ Editing contents using Eclipse
  <Space Needed>
  #. <Next Step>
  
-**Add Images To File**
+**Add Images**
 
    - Copy image files from local machine to Eclipse images folder
    - Add code for images where you would like your image to be
@@ -129,7 +129,7 @@ Editing contents using Eclipse
  .. image:: /images/some-image.png
     :width: 500px
  
-**Add Table To File**
+**Add Table**
 
 .. code:: bash 
 
@@ -146,6 +146,14 @@ Editing contents using Eclipse
  .. code:: bash
  <Space Needed>
   Lines of Code with no spaces to follow (*Single space before "Lines" needed)
+
+**Add Links** 
+
+.. code:: bash
+
+ `Some Title For Link`_
+ (*At bottom of page)
+ .. _Some Title For Link: URL
   
 **Compile Document**
 
