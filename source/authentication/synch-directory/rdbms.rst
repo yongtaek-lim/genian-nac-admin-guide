@@ -1,7 +1,9 @@
 RDBMS
 =====
 
-Using the Enterprise Edition you can synchronize user directories with a relational database management system(RDBMS). A relational database management system (RDBMS) is a database engine/system based on a relational model. Most modern commercial and open-source database applications are relational in nature
+.. note:: This feature required Enterprise Edition
+
+You can synchronize user directories with a relational database management system(RDBMS). A relational database management system (RDBMS) is a database engine/system based on a relational model. Most modern commercial and open-source database applications are relational in nature
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > Data Synchronization** in the left Preferences panel

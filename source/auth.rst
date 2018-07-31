@@ -1,6 +1,8 @@
 Managing User Authentication
 ----------------------------
 
+.. note:: This feature required Professional or Enterprise Edition
+
 User Authentication means verifying the identity of someone (User) behind a device that wants to access the network. User Authentication also enables accountability, by using user ID and password which makes it possible to link access and actions to specific identities. Genians provides the ability to Authenticate Users in several ways.
 
 You can create Users locally in Policy Server, or configure Policy Server to pull User Information from Active Directory, RADIUS, POP3, IMAP, SMTP, CSV, or other third-party user management systems.

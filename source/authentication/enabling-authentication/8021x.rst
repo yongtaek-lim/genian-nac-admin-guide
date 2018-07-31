@@ -1,5 +1,7 @@
 Authentication using RADIUS (802.1x)
 ====================================
+
+.. note:: This feature required Enterprise Edition
  
 You can configure the Genian NAC Policy Server to use it’s built-in RADIUS Server to act the same as integrating with an external RADIUS Server.
 

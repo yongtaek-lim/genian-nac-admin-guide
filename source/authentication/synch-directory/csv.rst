@@ -1,7 +1,9 @@
 CSV from File or URL
 ====================
 
-Using the Enterprise Edition you can add users to Policy Server by importing end users information from a comma-separated value (CSV) file
+.. note:: This feature required Enterprise Edition
+
+You can add users to Policy Server by importing end users information from a comma-separated value (CSV) file
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > Data Synchronization** in the left Preferences panel
