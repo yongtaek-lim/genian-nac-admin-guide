@@ -6,8 +6,8 @@ You can monitor network assets by the Nodes themselves or by monitoring IP Addre
 .. toctree::
    :maxdepth: 1
 
-   monitoring/network-nodes/network-nodes
-   monitoring/ip-address/ip-address
-   monitoring/switch/switch
-   monitoring/wireless-lan/wireless-lan
+   monitoring/network-nodes
+   monitoring/ip-address
+   monitoring/switch
+   monitoring/wireless-lan
    

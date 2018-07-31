@@ -6,5 +6,6 @@ The **Network Sensor** monitors IP Addresses and presents the usage status of th
 .. toctree::
    :maxdepth: 1
 
-   sensor-ipstatus
-   ipstatus-matrixview
+   ip-address/sensor-ipstatus
+   ip-address/ipstatus-matrixview
+   

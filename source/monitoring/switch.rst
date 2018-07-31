@@ -6,8 +6,9 @@ You can see how many devices are connected to specific Switch ports, connection 
 .. toctree::
    :maxdepth: 1
 
-   browsing-switches
-   browsing-switchports
-   searching-switchport
-   switchport-description
-   shutdown-switchport
+   switch/browsing-switches
+   switch/browsing-switchports
+   switch/searching-switchport
+   switch/switchport-description
+   switch/shutdown-switchport
+   
