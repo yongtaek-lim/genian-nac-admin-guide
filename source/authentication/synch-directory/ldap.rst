@@ -33,10 +33,11 @@ Uder **User Information**
 #. For **Where Clause for DB**, type **objectClass=person** for filtering person object.
 #. For **Column Name for Username**, type **sAMAccountName**
 #. For **Column Name for Full Name**, type **displayName**
-#. For any other extra information, use can setup LDAP attribute name for each column name.
+#. For any other extra information, you can use LDAP attribute name for each column name.
 
 Testing Synchronization
 -----------------------
 
 #. User **Data Synchronization**, click **Tasks > Synchronize Now**
-   
+
+.. attention:: Since the Active directory does not provide the userPassword attribute, the user password can not be synchronized. Therefore, you must set the integration separately. See :doc:`../integrate-external/active-directory` 
