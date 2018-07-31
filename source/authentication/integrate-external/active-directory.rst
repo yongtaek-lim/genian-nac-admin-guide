@@ -9,12 +9,12 @@ You can configure **Policy Server** to integrate with **Active Directory** for *
 #. Enter the following:
 
    - **Server Address**:
-   - **Server Port**: (*Non-SSL=389, SSL=636*)
-   - **Base DN**: (*e.g. CN=Users,DC=genians,DC=com*)
+   - **Server Port**: (*LDAP=389, LDAPS=636*)
+   - **Base DN**: (*e.g. CN=Users,DC=company,DC=com*)
    - **Bind DN**: (*Should be FQDN: e.g. Administrator@company.com*) (*Bind Account should have Administrator Privileges*)
    - **Bind Password**:
    - **User Naming Attribute**: (*e.g. sAMAccountName*)
-   - **SSL Connection**: (*Turn on if using SSL port 636*)
+   - **SSL Connection**: (*Turn on if using LDAPS*)
 
 #. Click **Update**
 #. Click **Test** to test configuration settings (*Test account can be any User Account found within the Base DN*)
