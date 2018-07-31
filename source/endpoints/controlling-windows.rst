@@ -31,7 +31,7 @@ You can control Windows devices with the Agent installed using following plugins
    folder-sharing
    screen-lock
    computer-name
-   uninstall-programs
+   remove-programs
    killing-processes
    managing-files
    notifying-users

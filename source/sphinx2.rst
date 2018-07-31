@@ -21,7 +21,7 @@ Signup at `GitHub`_
    - If you use Windows, you need to install the GitHub Desktop
    - `Download GitHub Desktop`_ 
 
-.. image:: /images/git-desktop.PNG
+.. image:: /images/git-desktop.png
    :width: 500px
    
 **Execute GitHub Desktop enter following:**
@@ -35,7 +35,7 @@ Signup at `GitHub`_
    - If you use Windows you need to install Sublime Text
    - Go to `Sublime Text`_ to download
      
-.. image:: /images/sublime.PNG
+.. image:: /images/sublime.png
    :width: 500px
 
 
@@ -46,7 +46,7 @@ Signup at `GitHub`_
 
 
 Editing contents using Sublime Text
-------------------------------
+-----------------------------------
 
 **Create New Folder for Files**
 
@@ -87,7 +87,7 @@ Editing contents using Sublime Text
    
 .. code:: bash
 
- .. image:: /images/some-image.PNG
+ .. image:: /images/some-image.png
     :width: 500px
  
 **Add Table To File**
@@ -119,7 +119,7 @@ Apply your change to main repository
    - Click Push on Top of GitHub Desktop
    - Make sure your change file on Staged Changes
 
-.. image:: /images/Commit.PNG
+.. image:: /images/Commit.png
    :width: 500px
 
 Stay current with Main Repo changes
@@ -127,7 +127,7 @@ Stay current with Main Repo changes
       
 **Update main repo changes to your local repo**
 
-.. image:: /images/push.PNG
+.. image:: /images/push.png
    :width: 500px
    
    
@@ -136,7 +136,7 @@ Stay current with Main Repo changes
    - Click Branch > Create pull request on Top Menu
    - Add a "Comment Message"
 
-.. image:: /images/pullrequest.PNG
+.. image:: /images/pullrequest.png
    :width: 500px
 
 (*Main repository moderator will approve changes, or ask you to make some suggested changes*)

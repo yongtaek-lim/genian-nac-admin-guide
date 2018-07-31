@@ -1,5 +1,5 @@
 Control Internet Explorer Security Settings
-============================
+===========================================
 
 You can control the Security Settings of Internet Explorer on end users Windows devices. You can configure the options under General, Security, Content, and Connections tabs,  as well as Add-Ons. Additionally, you can change browser settings using Add-on Controls
 
@@ -20,7 +20,7 @@ To Add the Agent Action to a Policy
 #. Click **Update**
 
 To Control Internet Explorer Security Settings
----------------------------
+----------------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel
