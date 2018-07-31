@@ -1,21 +1,19 @@
-Passive Authentication by RADIUS Accounting Packet
-==================================================
+Single Sign-On via RADIUS Accounting
+====================================
 
-You can configure the **Policy Server** for Users to Authenticate by a **RADIUS Account**
+If user authentication through RADIUS is applied to the network, user authentication can be automatically performed through accounting packet provided by RADIUS client such as Access Point.
+Genian NAC receives external RADIUS accounting packets, saves them as audit records, and uses them as user authentication information.
 
-Configure User Authentication by RADIUS Account
------------------------------------------------
+Configure RADIUS Accounting Server
+----------------------------------
 
 #. Go to **Preferences** in top panel
 #. Go to **Service > RADIUS Server** in the left Preferences panel
-#. Find **RADIUS Server** section in the RADIUS Server window
-#. Enter in the Following:
 
-   - **Shared Secret Key**
-   - **Port Number (1812)**
-   - **EAP Authentication (On)**
-   - **EAP Type (GTC)**
+Under **Accounting Server**
 
+#. For **RADIUS Client IP**, type IP Address of RADIUS client (Who sending RADIUS accounting packet like Access Point, Wireless Controller)
+#. For **Authentication**, select **On**
+#. For **Shared Secret Key**, type same secret key with RADIUS Client
+#. For **Attribute to Match**, select **MAC and IP** when RADIUS accouting packet contains *Calling-Station-Id* and *Framed-IP-Address*. if accounting packet doesn't have *Framed-IP-Address* attribute, select **MAC**
 #. Click **Update**
-
-(*MAC Authentication and Accounting are Optional settings*)
