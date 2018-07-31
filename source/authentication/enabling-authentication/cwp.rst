@@ -1,5 +1,5 @@
-Configuring User Authentication by Captive Web Portal
-=====================================================
+Authentication using Captive Web Portal
+=======================================
 
 Genian NAC uses a **Captive Web Portal** (**CWP**) for Guest Access, Authentication, Information, and Instructions to become compliant with enforced policies. You can configure the Policy Server to redirect both users and guests to a **CWP login** page for **Authentication**. Users are then forced to enter Username and Password to authenticate against a database before being allowed access to the network. This allows you to identify users behind endpoint devices, and present them with information or login instructions.
 

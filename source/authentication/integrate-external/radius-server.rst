@@ -1,5 +1,5 @@
-Configuring RADIUS Server
-=========================
+RADIUS
+======
 
 You can configure Policy Server to integrate with Radius Server for User Authentication
 
@@ -15,9 +15,9 @@ CLI Command to enable radius-server on interface
 
 .. code:: bash
 
-configure terminal
-interface eth0.55 radius-server enable
-exit
+  # configure terminal
+  # interface eth0.55 radius-server enable
+  # exit
 
 Configure RADIUS Server Service
 -------------------------------

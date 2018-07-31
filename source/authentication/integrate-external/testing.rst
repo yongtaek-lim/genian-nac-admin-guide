@@ -1,5 +1,5 @@
-Testing LDAP, RADIUS, IMAP/POP3/SMTP Integration
-================================================
+Testing Integration
+===================
 
 You can test the integration configurations of **RADIUS**, **LDAP**, **IMAP**, **POP3**, or **SMTP** to verify successful connections.
 

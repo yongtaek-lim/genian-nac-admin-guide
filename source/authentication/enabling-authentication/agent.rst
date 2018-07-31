@@ -1,5 +1,5 @@
-Configuring User Authentication by Agent
-========================================
+Authentication using Agent
+==========================
 
 **Agent** not only assists in determining the posture of the endpoint device, but can also collect system information, access control, and authenticate users. You can configure the **Policy Server** to force users to authenticate using the **Agent** with the **Authenticate User Using Genian Agent** plugin. Once Users credentials have been Authenticated the **Agent** then communicates with the Policy Server every 2 minutes continually validating the User behind the endpoint device.
 

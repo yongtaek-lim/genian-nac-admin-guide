@@ -1,6 +1,8 @@
 Controlling Network Access
 --------------------------
 
+.. note:: This feature required Professional or Enterprise Edition
+
 To control network access, you can use a Node Group, which can be enforced by 5 different methods:
 
 - **ARP Poisoning**: The Network Sensor can manipulate ARP packets to control access by intercepting and filtering all packets coming from unauthorized nodes.

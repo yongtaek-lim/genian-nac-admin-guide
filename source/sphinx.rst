@@ -1,5 +1,7 @@
-Sphinx Documentation System How To
-==================================
+How To Contribute Documents
+===========================
+
+You may contribute to these documents through the following process.
 
 Preparation
 -----------
@@ -19,7 +21,7 @@ Signup at `GitHub`_
    - If you use Windows, you need to install the git
    - `Download Git`_ 
 
-.. image:: /images/Git-Download.png
+.. image:: /images/Git-Download.PNG
    :width: 500px
    
 **Open Command Prompt enter following:**
@@ -52,10 +54,10 @@ Signup at `GitHub`_
    - Search ‘CDT’ and click “install” on “The Complete Eclipse C/C++ IDE”
    - Search ‘rest’ and click “install” on ReST Editor”
 
-.. image:: /images/CDT-install.png
+.. image:: /images/CDT-install.PNG
    :width: 500px
 
-.. image:: /images/rest-install.png
+.. image:: /images/rest-install.PNG
    :width: 500px
 
 **Import Project**
@@ -67,10 +69,10 @@ Signup at `GitHub`_
    - Select your source directory “genian-nac-admin-guide”
    - Click “Finish”   
                                                                        
-.. image:: /images/Makefile-Project.png
+.. image:: /images/Makefile-Project.PNG
    :width: 500px
 
-.. image:: /images/genian-nac-admin-guide.png
+.. image:: /images/genian-nac-admin-guide.PNG
    :width: 500px
    
 **Change project settings**
@@ -81,7 +83,7 @@ Signup at `GitHub`_
    - Change value of Build “all” -> “html”
    - Click “Apply and Close”
 
-.. image:: /images/Eclipse-project-properties.png
+.. image:: /images/Eclipse-project-properties.PNG
    :width: 500px
 
 Editing contents using Eclipse
@@ -126,7 +128,7 @@ Editing contents using Eclipse
    
 .. code:: bash
 
- .. image:: /images/some-image.png
+ .. image:: /images/some-image.PNG
     :width: 500px
  
 **Add Table**
@@ -179,10 +181,10 @@ Apply your change to main repository
    - Add a “Commit Message”
    - Click “Commit and Push” button
 
-.. image:: /images/eclipse-commit.png
+.. image:: /images/eclipse-commit.PNG
    :width: 500px
  
-.. image:: /images/eclipse-commit-push.png
+.. image:: /images/eclipse-commit-push.PNG
    :width: 500px
 
 Stay current with Main Repo changes
@@ -195,10 +197,10 @@ Stay current with Main Repo changes
    - Change Remote from “origin” to “upstream”
    - Click “Finish”
 
-.. image:: /images/eclipse-2ndpull.png
+.. image:: /images/eclipse-2ndpull.PNG
    :width: 500px
    
-.. image:: /images/eclipse-pull.png
+.. image:: /images/eclipse-pull.PNG
    :width: 500px
    
 **Make Pull Request**

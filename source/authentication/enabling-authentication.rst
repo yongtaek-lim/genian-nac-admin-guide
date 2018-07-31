@@ -6,8 +6,8 @@ You can configure User Authentication using Captive Web Portal, Agent, 802.1x, A
 .. toctree::
    :maxdepth: 1
 
-   cwp
-   agent
-   8021x
-   radius-account
-   ad-domain
+   enabling-authentication/cwp
+   enabling-authentication/agent
+   enabling-authentication/8021x
+   enabling-authentication/radius-account
+   enabling-authentication/ad-domain

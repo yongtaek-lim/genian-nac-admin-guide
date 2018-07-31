@@ -1,5 +1,5 @@
-Configuring User Authentication by AD Domain Login
-==================================================
+Passive Authentication by AD Domain Login
+=========================================
 
 You can configure the **Policy Server** to integrate with Active Directory Domain Login for User Authentication
 
@@ -8,7 +8,7 @@ Step 1. Configure User Authentication by AD Domain Login
 
 #. A **Domain** must be configured in Active Directory
 #. **User Account** must be set up in the **Domain**
-#. **Active Directory** must be configured. :doc:`active-directory`
+#. **Active Directory** must be configured. :doc:`../active-directory`
 #. **Agent** must be installed and running on endpoint
 #. Go to **Policy** in top panel
 #. Go to **Node Policy** in the left Policy panel

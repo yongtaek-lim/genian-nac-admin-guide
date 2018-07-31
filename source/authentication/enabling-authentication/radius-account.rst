@@ -1,5 +1,5 @@
-Configuring User Authentication by RADIUS Account
-=================================================
+Passive Authentication by RADIUS Accounting Packet
+==================================================
 
 You can configure the **Policy Server** for Users to Authenticate by a **RADIUS Account**
 

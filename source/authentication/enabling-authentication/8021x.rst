@@ -1,5 +1,7 @@
-Enabling RADIUS Authentication
-==============================
+Authentication using RADIUS (802.1x)
+====================================
+
+.. note:: This feature required Enterprise Edition
  
 You can configure the Genian NAC Policy Server to use it’s built-in RADIUS Server to act the same as integrating with an external RADIUS Server.
 
@@ -54,7 +56,7 @@ Enable Email Authentication for RADIUS
 #. Go to **Preferences** in the top panel
 #. Go to **Service > RADIUS Server** in the left Preferences panel
 #. Find **RADIUS Server: Email Authentication** section and select **On** in drop-down
-#. Need IMAP/POP3/SMTP configured, :doc:`imap-pop3-smtp`
+#. Need IMAP/POP3/SMTP configured, :doc:`../integrate-external/imap-pop3-smtp`
 #. Click **Update**
 
 .. toctree::
