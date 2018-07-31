@@ -15,7 +15,6 @@ You can create many custom CWP's from the Design Template or use the default Sta
 
    enabling-cwp
    messages
-   template
    notice
    cwp-design
    custom-buttons
