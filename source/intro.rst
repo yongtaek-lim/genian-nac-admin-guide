@@ -36,36 +36,12 @@ The Admin Web User Interface can be customized for your specific monitoring and 
 
 Additionally, Genian NAC can provide Geo-based Critical Event monitoring by the Sensors. Basically, an intuitive geographic interface powered by Google Maps allows you to monitor the Network Security Status of your network in a specific country region, state/province or city. The condition of a Node group can be visually monitored in real-time. You can zoom in for specific details or zoom out for an aggregated data view.
 
-Your visibility increases as you progress through discovery of: (1) network devices (2) users, and (3) endpoint devices. This greater granularity presents total transparency into your network.
-
 Network Visibility
 ******************
 
 Before deploying Genian NAC to your network, you may have had an idea of what is on the network, based on your IT lists of company assets. However, it is probable that you will not know about all of the other devices connected to the network. Your asset list is likely to be out-of-date. This is often true when there is a shortage of IT resources to maintain documentation as resources are moved, updated, or removed (End of Life).
 
 Turning on the Genian NAC Policy Server with the Network and Wireless Sensor illuminates the entire network, exposing whatever is there and presents the collected data in the Web UI views. You can sort and filter the associated data.
-
-**Node View**
-
-This view shows the overall network resources and activities from network layer to the endpoint (host) layer. It displays such collected information as the host (Node) name, platform, network, connected switch port, address (IP, MAC), user (authentication), applied policy Information and compliance, and more. You can also detect any devices exposed to major threats, such as ARP Spoofing, ARP Bombing, MAC+IP Clones, DNS Record Query, Node with Multiple IP addresses, Ad-Hoc Network, and more.
-
-**IP Address View**
-
-While various types of devices are discovered, IP associated with the device are also detected by the Network Sensor. Through intuitive IP matrix interface (Class C Subnet mask), you can easily find out how many IP addresses are being used and available, IP assigned by DHCP, reserved IP, and more.
-
-**Switch View**
-
-The Network Sensor discovers and identifies the configuration of all Network device Information (Switches, Routers, APs), providing another resource into Node locations (Ports) and available management tools at the administrator’s disposal. You can easily identify how many devices are connected to specific ports, connection status (up/down), port level security, 802.1x information, traffic, utilization and more.
-
-**WLAN View**
-
-The Wireless Sensor provides more accurate visibility into the Wifi networks. The Wireless Sensor is able to identify and manage all detected Wifi signals, netting not only your organization APs but also neighbor APs. Detailed information includes whether a AP is internal (SSID belongs to your organization) or external in the network, Basically, you can easily identify how many internal or external APs are available through your network and who is trying to access internal, external, or even rogue APs.
-
-This view provides the following information: Number of connections, Status (up/down), SSID name, MAC address, AP manufacture, Encryption method, Protocol, Channel, Signal strength, and when it was registered with Genian NAC.
-
-**User View**
-
-This view shows general user information as well as a different level of Administrators. It allows you to set up internal user accounts for your IT staff, and displays their status and roles, such as Administrators; Super Admin, Policy Auditor, IP Address Manager.
 
 User Visibility
 ***************
