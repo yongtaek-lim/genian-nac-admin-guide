@@ -5,21 +5,20 @@ Authentication using RADIUS (802.1x)
  
 You can configure the Genian NAC Policy Server to use it’s built-in RADIUS Server to act the same as integrating with an external RADIUS Server.
 
-Enable Built-In RADIUS Authentication
--------------------------------------
+Enable Built-In RADIUS Server
+-----------------------------
 
 #. Go to **Preferences** in the top panel
 #. Go to **Service > RADIUS Server** in the left Preferences panel
-#. Find **RADIUS Server** section in the main window
-#. Enter the following:
 
-   - **Shared Secret Key** and retype
-   - **RADIUS Client IP** (*IP address or addresses to be allowed as Clients*)
-   - **Server Port** (*e.g. 1812*)
-   - **EAP Authentication** (*Default is on. Select EAP type in drop-down*)
-   - **MAC Authentication**
-   - **Accounting** (*RADIUS Accounting for NAS*)
+Under **Authentication Server**
 
+#. For **Shared Secret Key**, enter the pre-shared secret key for RADIUS client authentication.
+#. For **RADIUS Client IP**, enter the IP address or addresses to be allowed as Clients seperated by new line.
+#. For **Server Port**, enter the RADIUS authentication port number (*Default is 1812*)
+#. For **EAP Authentication**, select **On**
+#. For **MAC Authentication**, select **On** for enable MAC Authentication bypass (MAB)
+#. For **Generating Accounting**, select **On** if RADIUS Client not support generating RADIUS accounting packet
 #. Click **Update**
 
 Enable AD Account for RADIUS
