@@ -1,33 +1,20 @@
 Introduction
 ============
 
-Circle of Life
---------------
-
-Whereas other NAC solutions focus on the devices connecting to the network, Genian NAC shines the light on the people using those devices, and makes those users aware of the security risks they present to network assets and other users.
-
-.. image:: /images/Endpoint-wheel.PNG
-
-Encouraging user security awareness and vigilance is built into the Genian NAC’s Circle of Life, which consists of 3 primary processes:
+Genian NAC consists of 3 primary processes:
 
   - **Visibility** – Collecting, analyzing, and categorizing everything on the network.
   - **Compliance** – Assessing the current security practices and reshaping policies to ensure endpoints are in compliance with the IT security policies.
   - **Control** – Manipulating endpoint’s system configuration, maintaining your IT security baseline, enforcing policy compliance manually or automatically to ensure the safety of the network, users, and data.
 
-Genian NAC’s Circle of Life starts at deployment of the solution in your internal network. It continues throughout the day-to-day operation, monitoring and adapting to trends in user behavior and the network security industry.
-
 Visibility
 ----------
-
-*“Know the enemy and know yourself; in a hundred battles you will never be in peril.” – Sun Tzu, Art of War*
 
 Once Genian NAC is deployed, visibility is the initial objective. It is important to collect as much information as possible about every Node on the network.
 
 **Node**
 
 A Node is a general term to describe any type of device with network interfaces to access the network. Essentially, each network interface is a Node. Each Node corresponds to the IP address with the MAC address of the device attempting to connect to the network. Often, a device has multiple MAC addresses, such as a switch, server or laptop with Ethernet and Wireless network interface cards (NIC). This means that this laptop (host) is associated with more than one Node network interface.
-
-NOTE: *Security policies can be applied or enforced on a Node (or Node group).*
 
 **Group**
 
@@ -43,48 +30,18 @@ The more of Node information Genian NAC collects, the better you can make decisi
 
 Once the Sensors and Agent receives policies from the Policy Server, they run the policies independently by their own intelligence, reporting back to the Policy Server only when the Node security posture has changed.
 
-NOTE: For small networks, a single box is often sufficient to cover the role of the Policy Server and the Sensors. You could also use the Policy Server separately and a single Sensor can act as the Network Sensor and Wireless Sensor.
-
 **Visibility, plus more**
 
 The Admin Web User Interface can be customized for your specific monitoring and management needs. For instance, you can set up your own widgets for condition-based Node groups, and you can even create role-based Admin user accounts for personalized dashboard views.
 
 Additionally, Genian NAC can provide Geo-based Critical Event monitoring by the Sensors. Basically, an intuitive geographic interface powered by Google Maps allows you to monitor the Network Security Status of your network in a specific country region, state/province or city. The condition of a Node group can be visually monitored in real-time. You can zoom in for specific details or zoom out for an aggregated data view.
 
-Your visibility increases as you progress through discovery of: (1) network devices (2) users, and (3) endpoint devices. This greater granularity presents total transparency into your network.
-
 Network Visibility
 ******************
 
 Before deploying Genian NAC to your network, you may have had an idea of what is on the network, based on your IT lists of company assets. However, it is probable that you will not know about all of the other devices connected to the network. Your asset list is likely to be out-of-date. This is often true when there is a shortage of IT resources to maintain documentation as resources are moved, updated, or removed (End of Life).
 
-.. image:: /images/Management-Views.PNG
-
 Turning on the Genian NAC Policy Server with the Network and Wireless Sensor illuminates the entire network, exposing whatever is there and presents the collected data in the Web UI views. You can sort and filter the associated data.
-
-**Node View**
-
-This view shows the overall network resources and activities from network layer to the endpoint (host) layer. It displays such collected information as the host (Node) name, platform, network, connected switch port, address (IP, MAC), user (authentication), applied policy Information and compliance, and more. You can also detect any devices exposed to major threats, such as ARP Spoofing, ARP Bombing, MAC+IP Clones, DNS Record Query, Node with Multiple IP addresses, Ad-Hoc Network, and more.
-
-**IP Address View**
-
-While various types of devices are discovered, IP associated with the device are also detected by the Network Sensor. Through intuitive IP matrix interface (Class C Subnet mask), you can easily find out how many IP addresses are being used and available, IP assigned by DHCP, reserved IP, and more.
-
-**Switch View**
-
-The Network Sensor discovers and identifies the configuration of all Network device Information (Switches, Routers, APs), providing another resource into Node locations (Ports) and available management tools at the administrator’s disposal. You can easily identify how many devices are connected to specific ports, connection status (up/down), port level security, 802.1x information, traffic, utilization and more.
-
-**WLAN View**
-
-The Wireless Sensor provides more accurate visibility into the Wifi networks. The Wireless Sensor is able to identify and manage all detected Wifi signals, netting not only your organization APs but also neighbor APs. Detailed information includes whether a AP is internal (SSID belongs to your organization) or external in the network, Basically, you can easily identify how many internal or external APs are available through your network and who is trying to access internal, external, or even rogue APs.
-
-This view provides the following information: Number of connections, Status (up/down), SSID name, MAC address, AP manufacture, Encryption method, Protocol, Channel, Signal strength, and when it was registered with Genian NAC.
-
-NOTE: *The Agent installed in the endpoint can act as Wireless Sensor using the Wifi plugin. If this plugin is activated in the Agent, the Agent can work with the Wireless Sensor to provide more wider and deeper coverage and to detect any possible Wifi devices around APs, such as a rogue AP.*
-
-**User View**
-
-This view shows general user information as well as a different level of Administrators. It allows you to set up internal user accounts for your IT staff, and displays their status and roles, such as Administrators; Super Admin, Policy Auditor, IP Address Manager.
 
 User Visibility
 ***************
@@ -107,8 +64,6 @@ Endpoint Visibility
 
 The Network and Wireless Sensors collect such information about endpoint devices as platform type (e.g., laptop, smartphone, tablet), address (IP/MAC), vendor, connected switch port, services (Web, DNS, NAT, AP), and abnormal traffic. The authentication process collects and verifies information about the device’s user. But you still do not have the detailed information about what is inside of the company-owned devices and what has been changed by authenticated users.
 
-.. image:: /images/Endpoint-Visibility.PNG
-
 To gather the endpoint’s system information thoroughly, you must install the Agent on the endpoint.
 
 **Agent**
@@ -119,16 +74,12 @@ Most other vendor agents scan and manage endpoint information by running a sched
 
 The Genian’s Agent does more than just typical scanning and remediation and performs its tasks more efficiently by communicating with the Policy Server only when events set by your policy requirement occurs, without interrupting system or network performance. The Agent also provides Desktop Management capabilities, Application Management (add/remove software), OS Configuration, OS Patch Management, Peripheral Device Management, and Wireless Connection Management.
 
-NOTE: *Currently the Agent supports only Windows devices (Windows 2000 above, Windows Mobile 6.0 above). For Apple devices, Genian NAC can be integrated with an Apple MDM to deploy and manage Apple iOS devices.*
-
 The Agent manages the endpoint system information, such as the operating system, patches, applications, registry entries, and services, that aids you in detecting and dealing with potentially dangerous malware strings and scripts lurking on the endpoint, which could easily threaten your network, data, and system processes. That is why it is so important to gain visibility into each endpoint devices – not to prevent a user from using the device, but for maintaining the safety and performance of your network from IT asset management perspective. Users should appreciate this because they will also be protecting their valuable personal data.
 
 The Genian NAC Policy Server matches this data collected by the Agent to the Node policy with which the endpoint is associated to determine its compliance status (refer to “Compliance”).
 
 Compliance
 ----------
-
-*“Good people don’t need laws to tell them to act responsibly and bad people will find a way around the laws” – Plato*
 
 The primary objective of setting up your compliance requirements is to assess your current IT security practices, discover the security status of all endpoints on the network, and align them all to your IT security baseline. Thereafter, it will be easier to catch non-compliant endpoints connecting to your internal network, as well as make changes to your security strategy when it becomes necessary. One or two unknown, non-compliant devices may not be an issue, which is easily remedied. However, if more than 10% of the Nodes are unknown, or organization-owned devices are not compliant, you may have some headaches to manage the situation.
 
@@ -179,8 +130,6 @@ To apply policies more accurately, you need to specify a scope with 3 different 
 
 To define what the policy compliance will be for your internal network, you need to set up the Node Policy that users and their devices must follow, and then apply these policies to the targeted Node groups so you can identify which endpoints are currently not in compliance.
 
-.. image:: /images/Node-Policy.PNG
-
 For example, you may want to ensure that all organization-owned endpoint devices running Windows OS must have the Agent and the required Anti-Virus software must be installed. To achieve the goal, you can create a Node policy and assign the policy to “Agent Is Installed” Node Group (which is set up for all Nodes that are supposed have the Agent), and “Antivirus Not Installed” Node Group (which is set up for any Nodes that does not have Antivirus).
 
 After deciding on the targeted Node groups, you can apply the appropriate Actions (Collect OS and Software Information, Check a specific Antivirus Information) and Permission (e.g., only scans employee network segment between 8 AM to 5PM) to the Node groups.
@@ -192,14 +141,10 @@ Preventing network access by non-compliant requires the Enforcement Policy. This
 Audit and Report
 ****************
 
-*“The ultimate authority must always rest with the individual’s own reason and critical analysis.” – Dalai Lama*
-
 Genian NAC gathers event information for the entire network from the Sensors and Agent. And it stores it in Genian NAC database. All Network and Agent events along with historical data can be logged into Genian NAC database and you can easily find out a specific event data by filters and full-text search. The log data can be integrated with any Next Generation Firewall, APT, and SIEM solutions. You can generate customized reports by Excel format or graphic chart based upon schedule basis.
 
 Control
 -------
-
-*“If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart.” – Nelson Mandela*
 
 Once the IT Security Baseline has been established, Genian NAC Policy Server with Sensors and Agent is positioned to enforce compliance with your IT security policies.
 

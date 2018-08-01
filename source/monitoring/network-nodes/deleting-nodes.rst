@@ -4,6 +4,8 @@ Deleting Nodes
 You can delete inactive Node data to better organize the networks Node view. You can delete inactive Nodes through policies, 
 or manually delete Nodes as they are no longer found on the network.
 
+.. note:: The Policy Server keeps Node information by default up to 3 days after an IP has been changed. This time period can be changed by going to **Preferences > General > Node > Lifetime** section.
+
 Remove Inactive Nodes Through Policy
 ------------------------------------
 
@@ -21,7 +23,5 @@ Manually Remove Inactive Nodes
 #. Find desired inactive Nodes. Click **Checkbox**
 #. Click **Tasks > Node / Device Management > Remove Node** 
 
-(*If a connected and running node is accidentally deleted, that node will instantly re-register*)
+.. warning:: If a connected and running node is accidentally deleted, that node will instantly re-register. 
 
-(*The Policy Server keeps Node information by default up to 3 days after an IP has been changed. 
-This time period can be changed by going to **Preferences > General > Node > Lifetime** section*)

@@ -1,7 +1,7 @@
 LDAP (Active Directory)
 =======================
 
-.. note:: This feature required Enterprise Edition
+.. note:: This feature requires Enterprise Edition
 
 Genian NAC can use an LDAP directory as a source of user information. LDAP synchronization allows user accounts to be created locally and used for administration or policy.
 
@@ -16,7 +16,7 @@ Under **General**
 
 #. For **ID**, type unique name.
 #. For **Update Interval**, select the specified time or periodic interval for this Synchronization.
-#. For **Applying Policy**, select **Enabled** for apply change after Synchronization. If there are several synchronization settings, you can set it to Disabled and enable only the last one.
+#. For **Applying Policy**, select **Enabled** for applying change after Synchronization. If there are several synchronization settings, you can set it to Disabled and enable only the last one.
 
 Under **Database**
 
@@ -27,7 +27,7 @@ Under **Database**
 #. For **DB Username**, type Bind DN of Active Directory. normally, you can use email format like administrator@company.com
 #. For **DB Password**, type Bind DN user's password
 
-Uder **User Information**
+Under **User Information**
 
 #. For **Table Name**, type distinguished name (DN) of users. normally, CN=Users,DC=company,DC=com
 #. For **Where Clause for DB**, type **objectClass=person** for filtering person object.

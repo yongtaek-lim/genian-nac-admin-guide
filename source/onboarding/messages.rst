@@ -8,8 +8,8 @@ Add a Custom Web Portal Message
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Enforcement Policy** in the left Policy panel
-#. Click **desired Enforcement Policy** name
+#. Click desired **Enforcement Policy** name
 #. Find **Enforcement Options > Captive Web Portal** section
-#. Select **desired Redirects to** option
-#. Enter **User Message** to be displayed on **CWP**
+#. Select desired **Redirecting to** option
+#. Enter **User Message** to be displayed on **CWP** (*This message is displayed when access is denied*)
 #. Click **Update**
