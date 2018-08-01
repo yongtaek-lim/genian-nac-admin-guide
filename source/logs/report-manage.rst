@@ -5,22 +5,23 @@ Query Report function, the Administrator can output the result of the query (SQL
 Administrator as an Excel file in the report format. Query Reports define the report by setting up the query 
 statement, and the report is created by the file creation operation on the defined report.
 
-How to Generate Query Report
-----------------------------
+Generate Query Report
+---------------------
 
 #. Go to **Log > Report** in the top panel
 #. Go to **Tasks > Generate Query Report**
-#. Find **General** section and enter the following:
 
-   - Title
-   - Description
-   - Application Mode: Enable
-   - Auto-generating: (*Disabled by default, but enable if you want to schedule report periodically*)
+Under **General**
 
-#. Find **Policy Preferences** section and enter the following:
+#. For **Title**, type unique name
+#. For **Description**, type what this report will do
+#. For **Application Mode**, select **Enable**
+#. For **Auto Generating**, select **Enable** for executing at set times
 
-   - File Type
-   - Query
+Under **Advanced**
+
+#. For **File Format**, choose Excel or CSV from drop-down
+#. For **Query**, add custom query
 
 #. Click **Save**
 
@@ -52,50 +53,71 @@ List Of IPs With The Same MAC
  The Administrator uses the Time Graph Report to show the information about the Node Group and the whole Node, 
  the operation, the Agent installation, and the number of operation Agent Nodes in a Graph Format.
 
-How to Generate Time Graph Report
----------------------------------
+Generate Time Graph Report
+--------------------------
 
 #. Go to **Log > Report** in the top panel
-#. Go to **Tasks > Generate Query Report**
-#. Find **General** section and enter the following:
+#. Go to **Tasks > Generate Node Report**
 
-   - Title
-   - Description
-   - Application Mode: Enable
-   - Auto-generating: Enable (*Choose the reoccurring frequency*)
+Under **General**
 
-#. Find **Policy Preferences** section and enter the following:
+#. For **Title**, type unique name
+#. For **Description**, type what this report will do
+#. For **Application Mode**, select **Enable**
+#. For **Auto Generating**, select **Enable** for executing at set times
 
-   - Data Source (*All Nodes, Node Group*)
-   - Criteria (*All Nodes, Nodes Up, Nodes with Agent Installed, Nodes with Agent Running*)
-   - Name
-   - Description
-   - Graph Type (*Line Graph, Bar Graph, Face Graph*)
-   - Graph Color
-   - Generating Logs Threshold
+Under **Advanced**
+
+.. note:: Repeat these steps under **Advanced** to add more **Node Options** to the report
+
+#. For **Node Options**, select **All Nodes** or **Node Group** from drop-down
+#. If **Node Group** is selected then for **Node Group** select desired group from drop-down
+#. For **Criteria**, select what to report on
+#. For **Name**, use default or type unique name
+#. For **Description**, type what this report will do
+#. For **Graph Type**, select **Line, Bar,** or **Face graph** from drop-down
+#. For **Graph Color**, select desired color from drop-down
+#. For **Generating Logs**, select desired criteria from drop-down
    
-#. Click **Add** then **Save**
+#. Click **Add** then **Update**
+#. Go to **Report Definition > Click on newly created **Time Graph Report**
 
-Automatic Report creation is the automatic generation and emailing portion of the Query Report.
+Under **Graph** tab
 
+#. Select desired **Time Period** and click **Generate**
 
-How to Create Automatic Reports
--------------------------------
+Under **Table** tab
 
-(*Email Account must be set up for Administrators*)
+#. Select desired **Time Period** and click **Generate**
+#. Click **Export** to export report locally in **Excel** format
+
+Create Automatic Reports
+------------------------
+
+.. note:: Automatic Report creation is the automatic generation and emailing portion of the Query Report. Email Account must be set up for Administrators
 
 #. Go to **Log > Report** in the top panel
 #. Go to **Automatic Report** in left **Report** panel
 #. Go to **Tasks > Create** to create Automatic Report
-#. Find **General** section and enter the following:
 
-   - Name
-   - Description
-   - Recipient
-   - Report (*Report Definition created above*)
-   - Auto-generating (*Choose how often this report runs*)
+Under **General**
 
+#. For **Name**, type unique name
+#. For **Description**, type what this report will do
+#. For **Recipient**, select **Administrator** or **Admin Role**
+#. Double click available names in left column
+#. For **Report**, Double click available reports
+#. For **Auto-generating**, select **Enable** from drop-down and choose how often to run this report
 #. Click **Save**
+
+Exporting Reports
+-----------------
+
+#. Go to **Log > Report** in the top panel
+#. Go to **Report Definition**, click on desired **Report** name in left **Report** panel
+#. Click **Tasks > Generate Report** (*File should appear to click on*)
+#. Click on **Report Filename** to download (*e.g. 20180801110000.xlsx*)
+#. Open **Report Filename** and save locally
 
 How to Delete Reports
 ---------------------
