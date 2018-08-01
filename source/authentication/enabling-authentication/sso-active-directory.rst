@@ -1,15 +1,7 @@
 Single Sign-On via AD Domain Login
 ==================================
 
-You can configure the **Policy Server** to integrate with Active Directory Domain Login for User Authentication
-
-Enable Node Policy for Gather Active Domain User information
-------------------------------------------------------------
-
-#. A **Domain** must be configured in Active Directory
-#. **User Account** must be set up in the **Domain**
-#. **Active Directory** must be configured. :doc:`../active-directory`
-#. **Agent** must be installed and running on endpoint
+Genian NAC Windows agent can read Active Directory domain logon user information and use it to authenticated user information for nodes.
 
 #. Go to **Policy** in top panel
 #. Go to **Node Policy** in the left Policy panel
