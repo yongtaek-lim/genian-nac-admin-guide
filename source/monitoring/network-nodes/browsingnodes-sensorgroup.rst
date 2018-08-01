@@ -10,7 +10,7 @@ Find Nodes by Network Sensor
 #. Go to **Sensor** tab in left panel
 #. Find and click **Name** or **IP** of Network Sensor
 
-(*You will see the Nodes in the main Node view based off of the Network Sensors location*)
+.. note:: You will see the Nodes in the main Node view based off of the Network Sensors location
 
 Edit and Create Subfolders for Multiple Sensors
 -----------------------------------------------
@@ -38,7 +38,7 @@ Find Nodes by Node Group
    - **Compliance**
    - **Uncategorized**
 
-(*These are provided by default, but you can create other Node Groups by going to `Creating Node Groups`_*)
+.. note:: These are provided by default, but you can create other Node Groups by going to `Creating Node Groups`_
 
 Edit and Create Node Categories for Sensors and Node Groups
 -----------------------------------------------------------

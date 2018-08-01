@@ -12,12 +12,13 @@ Create a Node Group
 #. Click **Policy** in the top panel
 #. Go to **Group > Node** in the left Policy panel
 #. Click **Tasks > Create New Policy Group** or **Create New Status Group**
-#. Enter the following in General section:
 
-   - **Category**: Choose default or Create New (*This allows you to categorize your Node Groups*)
-   - **ID**: (*Some Unique Name other than the ones provided by default*)
-   - **Description**: (*Brief description of what this Node Group is for*)
-   - **Application Mode**: Enabled
+Under **General**
+
+#. For **Category**, Choose default or Create New (*This allows you to categorize your Node Groups*)
+#. For **ID**, type unique name
+#. For **Description** (*Brief description of what this Node Group is for*)
+#. For **Application Mode**, **Enabled**
 
 #. Enter the following in Condition section:
 

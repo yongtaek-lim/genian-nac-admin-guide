@@ -5,7 +5,7 @@ Genian NAC is free for up to 300 devices with the Basic Edition (*Visibility onl
 then you will need to obtain a license for the Professional Edition. You can get a trial license to experience the 
 Professional Edition for 30 days by going to the `Trial License Page`_
 
-.. note:: Cloud Version not required installing license
+.. note:: Cloud Managed service does not require license
 
 Find Server ID
 --------------

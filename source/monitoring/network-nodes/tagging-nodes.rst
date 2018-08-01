@@ -36,5 +36,5 @@ Tag for MAC
 #. Find and click **Checkbox** of desired **Tag**
 #. Click **Save**
 
-`(*When assigning a tag to a specific MAC address, all nodes with that MAC address will automatically be tagged as well)`
+.. note:: When assigning a tag to a specific MAC address, all nodes with that MAC address will automatically be tagged as well
  
