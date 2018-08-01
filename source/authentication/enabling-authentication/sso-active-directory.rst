@@ -1,12 +1,14 @@
 Single Sign-On via AD Domain Login
 ==================================
 
-Genian NAC Windows agent can read Active Directory domain logon user information and use it to authenticated user information for nodes.
+Genian NAC Windows or macOS agent can read Active Directory domain logon user information and use it to authenticated user information for nodes.
 
 #. Go to **Policy** in top panel
 #. Go to **Node Policy** in the left Policy panel
-#. Find and click **Default Policy** to use this policy (*You can create a custom policy*) :doc:`/controlling/policy-nodegroup`
-#. Find **Authentication Policy** section. Select **Active Directory** from drop-down for Federated Authentication
-#. Enter **AD Domain Name** when Domain Name (AD) option becomes available
+#. Click desired policy name for editing
+
+Under **Authentication Policy**
+
+#. For **Federated Authentication**, select **Active Directory**
+#. For **Domain Name**, enter your domain name as FQDN
 #. Click **Update**
-#. Endpoint devices should be logged into the **Domain**
