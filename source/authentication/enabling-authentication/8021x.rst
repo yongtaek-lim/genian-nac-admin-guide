@@ -14,7 +14,7 @@ Enable Built-In RADIUS Server
 Under **Authentication Server**
 
 #. For **Shared Secret Key**, enter the pre-shared secret key for RADIUS client authentication.
-#. For **RADIUS Client IP**, enter the IP address or addresses to be allowed as Clients seperated by new line.
+#. For **RADIUS Client IP**, enter the IP address or addresses to be allowed as Clients separated by new line.
 #. For **Server Port**, enter the RADIUS authentication port number (*Default is 1812*)
 #. For **EAP Authentication**, select **On**
 #. For **MAC Authentication**, select **On** for enable MAC Authentication bypass (MAB)

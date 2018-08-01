@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Genian NAC Documentation'
+project = 'Genian NAC'
 copyright = '2018, GENIANS, INC'
 author = 'GENIANS, INC.'
 
@@ -140,7 +140,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'GenianNAC.tex', 'Genian NAC Documentation',
+    (master_doc, 'GenianNAC.tex', 'Genian NAC',
      'GENIANS, INC.', 'manual'),
 ]
 
@@ -150,7 +150,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'geniannac', 'Genian NAC Documentation',
+    (master_doc, 'geniannac', 'Genian NAC',
      [author], 1)
 ]
 
@@ -161,7 +161,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'GenianNAC', 'Genian NAC Documentation',
+    (master_doc, 'GenianNAC', 'Genian NAC',
      author, 'GenianNAC', 'One line description of project.',
      'Miscellaneous'),
 ]
