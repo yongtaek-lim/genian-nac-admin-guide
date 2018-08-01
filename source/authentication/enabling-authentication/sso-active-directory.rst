@@ -10,6 +10,7 @@ Step 1. Configure User Authentication by AD Domain Login
 #. **User Account** must be set up in the **Domain**
 #. **Active Directory** must be configured. :doc:`../active-directory`
 #. **Agent** must be installed and running on endpoint
+
 #. Go to **Policy** in top panel
 #. Go to **Node Policy** in the left Policy panel
 #. Find and click **Default Policy** to use this policy (*You can create a custom policy*) :doc:`/controlling/policy-nodegroup`
