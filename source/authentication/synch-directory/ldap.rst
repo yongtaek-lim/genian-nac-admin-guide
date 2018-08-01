@@ -3,10 +3,10 @@ LDAP (Active Directory)
 
 .. note:: This feature requires Enterprise Edition
 
+Genian NAC can use an LDAP directory as a source of user information. LDAP synchronization allows user accounts to be created locally and used for administration or policy.
+
 Creating Synchronization
 ------------------------
-
-You can synchronize user information with LDAP on a scheduled basis
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > Data Synchronization** in the left Preferences panel

@@ -1,5 +1,5 @@
-Passive Authentication by AD Domain Login
-=========================================
+Single Sign-On via AD Domain Login
+==================================
 
 You can configure the **Policy Server** to integrate with Active Directory Domain Login for User Authentication
 
