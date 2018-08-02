@@ -35,7 +35,7 @@ While the network sensor is monitoring ARP, it detects a device that generates e
 It detects abnormal ARP behavior and prevents attempts to disable network access or disable network access control.
 
 Port Scanning
-------------
+-------------
 
 Detect any device try to scan TCP or UDP ports. Genian NAC use honypot IP for detecing scanning device.
 
