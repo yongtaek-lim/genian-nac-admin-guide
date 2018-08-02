@@ -1,13 +1,10 @@
 Creating Node Groups
 ====================
 
-A **Node Group** is a group of **Nodes** that are similar to each other based off of certain conditions. **Node Groups** allow you take action on many **Nodes** at once versus the same action on many individual **Nodes**. Genian NAC provides two types of **Node Groups** that can be applied to **Node Policies** and Enforcement Policies.
+A **Node Group** is a group of **Nodes** that are similar to each other based off of certain conditions. **Node Groups** allow you take action on many **Nodes** at once versus the same action on many individual **Nodes**. Genian NAC provides two types of **Node Groups** that can be applied to **Node Policies** and **Enforcement Policies**
 
 - **Policy Group**: is group based on Node-related information such as Node type, IP/MAC information, User information, Authentication, and more. `Policy Group`_
 - **Status Group**: is group based on the Node status, measured by Node Policies and the outcome of associated conditions. `Status Group`_
-
-Create a Node Group
--------------------
 
 #. Click **Policy** in the top panel
 #. Go to **Group > Node** in the left Policy panel
