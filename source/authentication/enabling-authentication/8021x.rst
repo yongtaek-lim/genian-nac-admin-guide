@@ -21,7 +21,7 @@ Under **Authentication Server**
 #. For **Generating Accounting**, select **On** if RADIUS Client not support generating RADIUS accounting packet
 #. Click **Update**
 
-The RADIUS accounting server must be activated in order for the authentication result to be updated in the node information. See :doc:`radius-account`
+The RADIUS accounting server must be activated in order for the authentication result to be updated in the node information. See :doc:`sso-radius-account`
 
 Enable AD Account for RADIUS
 ----------------------------

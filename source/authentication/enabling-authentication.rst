@@ -9,5 +9,5 @@ You can configure User Authentication using Captive Web Portal, Agent, 802.1x, A
    enabling-authentication/cwp
    enabling-authentication/agent
    enabling-authentication/8021x
-   enabling-authentication/radius-account
-   enabling-authentication/ad-domain
+   enabling-authentication/sso-active-directory
+   enabling-authentication/sso-radius-account   
