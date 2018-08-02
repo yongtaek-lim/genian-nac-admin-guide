@@ -7,6 +7,7 @@ to detect abnormal network traffic such as **Ad Hoc Networks, ARP Bomb, ARP Spoo
 
 ARP Spoofing
 ------------
+
 While ARP Poisoning is a technology used to block communication of network devices, ARP Spoofing is mainly used in malicious codes 
 and is used for eavesdropping communication of other party. Genian NAC can detect ARP packets through a network sensor to detect 
 devices attempting to be spoofed.
