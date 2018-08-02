@@ -1,4 +1,4 @@
-Controlling MacOS
+Controlling macOS
 =================
 
 You can control macOS devices with the Agent installed using **6 Plugins**
