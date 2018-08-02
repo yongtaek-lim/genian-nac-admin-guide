@@ -166,12 +166,12 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
-html_context = {
-    "display_github": True, # Integrate GitHub
-    "github_repo": "genians/genian-nac-admin-guide", # Repo name
-    "github_version": "master", # Version
-    "conf_py_path": "/source/", # Path in the checkout to the docs root
-}
+#html_context = {
+#    "display_github": True, # Integrate GitHub
+#    "github_repo": "genians/genian-nac-admin-guide", # Repo name
+#    "github_version": "master", # Version
+#    "conf_py_path": "/source/", # Path in the checkout to the docs root
+#}
 
 def setup(app):
 	app.add_stylesheet('css/my_style.css')

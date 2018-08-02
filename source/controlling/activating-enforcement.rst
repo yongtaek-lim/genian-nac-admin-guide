@@ -1,10 +1,10 @@
-Activating Enforcement mode on the Network Sensor
-=================================================
+Enabling ARP Poison on the Network Sensor
+=========================================
 
 You can enforce policies by activating the **Network Sensor**. The Network Sensor has two types of **Operation Modes**. By default, the **Network Sensor** is set to **Passive** mode
 
 - **Passive**: Scan subnets. Detect Platform information
-- **Active**: Enforce policies to network nodes
+- **Active**: Passive mode plus Enforce policies to network nodes by ARP Poisoning
 
 To Change a Sensor’s Operation Mode
 -----------------------------------
@@ -14,7 +14,7 @@ To Change a Sensor’s Operation Mode
 #. Select the desired sensor’s **IP Address** for activating enforcement
 #. Click the **Settings** tab
 #. Click **Sensor Settings**
-#. Change the **Operation Mode** to **Active**
+#. For **Operation Mode**, change to **Active**
 #. Click **Update**
 
 To Change Multiple Sensor’s Operation Mode at once
