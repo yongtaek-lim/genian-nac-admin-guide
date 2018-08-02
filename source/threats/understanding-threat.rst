@@ -34,10 +34,10 @@ ARP Bombing
 While the network sensor is monitoring ARP, it detects a device that generates excessive ARP packets and designates it as a critical node. 
 It detects abnormal ARP behavior and prevents attempts to disable network access or disable network access control.
 
-Port Scaning
+Port Scanning
 ------------
 
-Scans network for open ports to detect possible vulnerabilities
+Detect any device try to scan TCP or UDP ports. Genian NAC use honypot IP for detecing scanning device.
 
 Ad Hoc Network Connected
 ------------------------
