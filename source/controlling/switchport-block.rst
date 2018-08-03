@@ -35,3 +35,7 @@ To do this, you must set the switch's write community as follows:
 #. Click desired switch's **Switch Name** column
 #. For **Write Community**, enter this switch's write community string
 #. Click **Update**
+
+Enable Switch Port Shutdown on Enforcement Policy
+-------------------------------------------------
+
