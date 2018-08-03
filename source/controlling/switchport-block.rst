@@ -27,3 +27,6 @@ Under **SNMP**
 To Configure SNMP Write Community String
 ----------------------------------------
 
+Actual switch port blocking is done via SNMP write. To do this, you must set the switch's write community as follows:
+
+#. Click **Management** in the top panel
