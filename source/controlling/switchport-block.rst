@@ -1,8 +1,13 @@
 Configuring Switch Port Block
 =============================
 
-Configuring Switch Port Block for Enforcement Policies starts with the configuration of SNMP. By default, a read community string is configured,
-but a write community string is needed to enforce switch port blocking.
+Configuring Switch Port Block for Enforcement Policies starts with the configuration of SNMP. In order to block the ports of the switch
+to which the node is connected, Genian NAC needs the information of the switch port to which the node is connected. This is accomplished
+by reading the switch port information through a switch that supports SNMP.
+
+The read community string is used to check whether the node supports SNMP in the process of collecting information about the node by
+the network sensor. If the node responds to an SNMP request, the sensor verifies that the node is a switch by verifying that
+it supports the BRIDGE-MIB through an SNMP query.
 
 To Configure SNMP Read Community String
 ---------------------------------------
@@ -20,4 +25,5 @@ Under **SNMP**
 #. Click **Update**
 
 To Configure SNMP Write Community String
----------------------------------------
+----------------------------------------
+
