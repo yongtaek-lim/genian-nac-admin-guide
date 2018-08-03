@@ -36,8 +36,17 @@ To do this, you must set the switch's write community as follows:
 #. For **Write Community**, enter this switch's write community string
 #. Click **Update**
 
-Enable Switch Port Shutdown on Enforcement Policy
+Enable Switch Port Block on Enforcement Policy
 -------------------------------------------------
 
 The target of the switch port blocking is determined by the Enforcement Policy. If you want to block switch ports for specific nodes,
 you need to create an enforcement policy that targets those nodes and then configure the switch port blocking setting.
+
+#. Click **Policy** in the top panel
+#. Go to **Policy > Enforcement Policy** in the left panel
+#. Click desired **ID** for enabling switch port blocking
+
+Under **Enforcement Options > Switch Block**
+
+#. For **Switch Port Block**, select **On**
+#. For **SNMP Write Community**, enter default write community string. if this setting is empty, will use switch's own setting.
