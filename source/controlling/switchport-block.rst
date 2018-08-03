@@ -1,9 +1,20 @@
-Configuring Switch Port Block For Enforcement Policy
-====================================================
+Configuring Switch Port Block
+=============================
 
-Configuring Switch Port Block for Enforcement Policies starts with the configuration of SNMP. By default, a public community string is configured, but a private community string is needed to enforce switch port blocking.
+Configuring Switch Port Block for Enforcement Policies starts with the configuration of SNMP. By default, a read community string is configured,
+but a write community string is needed to enforce switch port blocking.
 
-.. toctree::
-   :maxdepth: 1
+To Configure SNMP Read Community String
+---------------------------------------
 
-   configuring-snmp
+#. Click **Preferences** in the top panel
+#. Go to **General > Node** in the left panel
+#. Find **SNMP** section. Enter the following:
+
+   - **SNMP Community** (*’public‘ for read, ‘public,private‘ for read-write*)
+   - **Collecting Network Information** (*On*)
+   - **Scanning Interval** (*5min.-1year (Suggest starting off with once a day*))
+   - **Time Group**
+
+#. Click **Scan Now**
+
