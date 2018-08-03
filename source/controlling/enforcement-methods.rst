@@ -100,11 +100,11 @@ DHCP
 Genian NAC can allocate or not allocate IP according to IP / MAC policy through built-in DHCP server. This prevents unauthorized devices from
 accessing the network or assigns a fixed IP address to devices with a specific MAC address..
 
-Switch Port Shutdown
---------------------
+Switch Port Block
+-----------------
 
 If you use a switch that supports SNMP, Genian NAC will collect SNMP and switch and port information connected to each node.
-This information can be used to shut down the switch port according to the security policy of the device. Switch port shutdown is done
+This information can be used to shut down the switch port according to the security policy of the device. Switch port block is done
 via SNMP Write. The switch MUST provide a writable *SNMP MIB-2 ifAdminStatus* property.
 
 Agent Action
