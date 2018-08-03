@@ -1,8 +1,8 @@
 Deployment Type
 ===============
 
-On-Premise
-----------
+On-Premises
+-----------
 
 **Policy Server** and **Network Sensor** can be deployed one of two ways
 
