@@ -50,3 +50,6 @@ Under **Enforcement Options > Switch Block**
 
 #. For **Switch Port Block**, select **On**
 #. For **SNMP Write Community**, enter default write community string. if this setting is empty, will use switch's own setting.
+#. For **Number of MACs for A Port**, if a switch port have more than this number of MACs, it will not blocked.
+#. For **Description**, enter text for appending switch port's existing description
+#. Click **Update**
