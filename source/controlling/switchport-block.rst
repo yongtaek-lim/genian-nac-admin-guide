@@ -9,12 +9,15 @@ To Configure SNMP Read Community String
 
 #. Click **Preferences** in the top panel
 #. Go to **General > Node** in the left panel
-#. Find **SNMP** section. Enter the following:
 
-   - **SNMP Community** (*’public‘ for read, ‘public,private‘ for read-write*)
-   - **Collecting Network Information** (*On*)
-   - **Scanning Interval** (*5min.-1year (Suggest starting off with once a day*))
-   - **Time Group**
+Under **SNMP**
 
-#. Click **Scan Now**
+#. For **SNMP Community**, type your switches read community strings. (separated by comma if you have multiple community string)
+#. For **Collecting Network Information**, select **On**
+#. For **Scanning Interval**, select desired switch port information update interval
+#. For **Time Object**, select the desired time object if you want information collection to work only at a specific time
+#. For **Scan Now**, click the button if you want to collect information immediately (MUST click Update button first if you changed settings)
+#. Click **Update**
 
+To Configure SNMP Write Community String
+---------------------------------------
