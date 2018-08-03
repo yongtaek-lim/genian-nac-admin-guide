@@ -39,3 +39,5 @@ To do this, you must set the switch's write community as follows:
 Enable Switch Port Shutdown on Enforcement Policy
 -------------------------------------------------
 
+The target of the switch port blocking is determined by the Enforcement Policy. If you want to block switch ports for specific nodes,
+you need to create an enforcement policy that targets those nodes and then configure the switch port blocking setting.
