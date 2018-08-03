@@ -1,10 +1,10 @@
 Changing Switch Port Description
 ================================
 
-You can change **Switch Port** descriptions with the read/write community string.
+You can change **Switch Port** descriptions using the read/write community string
 
-Add some Description to a Switch Port
--------------------------------------
+Add Description to a Switch Port
+--------------------------------
 
 #. Go to **Management > Switch** in the top panel
 #. Find and click **Switch Port** in the **Port** column
