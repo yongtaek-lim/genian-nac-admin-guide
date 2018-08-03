@@ -105,7 +105,7 @@ Switch Port Shutdown
 
 If you use a switch that supports SNMP, Genian NAC will collect SNMP and switch and port information connected to each node.
 This information can be used to shut down the switch port according to the security policy of the device. Switch port shutdown is done
-via SNMP Write. The switch MUST provide a writeable *SNMP MIB-2 ifAdminStatus* property.
+via SNMP Write. The switch MUST provide a writable *SNMP MIB-2 ifAdminStatus* property.
 
 Agent Action
 ------------

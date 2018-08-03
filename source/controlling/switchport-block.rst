@@ -27,6 +27,11 @@ Under **SNMP**
 To Configure SNMP Write Community String
 ----------------------------------------
 
-Actual switch port blocking is done via SNMP write. To do this, you must set the switch's write community as follows:
+Actual switch port blocking is done via SNMP write. The switch MUST provide a writable SNMP MIB-2 ifAdminStatus property.
+To do this, you must set the switch's write community as follows:
 
-#. Select **Management > Switch** in the top panel
+#. Click **Management > Switch** in the top panel
+#. Click **Switches** in the left panel
+#. Click desired switch's **Switch Name** column
+#. For **Write Community**, enter this switch's write community string
+#. Click **Update**
