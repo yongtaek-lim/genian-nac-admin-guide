@@ -9,4 +9,4 @@ Detect Internal SSIDs
 #. Go to **Management > WLAN** in the top panel
 #. Find and click column labeled **Internal** in the main WLANs window
 
-(*All internal APs will be identified with a checkmark in this column*)
+.. note:: All internal APs will be identified with a checkmark in this column
