@@ -32,4 +32,4 @@ To Allow or Deny IPAM from Matrix View
 #. Click **Tasks**
 #. Select the desired **options**
 
-(*Denied IP/MAC Addresses are highlighted in light red with the text of the IP Address having a strikethrough*)
+.. note:: Denied IP/MAC Addresses are highlighted in light red with the text of the IP Address having a strikethrough
