@@ -6,8 +6,8 @@ While **Node Policies** are mainly used for collecting information from Nodes, *
 .. toctree::
    :maxdepth: 1
 
-   permissions
-   policy-nodegroup
-   managing-status
-   enforcement-agentaction
+   nodegroup-control/permissions
+   nodegroup-control/policy-nodegroup
+   nodegroup-control/managing-status
+   nodegroup-control/enforcement-agentaction
    

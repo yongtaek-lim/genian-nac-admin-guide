@@ -6,9 +6,9 @@ You can control network access with an enabled IPAM Policy that requires an acti
 .. toctree::
    :maxdepth: 1
 
-   preparing-accesscontrol
-   changing-ipam
-   change-prevention
-   conflict-prevention
-   time-allowed
-   dhcp-services
+   ipmac-control/preparing-accesscontrol
+   ipmac-control/changing-ipam
+   ipmac-control/change-prevention
+   ipmac-control/conflict-prevention
+   ipmac-control/time-allowed
+   ipmac-control/dhcp-services
