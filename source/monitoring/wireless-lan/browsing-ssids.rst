@@ -1,7 +1,7 @@
 Browsing SSIDs
 ==============
 
-You can find any wifi-enabled device and list them by **Network Sensor** or **WLAN AP** status (*SSID usage, security status, frequency, 802.11 protocol, signal strength, detected date, connected wireless devices, etc.*)
+You can find any wifi-enabled devices and list them by **Network Sensor** or **WLAN AP** status (*SSID usage, security status, frequency, 802.11 protocol, signal strength, detected date, connected wireless devices, etc.*)
 
 View All the Detected SSIDs on your Network
 -------------------------------------------
