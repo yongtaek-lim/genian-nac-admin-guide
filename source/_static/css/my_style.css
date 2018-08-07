@@ -17,21 +17,3 @@
     padding: 6px 12px;
     border-color: #88ab29;
 }
-.rst-content .note .admonition-title {
-    background: #abde6a;
-}
-a:visited {
-    color: #9B59B6;
-}
-a {
-    color: #4da500;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.rst-content .note {
-    padding: 12px;
-    line-height: 24px;
-    margin-bottom: 24px;
-    background: #e7f2fa;
-}
