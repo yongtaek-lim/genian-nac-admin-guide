@@ -10,7 +10,6 @@ Professional Edition for 30 days by going to the `Trial License Page`_
 Find Server ID
 --------------
 
-#. Log into **Web UI**
 #. Go to **System** in the top panel
 #. Go to **System > License** in the left **System Management** panel
 #. Find **Server ID**
@@ -27,7 +26,6 @@ Get Trial License
 To Install License
 ------------------
 
-#. Log into **Web UI**
 #. Go to **System** in the top panel
 #. Go to **System > License** in the left **System Management** panel
 #. Find **License** section and paste in the **License**

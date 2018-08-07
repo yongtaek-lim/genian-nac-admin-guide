@@ -44,7 +44,7 @@ Step 3. Configure User Authentication by Agent Plugin
 #. Click **Update**
 #. Click **Apply** in the top right. Click **Close**
 
-(*Steps below are optional to use an existing Node Policy if you prefer not to create a new one*)
+.. note:: Steps below are optional to use an existing Node Policy if you prefer not to create a new one
 
 Step 4. Assign Agent Action to Node Policy
 ------------------------------------------

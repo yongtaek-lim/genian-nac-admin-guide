@@ -10,4 +10,5 @@ You can monitor network assets by the Nodes themselves or by monitoring IP Addre
    monitoring/ip-address
    monitoring/switch
    monitoring/wireless-lan
+   monitoring/managing-dashboards
    
