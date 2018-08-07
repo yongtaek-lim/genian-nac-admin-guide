@@ -2,15 +2,36 @@
     max-width: none !important;
 }
 .wy-side-nav-search {
-    display: block;
     width: 300px;
-    padding: .809em;
-    margin-bottom: .809em;
     z-index: 200;
-    background-color: #000;
+    background-color: #88ab29;
     text-align: center;
     padding: .809em;
     display: block;
     color: #fcfcfc;
     margin-bottom: .809em;
+}
+.wy-side-nav-search input[type=text] {
+    width: 100%;
+    border-radius: 50px;
+    padding: 6px 12px;
+    border-color: #88ab29;
+}
+.rst-content .note .admonition-title {
+    background: #abde6a;
+}
+a:visited {
+    color: #9B59B6;
+}
+a {
+    color: #4da500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rst-content .note {
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    background: #e7f2fa;
 }
