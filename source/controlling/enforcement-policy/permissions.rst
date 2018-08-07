@@ -18,6 +18,8 @@ Out of the box Genians has 2 Permissions that are used in our pre-defined Enforc
 
 (*Exclude checkbox is used to as a **NOT Operator**. e.g. For a defined Network, checking the box for Exclude allows Nodes to access ALL networks other then this one*)
 
+.. important:: Permission is applicable only to ARP Poisoning and Port Mirroring enforcement.
+
 Step 1. Create A Custom Network Object
 --------------------------------------
 
