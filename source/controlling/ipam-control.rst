@@ -1,5 +1,5 @@
-IP/MAC based Aceess Control
-===========================
+IP/MAC Policy
+=============
 
 You can control network access with an enabled IPAM Policy that requires an active operation mode. This section will explain how to prepare the Operation Mode, enforce Conflict/Change Prevention, and set up Leased IP Addresses.
 
