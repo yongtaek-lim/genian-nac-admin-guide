@@ -13,7 +13,7 @@ For upgrading system software, please see :doc:`/system/system-software`
   - Improved customization
   - Ability to modify CSS and Layout
 
-- #17919 Enabling port mirroring enforcement mode on v5.0
+- #17919 Enabled port mirroring enforcement mode on v5.0
 - #16373 Quarantine VLAN ID assignment via RADIUS
 - #17599 Export dashboard to PDF format
 - #17125 Mobile App for administrator added. Downloadable from "System> Genian Software"
