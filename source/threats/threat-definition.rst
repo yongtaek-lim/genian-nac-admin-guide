@@ -1,7 +1,8 @@
 Creating Threat Definition
 ==========================
  
-By default, there are seven pre-defined **Threat Definitions** that are frequently used. With the steps provided below, you can create your own threat definitions.
+By default, there are pre-defined **Threat Definitions** that are frequently used, but you may want to apply these **Threat Definitions** to certain groups.
+You can create **New Threat Definitions** to apply them to specific Node Groups and customize options based on selected events.
 
 To Create a Threat Definition
 -----------------------------
@@ -21,7 +22,7 @@ Under **General**
 Under **Threat Definition Settings**
 
 #. For **Event**, choose which Threat Definition to use
-#. For **Options**, edit the options as needed based off of selected **Event**
+#. For **Options**, customize the options as needed based on selected **Event**
 #. Click **Create**
 
 To Delete a Threat Definition
