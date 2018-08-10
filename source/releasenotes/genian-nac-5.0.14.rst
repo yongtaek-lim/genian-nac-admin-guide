@@ -5,14 +5,10 @@ Release Date: 8/10/2018
 
 For upgrading system software, please see :doc:`/system/system-software` 
 
-**New Feature & Improvement**
+New Feature & Improvement
+-------------------------
 
-- #15257 Improved Captive Web Portal
-
-  - Separate CWP can be applied to each node policy
-  - Improved customization
-  - Ability to modify CSS and Layout
-
+- #15257 Improved Captive Web Portal. (Separate CWP can be applied to each node policy, Improved customization, Ability to modify CSS and Layout)
 - #17919 Enabled port mirroring enforcement mode on v5.0
 - #16373 Quarantine VLAN ID assignment via RADIUS
 - #17599 Export dashboard to PDF format
@@ -33,10 +29,11 @@ For upgrading system software, please see :doc:`/system/system-software`
 - #17876 Improved problem that difficult to distinguish OS of agent action when node group condition is added
 - #17436 macOS agent check condition only Plug-in added.
 
-**Bug Fix**
+Bug Fix
+-------
 
 - #17719 Agent down after trying macOS Agent Update
-- #17911 Plug-in does not work if period is specified for periodic execution of agent action
+- #17911 Plugin does not work if period is specified for periodic execution of agent action
 - #18003 api-ms-win-crt-runtime-l1-1-0.dll error when installing agent on a specific PC
 - #18153 macOS agent and CWP display authentication status differently
 - #17514 Fixed an issue where the alarm on the audit record filter for the new MAC detected does not work
