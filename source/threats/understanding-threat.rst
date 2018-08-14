@@ -1,9 +1,9 @@
-Understanding Threat Detection
+Understanding Anomaly Detection
 ==============================
 
 **Network Sensor** listens for abnormalities in network traffic and identifies endpoints with 
-**Threats** and blocks them based on your access policies. You can configure Threat Definitions 
-to detect abnormal network traffic such as **Ad Hoc Networks, ARP Bomb, ARP Spoofing, MAC+IP Clones,** and more.
+**Anomaly** and blocks them based on your access policies. You can configure Anomaly Definitions 
+to detect abnormal network traffic such as **Ad Hoc Network, ARP Bomb, Spoofed ARP, MAC+IP Clones,** and more.
 
 ARP Spoofing
 ------------
@@ -34,6 +34,9 @@ ARP Bombing
 
 While the network sensor is monitoring ARP, it detects a device that generates excessive ARP packets and designates it as a critical node. 
 It detects abnormal ARP behavior and prevents attempts to disable network access or disable network access control.
+An attacker Node continually keeps sending request packets to the target Node, thereby causing its cache to fill up quickly. 
+Soon the target Node will spend more of its resources to maintain its cache, which may lead to buffer overflow. 
+And real mapping would never be entered in the cache. 
 
 Port Scanning
 -------------
@@ -42,10 +45,10 @@ Detect any device try to scan TCP or UDP ports. Genian NAC use honypot IP for de
 
 Ad Hoc Network Connected
 ------------------------
-
+(*Agent required)
 Detects direct client-to-client communication
 
-Invalid Gateway Used
+Rogue Gateway Configured
 --------------------
-
-Detects a Node having an Invalid Gateway set
+(*Agent required)
+Detects a Node having a rogue gateway configured
