@@ -3,13 +3,13 @@ Controlling Network Interface
 
 You can control wired and wireless network interfaces on end users Windows devices by disabling wired, wireless, bridged, and promiscuous mode. You can also send interface disabled event notifications with custom messages that appear as pop-ups
 
-To See the Configuration of the Plugin
---------------------------------------
+See the Configuration of the Plugin
+-----------------------------------
 
 - Go to **System > Update > Genian Software > Plugin > Control Network Interface**
 
-To Add the Agent Action to a Policy
------------------------------------
+Add the Agent Action to a Policy
+--------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy** in the left Policy panel
@@ -19,11 +19,23 @@ To Add the Agent Action to a Policy
 #. Click **Add**
 #. Click **Update**
 
-To Control Network Interface
-----------------------------
+Control Network Interface
+-------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel
 #. Find and click **Control Network Interface** in the Agent Action window
-#. Enter in **Conditions**, and adjust **Agent Actions** based off of your network requirements
+#. Enter in **Conditions**, optional settings
+
+Under **Disabling Network**
+
+#. For **Network Type**, specify the Network type to be disabled (*Wired, Wireless, or both*)
+#. For **Exceptions**, turn on to enable the exclusion of specified Network Devices
+#. For **Disabling Network Bridge**, turn on to disable any Network Bridge Interface regardless of the exclusion above
+#. For **Disabling Promiscuous**, turn on to disable any Promiscuous Interfaces regardless of the exclusion above
+#. For **Interface Disabled Event Notification**, optional messages sent to user from Interface Disabled Events
+
+Under **Enforcing Network Device Properties**
+
+#. For **Internet Connection Sharing**, select to disable the shared Internet Connection
 #. Click **Update**
