@@ -29,7 +29,7 @@ Step 2. Create Status Group For MAC/IP Cloning
 #. Enter in the following:
 
    - **ID**: "MAC/IP Cloning Group", Application Mode "Enable"
-   - **Condition**: Criteria: **Threat**,   Operator: **Detected is one of**,   Value: **MAC/IP Clone**
+   - **Condition**: Criteria: **Anomaly**,   Operator: **Detected is one of**,   Value: **MAC/IP Clone**
 
 #. Click **Update**
    

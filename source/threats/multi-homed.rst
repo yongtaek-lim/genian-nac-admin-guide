@@ -39,7 +39,7 @@ Step 2. Create Status Group For Multi-Homed / Ad hoc Network Connected
 #. Enter in the following:
 
    - **ID**: "Multi-Homed / Ad hoc Network Connected", Status "Enabled"
-   - **Condition**: Criteria: **Threat**,   Operator: **Detected is one of**,   Value: **Multi-Homed / Ad hoc Network**
+   - **Condition**: Criteria: **Anomaly**,   Operator: **Detected is one of**,   Value: **Multi-Homed / Ad hoc Network**
 
 #. Click **Update**
    

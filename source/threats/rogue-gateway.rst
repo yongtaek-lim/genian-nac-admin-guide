@@ -39,7 +39,7 @@ Step 2. Create Status Group For Rogue Gateway Configured
 #. Enter in the following:
 
    - **ID**: "Rogue Gateway Configured", Status "Enabled"
-   - **Condition**: Criteria: **Threat**,   Operator: **Detected is one of**,   Value: **Rogue Gateway**
+   - **Condition**: Criteria: **Anomaly**,   Operator: **Detected is one of**,   Value: **Rogue Gateway**
 
 #. Click **Update**
    
