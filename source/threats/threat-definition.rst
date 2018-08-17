@@ -1,6 +1,9 @@
 Creating Anomaly Definition
 ==========================
  
+The Anomaly you defined is here used when detecting an anomaly with a Node Policy.
+This is a definition setting, therefore, you must assign the configured definition to the Node Policy you would like to apply. 
+
 By default, there are seven pre-defined **Anomaly Definitions** that are frequently used. With the steps provided below, you can create your own anomaly definitions.
 
 To Create a Anomaly Definition

@@ -43,7 +43,7 @@ Step 2. Create Status Group For Multi-Homed / Ad hoc Network Connected
 
 #. Click **Update**
    
-Step 3. Create Node Policy For Rogue Gateway
+Step 3. Create Node Policy For Multi-Homed / Ad hoc Network
 ----------------------------------------------------
 
 #. Go to **Policy** in the top panel
