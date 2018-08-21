@@ -6,7 +6,7 @@ The Network Sensor listens for ARP replies on a network and checks of them wheth
 If two responses are sent are different from each other, Genians suspends the Spoofed ARP Sent and designates the Node with the Ethernet source MAC address as a critical one. 
 In addition, if the number of response packets allowed are more than the specified value, that Node is then designated as a critical one.
 
-.. note:: If you use Virtual Router Redundancy Protocol (VRRP), the sender MAC address may differ from the Ethernet source MAC address, a real MAC address. Genian NAC discovers any cases of VRRP, HSRP or GLBP so that one of this case will not be detected as an Anomaly.
+.. note:: If you use Virtual Router Redundancy Protocol (VRRP), the sender MAC address may differ from the Ethernet source MAC address, a real MAC address. Genian NAC discovers any cases of VRRP, HSRP or GLBP so that one of these cases will not be detected as an Anomaly.
 
 
 Step 1. Configure Anomaly Event Options for Spoofed ARP in Anomaly Definition
