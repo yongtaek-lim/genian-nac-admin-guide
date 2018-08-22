@@ -31,9 +31,10 @@ You can control Windows devices with the Agent installed using following plugins
    folder-sharing
    screen-lock
    computer-name
+   arp-table
+   managing-files   
+   notifying-users   
    remove-programs
+   running-scripts   
    killing-processes
-   managing-files
-   notifying-users
-   running-scripts
    
