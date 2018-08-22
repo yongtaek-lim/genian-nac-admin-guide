@@ -38,4 +38,5 @@ Under **Disabling Network**
 Under **Enforcing Network Device Properties**
 
 #. For **Internet Connection Sharing**, select to disable the shared Internet Connection
+#. For **IPv6**, select to disable the IPv6 Interface Connection
 #. Click **Update**
