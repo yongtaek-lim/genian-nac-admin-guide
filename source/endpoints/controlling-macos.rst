@@ -11,4 +11,5 @@ You can control macOS devices with the Agent installed using **6 Plugins**
    mac-network-info
    mac-software-info
    mac-antivirus-info
+   mac-condition-settings
    macos-update
