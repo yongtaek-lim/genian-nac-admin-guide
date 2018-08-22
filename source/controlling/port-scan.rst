@@ -14,13 +14,6 @@ Port Scans are updated when the Node Scan is run
 #. Go to **Preferences** in the top panel
 #. Go to **General > Node > Port Scan** in the left Preferences panel
 
-Adjust Number Of Rows To Display
---------------------------------
-
-#. Go to **Preferences** in the top panel
-#. Go to **General > Node > Port Scan** in the left Preferences panel
-#. Far right select number from drop-down (*30,50,100,150,200,255*)
-
 Creating New Ports
 ------------------
 
