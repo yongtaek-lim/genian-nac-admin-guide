@@ -4,8 +4,6 @@ Port Scan
 You can view the open ports by Protocol, Port, Status, and the Network Service. 
 You can create new ports, delete ports, and Enable/Disable these ports. 
 
-.. note: You can sort columns by Protocol, Port, anxd Network Service
-
 Current Port Status
 -------------------
 

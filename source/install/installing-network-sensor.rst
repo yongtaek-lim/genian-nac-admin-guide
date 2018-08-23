@@ -26,8 +26,8 @@ Download Software
    -  Download the Policy Server ISO file from the `download page`_
    -  Create a CD-ROM or :doc:`/install/bootable-usbdrive` for physical machine installation
 
-Installing Genian NAC
----------------------
+Installing Network Sensor
+-------------------------
 
 #. Boot up your machine
 
