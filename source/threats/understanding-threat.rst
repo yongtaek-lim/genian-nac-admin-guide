@@ -9,7 +9,7 @@ ARP Spoofing
 ------------
 
 While ARP Poisoning is a technology used to block communication of network devices, ARP Spoofing is mainly used in malicious codes 
-and is used for eavesdropping communication of other party. Genian NAC can detect ARP packets through a network sensor to detect 
+and is used for eavesdropping communication of other parties. Genian NAC can detect ARP packets through a network sensor to detect 
 devices attempting to be spoofed.
 
 In addition, it provides a function to block devices that attempted spoofing and to return to normal MAC through ARP cache detox.
@@ -41,7 +41,7 @@ And real mapping would never be entered in the cache.
 Port Scanning
 -------------
 
-Detect any device try to scan TCP or UDP ports. Genian NAC use honypot IP for detecing scanning device.
+Detect any device try to scan TCP or UDP ports. Genian NAC use honeypot IP for detecing scanning device.
 
 Ad Hoc Network Connected
 ------------------------

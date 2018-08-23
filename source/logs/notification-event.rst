@@ -8,8 +8,12 @@ Send Notifications
 
 #. Go to **Log** in the top panel
 #. Go to **Log > Log Filter** in the left **Log** panel
-#. Select a **Log Filter Name** and click **Edit** in the **Search** section
-#. Check off **Notification** to configure options
+#. Select a **Log Filter Name** and click **Edit**
+#. Find **Notification** and click **Checkbox** to configure options
+#. For **Recipient Administrator**, double-click desired administrator (*Choose Admin Role for a group of Administrators*)
+#. For **Recipient Admin Role**, double-click desired role
+#. For **Short Message**, type to be added to **Subject** line
+#. For **Long Message**, type for contents of message
 #. Click **Update**
 
 Create a Network Sensor Disconnected Log Filter and Notification
@@ -17,24 +21,24 @@ Create a Network Sensor Disconnected Log Filter and Notification
 
 #. Go to **Log** in the top panel
 #. Go to **Logs** in the left **Log** panel
-#. Find **Status & Filters** section under left **Log** Panel
-#. Enter the following:
 
-   - **Type:** (*Leave Logs checked*)
-   - **Period:** (*Leave default of 1 Week*)
-   - **Description:** Sensor Status changed to down.
+Under **Search**
 
+#. For **Type:** (*Leave Logs checked*)
+#. For **Period:** (*Leave default*)
+#. For **Description:** type "Sensor Status changed to down"
 #. Click **Search** (*Nothing may appear as the Sensor or Sensors may have never been detected as down*)
 #. Click **Save As** (*New Window will appear and enter the following:*)
 
-   - **Name:** (*e.g. Network Sensor Disconnected*)
-   - **Description:**
-   - **Tree & Log Monitor** (*Leave checked to display Time, Type, Log ID, Detected by, IP*)
-   - Click **Notification Checkbox**
-   - **Privileged Administrator Role:** (*Select superAdmin or similar role*)
-   - **Short Message:** (*e.g. Network Sensor reported as being disconnected*)
-   - **Long Message:** (*e.g. Network Sensor reported as being disconnected. Network Engineer needs to investigate this issue.*)
+Under **Log Filter: Create**
 
+#. For **Name:** (*e.g. Network Sensor Disconnected*)
+#. For **Description:**, type what this filter will do
+#. For **Tree & Log Monitor** (*Leave checked to display Time, Type, Log ID, Detected by, IP*)
+#. For **Notification**, click **Checkbox**
+#. For **Recipient**, select Administroator or Role
+#. For **Short Message:** (*e.g. Network Sensor reported as being disconnected*)
+#. For **Long Message:** (*e.g. Network Sensor reported as being disconnected. Network Engineer needs to investigate this issue.*)
 #. Click **Save**
 
 Add Macros To Log Notifications Message Box

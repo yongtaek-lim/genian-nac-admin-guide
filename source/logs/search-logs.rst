@@ -1,20 +1,17 @@
 Searching Logs
 ==============
 
-You can do basic searching, advanced searching, or use any one of the pre-defined searches
-
-Do Basic Search
----------------
+Using the **Search** section you can search for specific information within the logs, or combine options found within the Advanced Search fields.
+You can also use **Operators**, and **Special Characters** to assist you in your searches.
+ 
+.. note:: Clicking the "?" next to "Filter" will bring up help options to assist you with using special characters in your searches.
 
 #. Go to **Log** in the top panel
-#. Find **Logs** in left **Log** panel. Select one of the three default Logs (*Error, Threat, and Warning Logs*)
-#. Click Log Filter in left Log panel. Click on any of the 11 **Log Filters**
-#. Click **Logs** in left **Log** panel. Find **Search** section in left **Log** panel. Enter search criteria
-#. Click **Search** (*You can click Save As if you do these searches often to save it as a Log Filter*)
 
-Do Advanced Search
-------------------
+Under **Search**
 
-#. Go to **Status & Filter** > **Advanced Search**
-#. Select **Log Type, Log ID**, or enter in info. Click **Search** (*You can select more than one Log Type or Log ID*)
-#. Find **Main Log** view for new results
+#. For **Type**, click **Checkboxes** to choose either **Logs**, or **Status Logs**, or display both
+#. For **Period**, you can choose a period of time for searching
+#. For **Filter**, you can search by **IP, MAC, Username, Full Name,** or **Description** (*Click the question mark icon to assist with using special characters*)
+#. For **Advanced Search**, Select **Log Type, Log ID**, or enter info in the provided fields to narrow your search (*You can select more than one Log Type or Log ID*)
+#. Click **Search**

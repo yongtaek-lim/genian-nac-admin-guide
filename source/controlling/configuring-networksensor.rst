@@ -6,8 +6,8 @@ The information that is collected assists you in identifying the endpoints IP, M
 policies based on your requirements. Network Sensor Operation Mode needs to be changed from Passive to Active which allows the Policy Server
 to enforce policies and control endpoints access onto the network.
 
-Enabling ARP Poison Enforcement
--------------------------------
+Enabling ARP Poison 
+-------------------
 
 You can enforce policies by activating the **Network Sensor**. The Network Sensor has two types of **Operation Modes**.
 By default, the **Network Sensor** is set to **Passive** mode
@@ -20,5 +20,5 @@ By default, the **Network Sensor** is set to **Passive** mode
 #. For **Operation Mode**, change to **Active**
 #. Click **Update**
 
-Enabling Port Mirroring Enforcement
------------------------------------
+Enabling Port Mirroring
+-----------------------
