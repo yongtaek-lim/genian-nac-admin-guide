@@ -1,7 +1,7 @@
 Blocking Threats
 ================
  
-**Network Sensor** listens to network traffic for abnormalities and identifies **Nodes** as having Threats. You can block nodes identified as being a threat in two ways.
+**Network Sensor** listens to network traffic for abnormalities and identifies **Nodes** as having Threats. You can block Nodes identified as being a threat in two ways.
 
    - Block Immediately Through IPAM
    - Block Automatically Through Enforcment Policy
@@ -28,7 +28,7 @@ Block Nodes Through Enforcement Policy
 Step 1. Assign Threat Definitions to Node Policy
 ------------------------------------------------
 
-By default the Default Policy is collecting information and is not detecting any threats. This will add Threat Definitions to the Default Policy and actively detect threats.
+By default the Default Policy is collecting information and is not detecting any Threats. This will add Threat Definitions to the Default Policy and actively detect Threats.
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy** in the left Policy panel
@@ -53,7 +53,7 @@ This will group together all devices that will be identified by the default Poli
 
    - **Criteria:** Threat
    - **Operator:** Detected is one of
-   - **Value:** (*One of the listed threats*)
+   - **Value:** (*One of the listed Threats*)
 
 #. Click **Add**
 #. Keep adding **Conditions** as needed   

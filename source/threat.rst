@@ -8,7 +8,7 @@ A **Vulnerability** is an opening that can be exploited by threats to cause dama
 
 Genian NAC inspects network traffic to identify abnormalities in the network and marks endpoint devices that have Threats. You can configure
 custom **Threat Definitions** or use the seven pre-defined definitions provided by default to detect endpoint devices that are exposed to
-major threats such as **Ad-Hoc Networks, ARP Bombing, ARP Spoofing, MAC+IP Clones,** and more.
+major threats such as **Ad-Hoc Networks, ARP Bombing, ARP Spoofing, MAC+IP Clones, Port Scanning** and more.
 
 .. toctree::
    :maxdepth: 1

@@ -1,8 +1,10 @@
 Creating Threat Definition
 ==========================
  
-By default, there are pre-defined **Threat Definitions** that are frequently used, but you may want to apply these **Threat Definitions** to certain groups.
-You can create **New Threat Definitions** to apply them to specific Node Groups and customize options based on selected events.
+The Threat you defined is here used when detecting a threat with a Node Policy.
+This is a definition setting, therefore, you must assign the configured definition to the Node Policy you would like to apply. 
+
+By default, there are seven pre-defined **Threat Definitions** that are frequently used. With the steps provided below, you can create your own threat definitions.
 
 To Create a Threat Definition
 -----------------------------
