@@ -8,15 +8,15 @@ For upgrading system software, please see :doc:`/system/system-software`
 New Features
 ------------
 
-- `#17919`_ Enabled Port Mirroring enforcement mode
-- `#16373`_ Quarantine VLAN ID assignment via RADIUS
-- `#17599`_ Export Dashboard to PDF format
-- #17125 Mobile App. for Administrator
-- `#17880`_ Ability to disable IPv6 configuration of Network Interface added to Agent Action
+- #17919 Enabled Port Mirroring enforcement mode see ":doc:`/controlling/enforcement-methods`"
+- #16373 Quarantine VLAN ID assignment via RADIUS see :doc:`/authentication/enabling-authentication/8021x`
+- #17599 Export Dashboard to PDF format see :doc:`/monitoring/managing-dashboards`
+- #17125 Mobile App. for Administrator see :doc:`/system/mobile-app`
+- #17880 Ability to disable IPv6 configuration of Network Interface added to Agent Action see :doc:`/endpoints/network-interface`
 - #17891 Added a Node Group Condition for the IPv6 Activation Status of an Interface
 - #17635 Added ARP Poisoning Strict Mode option
-- `#17663`_ Added function to unlock by Authentication Code when Screen Lock is applied through agent authentication window action
-- #17436 macOS agent Scan Condition Settings added
+- #17663 Added function to unlock by Authentication Code when Screen Lock is applied see :doc:`/endpoints/screen-lock`
+- #17436 Added macOS agent Scan Condition Settings see :doc:`/endpoints/mac-condition-settings`
 
 Enhancements
 ------------
@@ -53,10 +53,3 @@ Bug Fixes
 - #17926 Corrected time value incorrectly displayed among the collected antivirus information
 - #18055 Invalid Agent Action permissions in Basic Edition fixed
 - #18117 Fixed a problem where patch download fails if there are multiple interfaces of Policy Server or Distribution Server
-
-.. _#17919: https://docs.genians.com/controlling/enforcement-methods.html#port-mirroring-span
-.. _#16373: https://docs.genians.com/authentication/enabling-authentication/8021x.html?highlight=radius#authentication-using-radius-802-1x
-.. _#17599: https://docs.genians.com/monitoring/managing-dashboards.html#managing-dashboards
-.. _#17880: https://docs.genians.com/endpoints/network-interface.html?highlight=control%20network%20interface#controlling-network-interface
-.. _#17663: https://docs.genians.com/endpoints/screen-lock.html?highlight=screen%20lock#controlling-screen-lock
-
