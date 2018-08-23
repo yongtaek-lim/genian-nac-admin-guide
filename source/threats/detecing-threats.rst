@@ -1,16 +1,16 @@
-Detecting Anomalies
+Detecting Threats
 ================
  
-Once the configured Anomaly Definition setting is assigned to the Node Policy you would like to apply, an anomaly will be almost immediately detected either by a Network Sensor or by an Agent. 
+Once the configured **Threat Definition** is assigned to the **Node Policy** you would like to apply, a threat will be almost immediately detected either by a **Network Sensor** or by an **Agent**. 
 You may see the results in a variety of ways. 
 
-   - Find Anomaly column in Node Management
-   - Edit Node View for Anomaly View
-   - Trace Anomaly Log
-   - Glance Dashabord Widget for Anomaly tab
-   - Filter Status & Filters
+   - Find **Threat** column in **Node Management**
+   - Edit Node View for **Threat View**
+   - Trace *Threat Logs**
+   - Glance **Dashabord Widget** for **Threat** tab
+   - Filter **Status & Filters**
 
-Furthermore, you can be notified about an abnormal event detected. (*You may refer to the following)
+Furthermore, you can be notified about any pre-defined threats that are detected. (*You may refer to the following)
 
 
 .. toctree::
@@ -19,41 +19,41 @@ Furthermore, you can be notified about an abnormal event detected. (*You may ref
    notification-event
 
 
-See Anomaly Detected Through Node Management
+See Threat Detected Through **Threat Column** in Node Management
 ------------------------
 
 #. Go to **Management > Node** in top panel
-#. Find **Anomaly** column and see an icon (*You might be able to see its details by clicking on the icon displayed)
+#. Find **Threat** column and see an icon (*You might be able to see its details by clicking on the icon displayed)
 
 
-See Anomaly Detected Through Anomaly View
+See Threat Detected Through **Threat View** in Views
 --------------------------
 
 #. Go to **Management > Node** in top panel
-#. Find **3 dots and lines** button that places next to Tasks button and click on that
-#. Find **Views** and select **Anomaly View**
-#. **Anomaly Detected** and **Anomaly Defined** columns will appear (*A column may be configurable by clicking **Edit Columns**)
+#. Find **Menu (3 dots and lines)** button that places next to Tasks button and click on that
+#. Find **Views** and select **Threat View**
+#. **Threat Detected** and **Threat Defined** columns will appear (*A column may be configurable by clicking **Edit Columns**)
 
-See Anomaly Detected Through Log
+See Threat Detected Through **Threat Logs** in Log
 --------------------------------------
 #. Go to **Log > Log** in the top panel
-#. Go to **Logs > Anomaly Logs** in the left Log panel
+#. Go to **Logs > Threat Logs** in the left Log panel
 
-See Anomaly Detected Through Dashboard Widget
+See Threat Detected Through **Threat Tab** in Dashboard Widget
 --------------------------------------
 #. Go to **Dashboard** in the top panel
-#. Go to **Anomaly** tab
+#. Go to **Threat** tab
 
-See Anomaly Detected Through Status & Filters
+See Threat Detected Through **Threat Definition and Threat Detection** in Status & Filters
 --------------------------------------
 #. Go to **Management > Node** in the top panel
-#. Go to **Status & Filters > Anomaly Detection and Node with Anomaly** in the left bottom panel
+#. Go to **Status & Filters > Threat Detection and Node with Threat** in the bottom left panel
 
 
-*You may rest Anomaly detection records 
+*You may clear Threat detection records 
 #. Go to **Management > Node** in top panel
 #. Find and click **Checkbox* of desired Nodes
-#. Click **Tasks > Node / Device Management > Clear Anomaly Records**
+#. Click **Tasks > Node / Device Management > Clear Threat**
 #. Click **OK**
 
 

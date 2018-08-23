@@ -2,11 +2,11 @@ MAC/IP Cloning
 ==============
 
 Genian NAC can detect MAC / IP theft in a variety of ways. The Network Sensor periodically
-sends an ARP request to check the operation status of nodes. If two replies are received at the same
-time, Genians suspends the MAC / IP clone and designates the node as a critical node. In addition, if the user
+sends an ARP request to check the operation status of Nodes. If two replies are received at the same
+time, Genians suspends the MAC / IP clone and designates the Node as a critical Node. In addition, if the user
 changes the MAC on the endpoint where the Agent is installed and the MAC is already being used by
-another device, that device is then designated as a critical node.
-Genian NAC provides industry-leading platform detection to detect when a node is changing
+another device, that device is then designated as a critical Node.
+Genian NAC provides industry-leading platform detection to detect when a Node is changing
 to another platform, allowing administrators to see when changes are made, and to block devices when
 unauthorized platform changes are detected.
 
@@ -29,7 +29,7 @@ Step 2. Create Status Group For MAC/IP Cloning
 #. Enter in the following:
 
    - **ID**: "MAC/IP Cloning Group", Application Mode "Enable"
-   - **Condition**: Criteria: **Anomaly**,   Operator: **Detected is one of**,   Value: **MAC/IP Clone**
+   - **Condition**: Criteria: **Threat**,   Operator: **Detected is one of**,   Value: **MAC/IP Clone**
 
 #. Click **Update**
    

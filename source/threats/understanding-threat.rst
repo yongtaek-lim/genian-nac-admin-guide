@@ -1,8 +1,8 @@
-Understanding Anomaly Detection
+Understanding Threat Detection
 ==============================
 
 **Network Sensor** listens for abnormalities in network traffic and identifies endpoints with 
-**Anomaly** and blocks them based on your access policies. You can configure Anomaly Definitions 
+**Threat** and blocks them based on your access policies. You can configure Threat Definitions 
 to detect abnormal network traffic such as **Ad Hoc Network, ARP Bomb, Spoofed ARP, MAC+IP Clones,** and more.
 
 ARP Spoofing
@@ -22,17 +22,17 @@ at this time, it is easy to steal. If you have cloned the MAC / IP of the malici
 the normal system and the stolen system at the packet level.
 
 However, Genian NAC can detect MAC / IP theft in a variety of ways. The network sensor periodically sends an ARP request to check the 
-operation status of the device. If two replies are received at the same time, suspend the MAC / IP clone and designate the node as a 
-critical node. In addition, if the user changes the MAC on the endpoint where the Agent is installed and the MAC is already being used by 
-another device, the device is designated as a critical node.
+operation status of the device. If two replies are received at the same time, suspend the MAC / IP clone and designate the Node as a 
+critical Node. In addition, if the user changes the MAC on the endpoint where the Agent is installed and the MAC is already being used by 
+another device, the device is designated as a critical Node.
 
-In addition, Genian NAC provides industry-leading platform detection to detect when a node is changing to another platform, allowing 
+In addition, Genian NAC provides industry-leading platform detection to detect when a Node is changing to another platform, allowing 
 administrators to see when changes are made, and to block devices when unauthorized platform changes are detected.
 
 ARP Bombing
 -----------
 
-While the network sensor is monitoring ARP, it detects a device that generates excessive ARP packets and designates it as a critical node. 
+While the network sensor is monitoring ARP, it detects a device that generates excessive ARP packets and designates it as a critical Node. 
 It detects abnormal ARP behavior and prevents attempts to disable network access or disable network access control.
 An attacker Node continually keeps sending request packets to the target Node, thereby causing its cache to fill up quickly. 
 Soon the target Node will spend more of its resources to maintain its cache, which may lead to buffer overflow. 
@@ -48,7 +48,7 @@ Ad Hoc Network Connected
 (*Agent required)
 Detects direct client-to-client communication
 
-Rogue Gateway Configured
+Invalid Gateway Used
 --------------------
 (*Agent required)
 Detects a Node having a rogue gateway configured

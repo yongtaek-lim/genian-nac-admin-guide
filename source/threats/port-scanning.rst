@@ -7,13 +7,13 @@ If a port scan is run to find a virtual IP address in order to exploit a known v
 In addition, if the ports are scanned more than the specified value within a period of time, then designated as a critical Node.
 
 
-Step 1. Configure Anomaly Event Options for Port Scanning in Anomaly Definition
+Step 1. Configure Threat Definition Settings for Port Scanning in Threat Definition
 -------------------------------------------------
 
 #. Go to **Policy** in the top panel
-#. Go to **Policy > Node Policy > Anomaly** in the left Policy panel
-#. Click **Port Scanning**
-#. Find **Anomaly Event** section
+#. Go to **Policy > Node Policy > Threat Definition** in the left Policy panel
+#. Click **Port Scan**
+#. Find **Threat Definition Settings** section
 #. Specify **Event Duration**
 #. Specify **Number of Allowable Ports** 
 #. Specify **Attribute to Match** to find a Node running a Port Scan
@@ -27,8 +27,8 @@ Step 2. Create Status Group For Port Scan Run
 #. Click on **Tasks > Create New Status Group**
 #. Enter in the following:
 
-   - **ID**: "Port Scan Run", Status "Enabled"
-   - **Condition**: Criteria: **Anomaly**,   Operator: **Detected is one of**,   Value: **Port Scanning**
+   - **ID**: "Port Scan Run", Application Mode "Enable"
+   - **Condition**: Criteria: **Threat**,   Operator: **Detected is one of**,   Value: **Port Scan**
 
 #. Click **Update**
    
@@ -41,13 +41,13 @@ Step 3. Create Node Policy For Port Scanning
 #. Click **Next**
 #. On **General** tab enter the following:
 
-   - ID "Port Scan Run", Status "Enabled"
+   - ID "Port Scan Run", Application Mode "Enable"
 
 #. Click **Next**
-#. On **Node Group** tab, select newly created Node Group **Port Scanning Group**
+#. On **Node Group** tab, select newly created Node Group **Port Scan Run Group**
 #. Click Next**
 #. On **Policy Preferences** tab, you may change some configuration settings if needed
 #. Click **Next**
 #. On **Agent Action** tab click **Next** 
-#. On **Anomaly** tab, select **Port Scanning**
+#. On **Threat** tab, select **Port Scan**
 #. Click **Finish**

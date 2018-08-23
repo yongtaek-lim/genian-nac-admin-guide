@@ -6,16 +6,16 @@ The Network Sensor counts how many ARP packets sent by each Node.
 If the ARP requests are sent more than the specified value, Genians suspends the ARP Bomb and designates the Node as a critical one. 
 
 
-Step 1. Configure Anomaly Event Options for ARP Bomb in Anomaly Definition
+Step 1. Configure Threat Definition Settings for ARP Bomb in Threat Definition
 -------------------------------------------------
 
 #. Go to **Policy** in the top panel
-#. Go to **Policy > Node Policy > Anomaly** in the left Policy panel
+#. Go to **Policy > Node Policy > Threat Definition** in the left Policy panel
 #. Click **ARP Bomb**
-#. Find **Anomaly Event** section
+#. Find **Threat Definition Settings** section
 #. Specify **Event Duration**
 #. Specify **Number of Allowable ARP Requests** 
-#. Specify **Attribute to Match** to find a Node sending too many request packets 
+#. Specify **Attribute to Match** to find a Node sending excessive ARP packets
 #. Click **Update**
 
 Step 2. Create Status Group For ARP Packet Bombed
@@ -26,8 +26,8 @@ Step 2. Create Status Group For ARP Packet Bombed
 #. Click on **Tasks > Create New Status Group**
 #. Enter in the following:
 
-   - **ID**: "ARP Packet Bombed", Status "Enabled"
-   - **Condition**: Criteria: **Anomaly**,   Operator: **Detected is one of**,   Value: **ARP Bomb**
+   - **ID**: "ARP Packet Bombed", Application Mode "Enable"
+   - **Condition**: Criteria: **Threat**,   Operator: **Detected is one of**,   Value: **ARP Bomb**
 
 #. Click **Update**
    
@@ -40,13 +40,13 @@ Step 3. Create Node Policy For ARP Bomb
 #. Click **Next**
 #. On **General** tab enter the following:
 
-   - ID "ARP Packet Bombed", Status "Enabled"
+   - ID "ARP Packet Bombed", Application Mode "Enable"
 
 #. Click **Next**
-#. On **Node Group** tab, select newly created Node Group **ARP Bomb Group**
+#. On **Node Group** tab, select newly created Node Group **ARP Packet Bombed Group**
 #. Click Next**
 #. On **Policy Preferences** tab, you may change some configuration settings if needed
 #. Click **Next**
 #. On **Agent Action** tab click **Next** 
-#. On **Anomaly** tab, select **ARP Bomb**
+#. On **Threat** tab, select **ARP Bomb**
 #. Click **Finish**
