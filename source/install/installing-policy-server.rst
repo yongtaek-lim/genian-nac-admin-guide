@@ -43,8 +43,8 @@ and create a CD-ROM or bootable USB for physical machine installation
 
    bootable-usbdrive
 
-Installing Genian NAC
----------------------
+Installing Policy Server
+------------------------
 
 #. Boot up your machine
 
