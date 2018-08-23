@@ -59,3 +59,4 @@ Bug Fixes
 .. _#17599: https://docs.genians.com/monitoring/managing-dashboards.html#managing-dashboards
 .. _#17880: https://docs.genians.com/endpoints/network-interface.html?highlight=control%20network%20interface#controlling-network-interface
 .. _#17663: https://docs.genians.com/endpoints/screen-lock.html?highlight=screen%20lock#controlling-screen-lock
+
