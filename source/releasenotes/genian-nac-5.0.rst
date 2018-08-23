@@ -4,6 +4,7 @@ Release Notes
 .. toctree::
    :maxdepth: 1
 
+   genian-nac-5.0.14
    genian-nac-5.0.13
    genian-nac-5.0.12
    genian-nac-5.0.11
