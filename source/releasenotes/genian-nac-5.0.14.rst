@@ -8,15 +8,15 @@ For upgrading system software, please see :doc:`/system/system-software`
 New Features
 ------------
 
-- #17919 Enabled Port Mirroring enforcement mode see ":doc:`/controlling/enforcement-methods`"
-- #16373 Quarantine VLAN ID assignment via RADIUS see :doc:`/authentication/enabling-authentication/8021x`
-- #17599 Export Dashboard to PDF format see :doc:`/monitoring/managing-dashboards`
-- #17125 Mobile App. for Administrator see :doc:`/system/mobile-app`
-- #17880 Ability to disable IPv6 configuration of Network Interface added to Agent Action see :doc:`/endpoints/network-interface`
+- #17919 Enabled Port Mirroring enforcement mode. :doc:`/controlling/enforcement-methods`
+- #16373 Quarantine VLAN ID assignment via RADIUS. :doc:`/authentication/enabling-authentication/8021x`
+- #17599 Export Dashboard to PDF format. :doc:`/monitoring/managing-dashboards`
+- #17125 Mobile App. for Administrator. :doc:`/system/mobile-app`
+- #17880 Ability to disable IPv6 configuration of Network Interface added to Agent Action. :doc:`/endpoints/network-interface`
 - #17891 Added a Node Group Condition for the IPv6 Activation Status of an Interface
 - #17635 Added ARP Poisoning Strict Mode option
-- #17663 Added function to unlock by Authentication Code when Screen Lock is applied see :doc:`/endpoints/screen-lock`
-- #17436 Added macOS agent Scan Condition Settings see :doc:`/endpoints/mac-condition-settings`
+- #17663 Added function to unlock by Authentication Code when Screen Lock is applied. :doc:`/endpoints/screen-lock`
+- #17436 Added macOS agent Scan Condition Settings. :doc:`/endpoints/mac-condition-settings`
 
 Enhancements
 ------------
