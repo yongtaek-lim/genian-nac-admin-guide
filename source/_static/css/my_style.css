@@ -13,7 +13,26 @@
 }
 .wy-side-nav-search input[type=text] {
     width: 100%;
-    border-radius: 50px;
+    border-radius: 2px;
     padding: 6px 12px;
     border-color: #88ab29;
+}
+.wy-menu-vertical a:active {
+    background-color:#88ab29;cursor:pointer;color:#fff
+}
+.wy-nav-side {
+    background: #595156;
+}
+.rst-content .note {
+    background: #efefef;
+}
+.rst-content .note .admonition-title {
+    background: #cdde9d;
+    color:#595156
+}
+.wy-nav-side {
+    color: #E1F4A3
+}
+a {
+    color: #76a000
 }
