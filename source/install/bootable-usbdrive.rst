@@ -38,5 +38,3 @@ Now, you got the bootable USB drive to install Genian NAC into your desired mach
 .. _Mac OS X: http://launchpad.net/unetbootin/trunk/625/+download/unetbootin-mac-625.dmg
 .. _32-bit binary: http://launchpad.net/unetbootin/trunk/625/+download/unetbootin-linux-625.bin
 .. _64-bit binary: http://launchpad.net/unetbootin/trunk/625/+download/unetbootin-linux64-625.bin
-.. _Installing Policy Server: https://docs.genians.com/install/installing-policy-server.html
-.. _Installing Network Sensor: https://docs.genians.com/install/installing-network-sensor.html
