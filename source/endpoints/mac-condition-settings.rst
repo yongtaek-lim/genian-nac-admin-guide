@@ -1,5 +1,5 @@
-Scan Condition Settings - 5.0.14
-================================
+Scan Condition Settings
+=======================
 
 To See the Configuration of the Plugin
 --------------------------------------
