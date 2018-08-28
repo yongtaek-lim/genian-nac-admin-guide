@@ -1,8 +1,9 @@
-Enforcement Methods
-===================
+Policy Enforcement Methods
+==========================
 
-Genian NAC provides multiple layers of access control from Layer 2 network to agent-based. Depending on your network environment or security level
-requirements, you can choose one of the following methods to suit your needs.
+You need a way to control what devices violate network access control policies defined by your organization. Genian NAC provides multiple
+layers of enforcement methods from Layer 2 network to agent-based. Depending on your network environment or security level requirements,
+you can leverage the following options:
 
 ARP Poisoning
 -------------
@@ -100,12 +101,12 @@ DHCP
 Genian NAC can allocate or not allocate IP according to IP / MAC policy through built-in DHCP server. This prevents unauthorized devices from
 accessing the network or assigns a fixed IP address to devices with a specific MAC address..
 
-Switch Port Shutdown
---------------------
+Switch Port Block
+-----------------
 
 If you use a switch that supports SNMP, Genian NAC will collect SNMP and switch and port information connected to each node.
-This information can be used to shut down the switch port according to the security policy of the device. Switch port shutdown is done
-via SNMP Write. The switch MUST provide a writeable *SNMP MIB-2 ifAdminStatus* property.
+This information can be used to shut down the switch port according to the security policy of the device. Switch port block is done
+via SNMP Write. The switch MUST provide a writable *SNMP MIB-2 ifAdminStatus* property.
 
 Agent Action
 ------------

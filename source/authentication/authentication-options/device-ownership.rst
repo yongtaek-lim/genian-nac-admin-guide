@@ -8,11 +8,11 @@ Set Up a Device Ownership
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > User Authentication** in the left Preferences panel
-#. Find **Authentication Options** section in the User Authentication window. Enter the following:
 
-   - Specify **option** in the **Scope** Drop Down
-   - Select **On** in the **Automatic Ownership** drop down
-   - Choose an **option** from the next **Scope** drop down
-   - Select **Reassigning options** from drop down
+Under **Authentication Options**
 
+#. For **Scope**, select **Device**
+#. For **Automatic Ownership**, select **On** to automatically assign ownership
+#. For  **Scope**, specify a scope to assign User and Department. **IP**, **MAC**, **IP + MAC**
+#. For  **Reassigning options**, select between **When it is not assigned** or **When a User is authenticated** to reassign User and Department
 #. Click **Update**

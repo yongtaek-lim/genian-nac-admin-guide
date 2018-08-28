@@ -6,22 +6,57 @@ You can manage your Administrators by adding, deleting, and adding various restr
 To Add Administrator
 --------------------
 
-#. Go to Management > User in the top panel
-#. Click Tasks > Add User
-#. Click Save
+#. Go to **Management > User** in the top panel
+#. Click **Tasks > Add User**
 
-To Set up Authentication Restrictions
--------------------------------------
+Under **General**
 
-#. Go to Management > User in the top panel
-#. Find User in Users window. Click Username
-#. Find Authentication Restrictions section in the main window
-#. Click Update
+#. For **Username**, type a username
+#. For **Name**, type in full name
+#. For **Administrator Role**, select a optional Role for Administrator
+#. For **Description**, type optional description
+#. For **Purpose**, select **User Account**
+#. For **Status**, select **Enabled** (*You can choose **Disable** to disable the account temporarily)
+#. For **Expiry**, click **Checkbox** and choose date and time by clicking in empty space
+#. For **Tag**, you can choose to add a Tag to this account by clicking **Add** `Create Tag`_ 
 
-To Remove Administrator
------------------------
+Under **Password**
 
-#. Go to Management > User in the top panel
-#. Find User in click Checkbox
-#. Click Tasks > Remove User
-#. Click Ok
+#. For **Password**, type password
+#. For **Password Confirmation**, re-type password
+
+Under **User Information**
+
+#. For **Company**, type Company Name
+#. For **Department**, select optional department (*To create Department go to Users > Departments > Tasks > Create*)
+#. For **Email**, type in Email address
+#. For **Mobile Phone**, type in phone number using format of your choice (*e.g. 123-456-7890, or 1234567890*)
+#. For **Job Title**, select optional Job Title (*To create Job Title go to Users > Job Titles > Tasks > Create*)
+#. For **Telephone**, type in phone number using format of your choice (*e.g. 123-456-7890, or 1234567890*)
+#. Click **Save**
+
+Set up Authentication Restrictions
+----------------------------------
+
+#. Go to **Management > User** in the top panel
+#. Find and click **Username**
+
+Under **Authentication Restrictions**
+
+#. For **Number of Auth IPs**, specify the number of authorized IPs this account can use (*0-256 or leave blank*)
+#. For **Number of Auth MACs**, specify the number of authorized MACs this account can use (*0-256 or leave blank*)
+#. For **Number of Auth Devices**, specify the number of authorized devices this account can use (*0-256 or leave blank*)
+#. For **Auth IPs**, specify IP Addresses separated by commas or leave blank to not restrict
+#. For **Auth MACs**, specify MAC Addresses separated by commas or leave blank to not restrict
+#. For **Auth Node Groups**, specify Node Groups separated by commas or leave blank to not restrict
+#. Click **Update**
+
+Remove Administrator
+--------------------
+
+#. Go to **Management > User** in the top panel
+#. Find and click **Checkbox** of user to delete
+#. Click **Tasks > Remove User**
+#. Click **Ok**
+
+.. _Create Tag: https://docs.genians.com/monitoring/network-nodes/tagging-nodes.html?highlight=tag#create-tag

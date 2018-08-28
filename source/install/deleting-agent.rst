@@ -23,7 +23,7 @@ Under **Condition**
 
    -  **Options: MAC** from drop-down
    -  **Operator: is equal to** from drop-down
-   -  **Value** is the MAC Address of Node (*e.g. XX:XX:XX:XX:XX:XX*) `
+   -  **Value** is the MAC Address of Node (*e.g. XX:XX:XX:XX:XX:XX*)
 
 #. Click **Update**
 

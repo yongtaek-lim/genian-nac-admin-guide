@@ -9,8 +9,12 @@ Enforcement policies can be applied in a variety of ways. Genian NAC provides th
 .. toctree::
    :maxdepth: 1
 
-   controlling/ipam-networkaccess
-   controlling/nodegroup-networkaccess
    controlling/enforcement-methods
    controlling/configuring-networksensor
+   controlling/enforcement-policy
+   controlling/ipam-control
+   controlling/dhcp-services   
    controlling/switchport-block
+   controlling/port-scan
+   controlling/integration
+   

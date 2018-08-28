@@ -1,5 +1,5 @@
-Introduction
-============
+Understanding Genian NAC
+========================
 
 Genian NAC consists of 3 primary processes:
 

@@ -4,7 +4,7 @@ Installing Policy Server
 Choose Deployment Type
 ----------------------
 
-Policy Server can be run two diffrent deployment type.
+Policy Server can be installed in two different ways.
 
 **Policy Server Only**
     System only work for Policy Server functionality. In general, on a large network, separate the policy server and network sensor 
@@ -43,8 +43,8 @@ and create a CD-ROM or bootable USB for physical machine installation
 
    bootable-usbdrive
 
-Installing Genian NAC
----------------------
+Installing Policy Server
+------------------------
 
 #. Boot up your machine
 

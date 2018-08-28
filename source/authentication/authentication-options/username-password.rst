@@ -8,10 +8,12 @@ Finding Username & Password
 
 #. Go to **Preferences** in the top panel
 #. Go to **User Authentication > User Authentication** in the left Preferences panel
-#. Find **Authentication Options** section in the User Authentication window. Enter the following:
 
-   - Find **Username & Password** section and enable
-   - Click on **options** from the **What to Find**
-   - Select **option** from the **How to Find**
+Under **Authentication Options**
 
+#. For **Find Username / Reset Password**, select **On**
+#. For **Scope**, select **Username/Password** (*You can choose Username and Password separately*)
+#. For **Verification Methods**, choose how you want to verify user identity
 #. Click **Update**
+
+

@@ -9,9 +9,14 @@ Set Node Scan Interval On Network Sensor
 #. Go to **System** in the top panel
 #. Go to **System > Sensor** in the left System Management window
 #. Click **Network Sensor IP**
-#. Click **Settings** tab
+
+Under **Settings** tab
+
 #. Click **Sensor Settings**
-#. Find **Node Scan: Update Interval** section. Edit **Number** then select **minutes, hours, days, weeks, months** from the drop-down
+
+Under **Node Scan**
+
+#. For **Update Interval**, edit time interval (*1 minute - 1 year*)
 #. Click **Update**
 
 Set SNMP Settings For SNMP Scan
@@ -19,19 +24,19 @@ Set SNMP Settings For SNMP Scan
 
 #. Go to **Preferences** in the top panel
 #. Go to **General > Node** in the left Preferences window
-#. Find **SNMP** section. Edit the following:
 
-   - **SNMP Community** (*e.g. public,private*)
-   - **Collecting Network Information** needs to remain On (*If set to Off SNMP information will not be collected*)
-   - **Update Interval** can be set anywhere between 5 minutes – 1 year
-   - Select **Time Group** from the drop-down
+Under **SNMP**
 
+#. For **SNMP Community** enter read/write community string(*e.g. public,private*)
+#. For **Collecting Network Information**, needs to remain **On** (*If set to Off SNMP information will not be collected*)
+#. For **Update Interval**, edit time interval (*5 minutes – 1 year*)
+#. For **Time Group**, specify time group
 #. Click **Run Now** button for SNMP to scan instantly
 
 Use SNMPWALK on Windows machine To Verify Switch Response
 ---------------------------------------------------------
 
-(*If a Switch fails to populate in Switch List first check Switch Community strings on switch then run a SNMPWALK*)
+.. note:: If a Switch fails to populate in Switch List, first check Switch Community strings on switch, then run a SNMPWALK
 
 #. Login to your **Switch** and verify it’s SNMP Community strings
 #. Verify **Genian NAC** has correct **SNMP Community strings** set
@@ -46,8 +51,7 @@ Configure Read/Write Community
 ------------------------------
 
 #. Go to **Management > Switch** in the top panel
-#. Go to **Switches** in the left Switch Management window 
-#. Click **Switches**
-#. Find a desired **Switch** in the main Switches window. Click **Switch Name**
-#. In the **Read/Write Community** fields, enter the **SNMP Community** that allows read/write privileges
+#. Find and click **Switches** folder in the left Switch Management window 
+#. Find and click desired **Switch** name in the main Switches window
+#. Enter the **SNMP Community** strings in the **Read/Write Community** fields
 #. Click **Update**

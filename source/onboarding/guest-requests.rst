@@ -6,7 +6,7 @@ Your Guests will request account credentials to use while they are visiting. To 
 Enable Request User Account Button On CWP
 -----------------------------------------
 
-(*Make sure the Network Sensor is active and Node Policy is enabled*)
+.. note:: Make sure the Network Sensor is active and Node Policy is enabled
 
 #. Go to **Policy** in the top panel
 #. Go to **Node Policy** in the left Policy panel
