@@ -17,7 +17,9 @@ The Network Sensor should be connected to an Edge Switch port that can be an acc
 Switches
 --------
 
-Switches can be Unmanaged or Managed when plugging in Genian NAC. Using 802.1q trunking for the Network Sensor requires a Managed Switch and each Network Sensor can handle up to 128 VLANs. 
+Switches can be Unmanaged or Managed when plugging in Genian NAC. Using 802.1q trunking for the Network Sensor 
+requires a Managed Switch and each Network Sensor can handle up to 128 VLANs. 
+Here is a suggested link to help with configuring your `Trunked Switch Port`_.
 
 SNMP
 ----
@@ -74,4 +76,6 @@ Allowed Ports
 
 
 .. note:: The above ports need to be open and accessible to allow the Policy Server to get weekly/monthly updates from the Genians Platform DB
+
+.. _Trunked Switch Port: http://www.ciscopress.com/articles/article.asp?p=2181837&seqNum=7
 
