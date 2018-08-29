@@ -16,4 +16,11 @@ major threats such as **Ad-Hoc Networks, ARP Bombing, ARP Spoofing, MAC+IP Clone
    threats/understanding-threat
    threats/threat-definition
    threats/blocking-threats
+   threats/detecting-threats
    threats/macip-clone
+   threats/arp-bomb
+   threats/multi-homed
+   threats/invalid-gateway
+   threats/port-scanning
+   threats/spoofed-arp
+   threats/unauthorized-service
