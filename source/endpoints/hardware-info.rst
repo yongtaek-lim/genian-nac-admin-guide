@@ -4,9 +4,6 @@ Collecting Hardware Information
 Policy Server communicates with the Agent to collect hardware information that is installed on 
 end users Windows devices
 
-Collect Hardware Information
-----------------------------
-
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel
 #. Find and click **Collect Hardware Information** in the Agent Action window (*Notice there are two. One for Windows, and another for MacOS*)

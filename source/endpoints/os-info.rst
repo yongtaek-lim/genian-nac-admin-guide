@@ -3,9 +3,6 @@ Collecting Computer OS Information
 
 The Policy Server collects Operating System information from end users Windows devices using the Agent
 
-Collect Operating System Information
-------------------------------------
-
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel
 #. Find and click **Collect Computer OS Information** in the Agent Action window (*Notice there are two. One for Windows, and another for MacOS*)

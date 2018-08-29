@@ -1,10 +1,8 @@
 Collecting Instant Messaging Application Information
 ====================================================
 
-Policy Server communicates with the Agent to collect instant messaging application information on end users Windows devices. (e.g. Aim, GoogleTalk, Yahoo, MSN and more)
-
-Collect Instant Messaging Application Information
--------------------------------------------------
+Policy Server communicates with the Agent to collect instant messaging application information on 
+end users Windows devices. (e.g. Aim, GoogleTalk, Yahoo, MSN and more)
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel
