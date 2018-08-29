@@ -21,7 +21,7 @@ Under **Agent Actions** section
 #. For **Settings**, click **Add** and select your optional conditions. **Criteria/Operator/Value**
 #. Click **Update**
 #. Go to **Node Policy** in the left Policy panel
-#. Click the **desired Policy ID** in Node Policy window
+#. Click the **Default Policy** in Node Policy window
 #. Find **Agent Action**. Click **Assign**
 #. Find **Collect Computer OS Information** in the **Available** section. Select and drag it into the **Selected** section
 #. Click **Add**
