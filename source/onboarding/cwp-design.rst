@@ -35,13 +35,17 @@ You can define CSS Style class and use it in EDIT Tab or Layout Tab.
 
 1. Input the CSS style code in "CSS Style" tab.
 
->>> .test {color:red;}
+.. code:: bash
+
+   .test {color:red;}
 
 2. To use defined CSS style in "Edit" tab
 
->>> <div class="test">
-TEST
-</div>
+.. code:: bash
+
+   <div class="test">
+   TEST
+   </div>
 
 3. Click **Update**
 4. Page preview on Main page in the right side of the Webconsole
@@ -51,15 +55,17 @@ Layout
 ------
 You can modify the layout of the page using Html code.
 
->>> <?xml version='1.0' encoding='UTF-8' ?> 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
+.. code:: bash
+
+   <?xml version='1.0' encoding='UTF-8' ?> 
+   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+   <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:p="http://primefaces.org/ui"
       xmlns:gncomponent="http://xmlns.jcp.org/jsf/composite/gncomponent">
-$HEAD
-<body id="body1">
+   $HEAD
+   <body id="body1">
     $PAGEHEADER
     <div id="wrap" class="wrap">
         $CUSTOMPAGEHEADER
@@ -70,8 +76,8 @@ $HEAD
         </div>
         $CUSTOMPAGEFOOTER
     </div>
-</body>
-</html>
+   </body>
+   </html>
 
 Image
 -----
