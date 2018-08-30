@@ -43,7 +43,7 @@ To Configure DHCP Services To Network Sensor In Operation
 It is a function to inquire and delete the DHCP IP assigned to the device by the DHCP server.
 This feature is only available through the CLI(Command Line Interface). 
 
-**1. Show DHCP Lease status**
+**Step 1. Show DHCP Lease status**
 
 >>> genian# show dhcp lease ? 
  [Option]
@@ -59,7 +59,7 @@ IP Address      MAC               Expire              Interface
 172.29.30.154   00:90:FB:26:7D:24 2018-08-06 19:10:24 eth0
 172.29.30.155   AC:3C:0B:3C:01:70 2018-08-06 20:10:21 eth0
 
-**2. Clear DHCP Lease status**
+**Step 2. Clear DHCP Lease status**
 
 >>> genian# clear dhcp lease
 [Option]
