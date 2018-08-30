@@ -25,7 +25,7 @@ Under **Plugin Settings** section
 #. For **Power Control Action**, turn **On** to enforce the power control
 #. For **Delay Threshold**, adjust the time to delay applying the policy (*Seconds - hours*)
 #. For **Runtime Remaining Threshold**, adjust the runtime remaining before an action is performed (*Seconds - hours*)
-#. For **Uptime for Power Control**, adjust the time to control power after wake *Minutes - months*)
+#. For **Uptime for Power Control**, adjust the time to control power after wake (*minutes - months*)
 #. For **Displaying Header**, turn **On** to display a header of the dialog box
 #. For **Method for Displaying Message**, specify how to display the message below (*HTML, Image*)
 #. For **Message Contents**, specify the message contents, text and height
