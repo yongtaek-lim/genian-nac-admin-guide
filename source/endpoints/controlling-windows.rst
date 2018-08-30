@@ -36,5 +36,5 @@ You can control Windows devices with the Agent installed using following plugins
    notifying-users   
    remove-programs
    running-scripts   
-   killing-processes
+   terminate-process
    
