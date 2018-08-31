@@ -25,7 +25,6 @@ You can control Windows devices with the Agent installed using following plugins
    wlan-interface
    dns
    external-device
-   arp-spoofing
    windows-update
    power-options
    folder-sharing
