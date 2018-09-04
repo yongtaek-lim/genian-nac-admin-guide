@@ -4,7 +4,6 @@ Collecting Hardware Information
 Policy Server communicates with the Agent to collect hardware information that is installed on 
 end users macOS devices
 
-<<<<<<< HEAD
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel
 #. Find and click **Collect Hardware Information** in the Agent Action window (*Notice there are two. One for Windows, and another for MacOS*)
@@ -13,10 +12,6 @@ Under **General** section
 
 #. For **CWP Message**, add message to be displayed in accordance with the Policy
 #. For **Label**, add labels to help categorize your plugins with custom labels that appear in the "Description" field
-=======
-To Add the Agent Action to a Policy
------------------------------------
->>>>>>> 69efc22a93086f3208f7e5ca09ed5b63dc35b482
 
 Under **Agent Actions** section
 

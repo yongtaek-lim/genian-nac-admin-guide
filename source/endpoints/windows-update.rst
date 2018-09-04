@@ -1,28 +1,9 @@
 Update Windows
 ==============
 
-<<<<<<< HEAD
 Genian NAC supports patching of Windows devices using the Agent Action “Update Windows”. 
 Policy Server pulls down the latest Windows Updates and Patches periodically to help keep your endpoint devices current. 
 With the Agent installed on the endpoints, you can control whether they are getting updates and how often.
-=======
-Genian NAC supports patching of Windows devices using the Agent Action “Update Windows”. Policy Server pulls down the latest Windows Updates and Patches periodically to help keep your endpoint devices current. With the Agent installed on the endpoints, you can control whether they are getting updates and how often.
-
-To Add the Agent Action to a Policy
------------------------------------
-
-#. Go to **Policy** in the top panel
-#. Go to **Policy > Node Policy** in the left Policy panel
-#. Click the **desired Policy ID** in Node Policy window
-#. Find **Agent Action**. Click **Assign**
-#. Find **Update Windows** in the **Available** section. Select and drag it into the **Selected** section
-#. Click **Add**
-#. Click **Update**
-#. Click **Apply** in top right corner
-
-To Control Windows Updates
---------------------------
->>>>>>> 69efc22a93086f3208f7e5ca09ed5b63dc35b482
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel

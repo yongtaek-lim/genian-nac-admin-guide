@@ -3,12 +3,6 @@ Manage ARP Table
 
 You can manage the ARP Table on the devices by Deleting Static ARP Entries, or preventing ARP conflicts
 
-<<<<<<< HEAD
-=======
-Add the Agent Action to a Policy
---------------------------------
-
->>>>>>> 69efc22a93086f3208f7e5ca09ed5b63dc35b482
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel
 #. Find and click **Manage ARP Table** in the Agent Action window

@@ -3,7 +3,6 @@ Remove Programs
 
 You can control software on your Windows devices by removing programs that you do not allow
 
-<<<<<<< HEAD
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel
 #. Find and click **Remove Programs** in the Agent Action window
@@ -12,10 +11,6 @@ Under **General** section
 
 #. For **CWP Message**, add message to be displayed in accordance with the Policy
 #. For **Label**, add labels to help categorize your plugins with custom labels that appear in the "Description" field
-=======
-To Add the Agent Action to a Policy
------------------------------------
->>>>>>> 69efc22a93086f3208f7e5ca09ed5b63dc35b482
 
 Under **Agent Actions** section
 
