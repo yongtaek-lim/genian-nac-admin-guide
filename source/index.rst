@@ -27,9 +27,3 @@ Genian NAC Documentation
    releasenotes/genian-nac-5.0
    Answers <https://www.genians.com/answers/>
    Slack Chat <https://join.slack.com/t/genians/shared_invite/enQtMzM3NjQ3NDU0NTkyLWI4OGQ3YmEwY2ZiN2E5Y2I2ZGQzZTdiOGFlOGNiZDdkNGFhYzhlM2I1ZDlhODM4Y2QyYTllZWZiMjExMDI4YmU>
-   
-.. toctree::
-   :maxdepth: 1
-   :caption: Misc
-   
-   sphinx
