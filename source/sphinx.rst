@@ -1,5 +1,5 @@
-How To Contribute Documents
-===========================
+How To Contribute Documents using Eclipse
+=========================================
 
 You may contribute to these documents through the following process.
 
