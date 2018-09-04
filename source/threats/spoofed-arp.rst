@@ -1,5 +1,5 @@
 ARP Spoofing Sent
-=========================
+=================
 
 Genian NAC can detect any spoofed ARP packets sent  in a variety of ways. 
 The Network Sensor listens for ARP replies on a network and checks of them whether there may be any changes or differences between the ARP sender MAC address and the Ethernet source MAC address.
@@ -10,7 +10,7 @@ In addition, if the number of response packets allowed are more than the specifi
 
 
 Step 1. Configure Threat Definition Settings for ARP Spoofing in Threat Definition
--------------------------------------------------
+----------------------------------------------------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Threat Definition** in the left Policy panel
@@ -21,7 +21,7 @@ Step 1. Configure Threat Definition Settings for ARP Spoofing in Threat Definiti
 #. Click **Update**
 
 Step 2. Create Status Group For ARP Spoofing Sent
-----------------------------------------------
+-------------------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Group > Node** in the left Policy panel
@@ -34,7 +34,7 @@ Step 2. Create Status Group For ARP Spoofing Sent
 #. Click **Update**
    
 Step 3. Create Node Policy For ARP Spoofing
-----------------------------------------------------
+-------------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy** in the left Policy panel

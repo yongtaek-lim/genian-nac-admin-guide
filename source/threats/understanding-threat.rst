@@ -45,10 +45,10 @@ Detect any device try to scan TCP or UDP ports. Genian NAC use honeypot IP for d
 
 Ad Hoc Network Connected
 ------------------------
-(*Agent required)
-Detects direct client-to-client communication
+
+Detects direct client-to-client communication (*Agent required*)
 
 Invalid Gateway Used
 --------------------
-(*Agent required)
-Detects a Node having a rogue gateway configured
+
+Detects a Node having a rogue gateway configured (*Agent required*)
