@@ -6,6 +6,7 @@ You can control Windows devices with the Agent installed using following plugins
 .. toctree::
    :maxdepth: 1
 
+   computer-name
    windows-antivirus-info
    os-info
    hardware-info
@@ -25,16 +26,14 @@ You can control Windows devices with the Agent installed using following plugins
    wlan-interface
    dns
    external-device
-   arp-spoofing
    windows-update
    power-options
    folder-sharing
    screen-lock
-   computer-name
    arp-table
    managing-files   
    notifying-users   
    remove-programs
    running-scripts   
-   killing-processes
+   terminate-process
    
