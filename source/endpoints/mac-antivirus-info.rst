@@ -7,7 +7,7 @@ that is installed on your macOS devices
 List of Supported Antivirus by Version
 --------------------------------------
 
-See all Antivirus supported with Genian NAC by version.
+Check all Antivirus supported with Genian NAC by version.
 
 +---------------+--------------------------------+---------------+
 |Vendor         |Product                         |Genian Version |

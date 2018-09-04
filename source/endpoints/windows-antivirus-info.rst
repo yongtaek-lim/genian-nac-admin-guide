@@ -6,7 +6,7 @@ Policy Server communicates with the Agent to collect antivirus software informat
 List of Supported Antivirus by Version
 --------------------------------------
 
-See all Antivirus supported with Genian NAC by version.
+Check all Antivirus supported with Genian NAC by version.
 
 +---------------+--------------------------------+---------------+
 |Vendor         |Product                         |Genian Version |

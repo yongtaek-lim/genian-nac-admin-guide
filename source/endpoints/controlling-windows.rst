@@ -15,14 +15,18 @@ You can control Windows devices with the Agent installed using following plugins
    printer-info
    software-info
    system-info-wmi
+   chk-pwdvalid
+   inspect-tcpconn
    instant-messaging
    peer-peer
    windows-settings
    wireless-manager
    8021x-wired-auth
+   auth-agent
    antivirus-software
    internet-options
    network-interface
+   ctrl-traffic
    wlan-interface
    dns
    external-device

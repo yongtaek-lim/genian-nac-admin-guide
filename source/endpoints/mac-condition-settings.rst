@@ -1,6 +1,7 @@
 Scan Condition Settings
 =======================
 
+<<<<<<< HEAD
 You can scan macOS condition settings to include processes, files, system, and authenticated users
 
 #. Go to **Policy** in the top panel
@@ -8,6 +9,10 @@ You can scan macOS condition settings to include processes, files, system, and a
 #. Find and click **Scan Condition Settings** in the Agent Action window
 
 Under **General** section
+=======
+Add the Agent Action to a Policy
+--------------------------------
+>>>>>>> 69efc22a93086f3208f7e5ca09ed5b63dc35b482
 
 #. For **CWP Message**, add message to be displayed in accordance with the Policy
 #. For **Label**, add labels to help categorize your plugins with custom labels that appear in the "Description" field
