@@ -10,6 +10,7 @@ Genian NAC Documentation
    intro
    deploy
    install
+   console
    monitor
    control
    onboard
