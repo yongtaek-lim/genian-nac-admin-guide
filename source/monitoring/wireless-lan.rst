@@ -6,7 +6,6 @@ Network Sensor with built-in Wireless Adapter scans the network and detects all 
 .. toctree::
    :maxdepth: 1
    
-   wireless-lan/wireless-adapter-compatibility
    wireless-lan/browsing-ssids
    wireless-lan/searching-ssids
    wireless-lan/wireless-groups
@@ -16,3 +15,4 @@ Network Sensor with built-in Wireless Adapter scans the network and detects all 
    wireless-lan/internal-ssid
    wireless-lan/browsing-stations
    wireless-lan/searching-stations
+   wireless-lan/wireless-adapter-compatibility
