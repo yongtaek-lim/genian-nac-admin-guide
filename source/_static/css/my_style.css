@@ -30,9 +30,9 @@
     background: #cdde9d;
     color:#595156
 }
-.wy-nav-side {
+.wy-menu-vertical p.caption {
     color: #E1F4A3
 }
-a {
-    color: #76a000
+.rst-content div a, .rst-content div a:visited {
+    color: #79a500;
 }
