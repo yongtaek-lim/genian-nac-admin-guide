@@ -36,3 +36,32 @@ To Configure DHCP Services To Network Sensor In Operation
 #. Click **Update**
 
 .. image:: /images/Genian-NAC-DHCP-Options-1.png
+   :width: 900 px
+
+Managing DHCP Leases
+--------------------
+
+It is a function to inquire and delete the DHCP IP assigned to the device by the DHCP server.
+This feature is only available through the CLI(Command Line Interface). 
+
+**Show DHCP Lease status**
+
+.. code:: bash
+
+   genian# show dhcp lease all
+   IP Address      MAC               Expire              Interface  
+   --------------- ----------------- ------------------- -----------
+   172.29.30.152   00:24:21:3D:65:C4 2018-08-06 20:10:13 eth0
+   172.29.30.154   00:90:FB:26:7D:24 2018-08-06 19:10:24 eth0
+   172.29.30.155   AC:3C:0B:3C:01:70 2018-08-06 20:10:21 eth0
+
+**Clear DHCP Lease status**
+
+.. code:: bash
+
+   geinian# clear dhcp lease ip 172.29.30.152
+   genian# show dhcp lease all
+   IP Address      MAC               Expire              Interface  
+   --------------- ----------------- ------------------- -----------
+   172.29.30.154   00:90:FB:26:7D:24 2018-08-06 19:10:24 eth0
+   172.29.30.155   AC:3C:0B:3C:01:70 2018-08-06 20:10:21 eth0
