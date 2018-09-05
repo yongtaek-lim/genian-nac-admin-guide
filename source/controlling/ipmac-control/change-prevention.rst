@@ -16,15 +16,15 @@ To Enable IP Change Prevention
 #. Click **IPAM** tab
 #. Find **MAC Policy** section, click the **circle** next to **Allow MAC – Enable Change Prevention**
 
-(*if there is more than one MAC associated with this MAC then you have to “Specify IP addresses”. Click Add IP*)
+(*if there is more than one IP associated with this MAC then you have to “Specify IP addresses”. Click Add IP*)
 
-#. Click **Update**
+5. Click **Update**
 
 To Disable IP Change Prevention
 -------------------------------
 
 #. Go to **Management > Node** in the top panel
-#. Click on the desired **I*P** or **MAC Address**
+#. Click on the desired **IP** or **MAC Address**
 #. Click **IPAM** tab
 #. Find **MAC Policy** section, click the **circle** next to **Allow MAC – Disable Change Prevention**
 #. Click **Update**

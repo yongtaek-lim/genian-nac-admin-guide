@@ -17,6 +17,7 @@ Under **Authentication Server**
 #. For **RADIUS Client IP**, enter the IP address or addresses to be allowed as Clients separated by new line.
 #. For **Server Port**, enter the RADIUS authentication port number (*Default is 1812*)
 #. For **EAP Authentication**, select **On**
+#. For **Quarantine VLAN**, turn on to specify a VLAN ID to be assigned
 #. For **MAC Authentication**, select **On** for enable MAC Authentication bypass (MAB)
 #. For **Generating Accounting**, select **On** if RADIUS Client not support generating RADIUS accounting packet
 #. Click **Update**

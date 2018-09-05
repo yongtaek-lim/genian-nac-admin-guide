@@ -1,26 +1,9 @@
 Controlling Network Interface
 =============================
 
-You can control wired and wireless network interfaces on end users Windows devices by disabling wired, wireless, bridged, and promiscuous mode. You can also send interface disabled event notifications with custom messages that appear as pop-ups
-
-See the Configuration of the Plugin
------------------------------------
-
-- Go to **System > Update > Genian Software > Plugin > Control Network Interface**
-
-Add the Agent Action to a Policy
---------------------------------
-
-#. Go to **Policy** in the top panel
-#. Go to **Policy > Node Policy** in the left Policy panel
-#. Click the **desired Policy ID** in Node Policy window
-#. Find **Agent Action**. Click **Assign**
-#. Find **Control Network Interface** in the **Available** section. Select and drag it into the **Selected** section
-#. Click **Add**
-#. Click **Update**
-
-Control Network Interface
--------------------------
+You can control wired and wireless network interfaces on end users Windows devices by disabling wired, 
+wireless, bridged, and promiscuous mode. You can also send interface disabled event notifications with 
+custom messages that appear as pop-ups
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel
@@ -38,4 +21,11 @@ Under **Disabling Network**
 Under **Enforcing Network Device Properties**
 
 #. For **Internet Connection Sharing**, select to disable the shared Internet Connection
+#. For **IPv6**, select to disable the IPv6 Interface Connection
+#. Click **Update**
+#. Go to **Node Policy** in the left Policy panel
+#. Click the **Default Policy** in Node Policy window
+#. Find **Agent Action**. Click **Assign**
+#. Find **Control Network Interface** in the **Available** section. Select and drag it into the **Selected** section
+#. Click **Add**
 #. Click **Update**

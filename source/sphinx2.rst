@@ -1,5 +1,5 @@
-How To Contribute Documents
-===========================
+How To Contribute Documents using VS Code
+=========================================
 
 You may contribute to these documents through the following process.
 
@@ -30,12 +30,12 @@ Signup at `GitHub`_
    - Enter repository “USERNAME/genian-nac-admin-guide”
 
 
-**Install Sublime Text on your PC**
+**Install Visual Studio Code on your PC**
 
-   - If you use Windows you need to install Sublime Text
-   - Go to `Sublime Text`_ to download
+   - If you use Windows you need to install Visual Studio Code
+   - Go to `Visual Studio Code`_ to download
      
-.. image:: /images/sublime.png
+.. image:: /images/vscode.png
    :width: 500px
 
 
@@ -45,8 +45,8 @@ Signup at `GitHub`_
    - Select your source directory “genian-nac-admin-guide”
 
 
-Editing contents using Sublime Text
------------------------------------
+Editing contents using Visual Studio Code
+-----------------------------------------
 
 **Create New Folder for Files**
 
@@ -82,7 +82,7 @@ Editing contents using Sublime Text
  
 **Add Images To File**
 
-   - Copy image files from local machine to genian-nac-admin-guide\source\images folder
+   - Copy image files from local machine to genian-nac-admin-guide\\source\\images folder
    - Add code for images where you would like your image to be
    
 .. code:: bash
@@ -108,6 +108,30 @@ Editing contents using Sublime Text
  <Space Needed>
   Lines of Code with no spaces to follow (*Single space before "Lines" needed)
   
+Build your RST file to HTML
+---------------------------
+**Install Sphinx on your PC**
+
+   - If you use Windows you need to install Python
+   - Go to `Python`_ to download
+
+**Open Command Prompt enter following:**
+
+.. code:: bash
+ 
+ # pip install Sphinx
+ # pip install sphinx_rtd_theme
+
+**Build and Check your change**
+
+  - Click View > Integrated Terminal on VScode
+  - Type ".\\make html" to build
+  - Check your directory "\\genian-nac-admin-guide\\build\\html"
+
+.. image:: /images/makehtml.png
+  :width: 500px
+
+
 
 Apply your change to main repository
 ------------------------------------
@@ -127,6 +151,8 @@ Stay current with Main Repo changes
       
 **Update main repo changes to your local repo**
 
+   - Click "Push origin" to push repository
+
 .. image:: /images/push.png
    :width: 500px
    
@@ -143,4 +169,5 @@ Stay current with Main Repo changes
 
 .. _GitHub : https://desktop.github.com/
 .. _Download GitHub Desktop: https://desktop.github.com/
-.. _Sublime Text: https://www.sublimetext.com/
+.. _Visual Studio Code: https://code.visualstudio.com/
+.. _Python: https://www.python.org/downloads/release/python-365/
