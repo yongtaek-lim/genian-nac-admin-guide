@@ -1,3 +1,38 @@
 .wy-nav-content {
     max-width: none !important;
 }
+.wy-side-nav-search {
+    width: 300px;
+    z-index: 200;
+    background-color: #88ab29;
+    text-align: center;
+    padding: .809em;
+    display: block;
+    color: #fcfcfc;
+    margin-bottom: .809em;
+}
+.wy-side-nav-search input[type=text] {
+    width: 100%;
+    border-radius: 2px;
+    padding: 6px 12px;
+    border-color: #88ab29;
+}
+.wy-menu-vertical a:active {
+    background-color:#88ab29;cursor:pointer;color:#fff
+}
+.wy-nav-side {
+    background: #595156;
+}
+.rst-content .note {
+    background: #efefef;
+}
+.rst-content .note .admonition-title {
+    background: #cdde9d;
+    color:#595156
+}
+.wy-menu-vertical p.caption {
+    color: #E1F4A3
+}
+.rst-content div a, .rst-content div a:visited {
+    color: #79a500;
+}
