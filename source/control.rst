@@ -15,6 +15,5 @@ Enforcement policies can be applied in a variety of ways. Genian NAC provides th
    controlling/ipam-control
    controlling/dhcp-services   
    controlling/switchport-block
-   controlling/port-scan
    controlling/integration
    
