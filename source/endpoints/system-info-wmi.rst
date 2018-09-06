@@ -26,3 +26,35 @@ Under **Agent Actions** section
 #. Find **Collect System Information Using WMI** in the **Available** section. Select and drag it into the **Selected** section
 #. Click **Add**
 #. Click **Update**
+
+**WMI Query Examples:**
+
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| WMI Name                 | Namespace   | WMI Query                                                                                |
++==========================+=============+==========================================================================================+
+| Battery Info             | root\CIMV2  | SELECT Caption FROM Win32_Battery                                                        |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| HDD Vendor               | root\CIMV2  | SELECT Caption FROM Win32_DiskDrive                                                      |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| HDD Size                 | root\CIMV2  | SELECT Size FROM Win32_DiskDrive                                                         |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| HDD Model                | root\CIMV2  | SELECT Model FROM Win32_DiskDrive                                                        |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| HDD Serial               | root\CIMV2  | SELECT SerialNumber FROM Win32_DiskDrive                                                 |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| Volume Serial            | root\CIMV2  | SELECT VolumeSerialNumber FROM Win32_LogicalDisk                                         |
++--------------------------+-------------+------------------------------------------------------------------------------------------+ 
+| Graphics Card Info       | root\CIMV2  | SELECT Caption, DriverVersion FROM Win32_DisplayConfiguration                            |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| Graphics Card Resolution | root\CIMV2  | SELECT CurrentHorizontalResolution, CurrentVerticalResolution FROM Win32_VideoController |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| HP Driver Version        | root\CIMV2  | SELECT * FROM Win32_PnPSignedDriver WHERE Devicename LIKE 'HP%'                          |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| NDIS Driver Version      | root\CIMV2  | SELECT * FROM Win32_PnPSignedDriver WHERE Devicename LIKE 'NDIS%'                        |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| Printer Info             | root\CIMV2  | SELECT Drivername FROM Win32_Printer                                                     |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| DHCP service             | root\CIMV2  | SELECT Description, DHCPEnabled, IPEnabled FROM Win32_NetworkAdapterConfiguration        |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
+| NIC Traffic Info         | root\CIMV2  | SELECT BytesSentPersec,BytesReceivedPersec FROM Win32_PerfRawData_Tcpip_NetworkInterface |
++--------------------------+-------------+------------------------------------------------------------------------------------------+
