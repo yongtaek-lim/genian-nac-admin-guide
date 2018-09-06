@@ -5,7 +5,8 @@ Policy Server communicates with the Agent to use Windows Management Instrumentat
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Agent Action** in the left Policy panel
-#. Find and click **Collect System Information Using WMI** in the Agent Action window
+#. Click **Tasks > Create** to create new Agent Action
+#. For **Name**, type unique name (*e.g. WMI Identify Internal Battery*)
 
 Under **General** section
 
@@ -16,87 +17,57 @@ Under **Agent Actions** section
 
 #. For **Boolean Operator**, choose **AND** or **OR** to add optional conditions
 #. For **Settings**, click **Add** and select your optional conditions. **Criteria/Operator/Value**
-#. For **Namespace**, select appropriate Namespace from drop-down or define Namespace in **User Defined Namespace**
-#. For **WMI Query**, enter in optional queries separated by semicolon
-#. For **Execution Interval**, adjust Periodic Interval (*Seconds - months*)
+#. For **Plugin**, select **Collect System Information Using WMI** from drop-down
+#. For **Settings: Namespace**, select appropriate Namespace from drop-down or define Namespace in **User Defined Namespace** (*e.g. root\IMV2*)
+#. For **Settings: WMI Query**, type in optional queries separated by semicolon (*e.g. SELECT Caption FROM Win32_Battery*)
+#. For **Execution Interval**, adjust Periodic Interval (*seconds - months*)
 #. Click **Update**
 #. Go to **Node Policy** in the left Policy panel
 #. Click the **Default Policy** in Node Policy window
-#. Find **Agent Action**. Click **Assign**
-#. Find **Collect System Information Using WMI** in the **Available** section. Select and drag it into the **Selected** section
+#. Find **Agent Action** section, click **Assign**
+#. Find and double click newly created **Agent Action** (*e.g. WMI Identify Internal Battery*)
 #. Click **Add**
 #. Click **Update**
+
+See WMI Results
+---------------
+
+You can wait for the Policy to run on the defined schedule or you can Run Actions Now to see results immediately.
+
+#. Click **Policy** in the top panel
+#. Go to **Node Policy** in the left Policy panel
+#. Click **Checkbox** of Default Policy
+#. Click **Tasks > Run Actions Now** (*Wait a few minutes for this Action to run*)
+#. Go to **Management > Node**, find and click on **IP** of Windows Node with Agent Installed
+#. Find and click **System** tab
+#. Find **WMI Status** section to view WMI results
 
 Creating Status Group for WMI Results
 -------------------------------------
 
-Create Status Group based off of the WMI results from the **Collect System Information Using WMI** plugin. 
-These Status Groups then allow you to identify and enforce policies depending on your network requirements
+Create Status Group based off of the WMI results from the **Agent Action** created from above. 
+This Status Group then allows you to identify and enforce policies depending on your network requirements.
 
 #. Click **Policy** in the top panel
 #. Go to **Group > Node** in the left Policy panel
 #. Click **Tasks > Create New Status Group**
 
-Under **General**
+Under **General** section
 
 #. For **Category**, Choose default or Create New (*This allows you to categorize your Node Groups*)
-#. For **ID**, type unique name (*e.g. WMI Battery Info*)
+#. For **ID**, type unique name (*e.g. WMI Internal Battery Group*)
 #. For **Description** (*Brief description of what this Node Group is for*)
-#. For **Application Mode**, **Enabled**
-
-Under **Condition**
-
-#. For **Boolean**, select "**AND**" or “**OR**” (*”AND” all conditions have to apply. “OR” any of the conditions have to apply*)
-#. For **Settings**, click **Add** (*These are the various conditions to be applied for proper grouping*)
-#. For **Options**, select **WMI**
-#. For **Operator**, select appropriate option from drop-down (*Equal to or Not Equal to, Greater than, or Less than*)
-#. For **Value**,  type appropriate class/property
-
-   - Example Battery Info Setting: Option = WMI, Operator = class/property value are equal to, Value = Win32_Battery/Caption, Internal Battery
-
-     
-#. Click **Add**
-#. Click **Update**
-
-.. note: Results can be found in Node System View / WMI Status   MManagement > Node > Click IP of Node > System tab > Find WMI Status
-
-Example: Identify Nodes having Internal Batteries Using WMI and Status Group
-----------------------------------------------------------------------------
-
-#. Go to **Policy > Node Policy > Agent Action**
-#. Click **Tasks > Create**
-
-Under **General** section
-
-#. For **Name**, type **WMI Identify Internal Battery**
-
-Under **Agent Actions** section
-
-#. For **Plugin**, choose **Collect System Information Using WMI**   
-#. For **Settings: Namespace**, select **root\CIMV2**
-#. For **Settings: WMI Query**, enter **SELECT Caption FROM Win32_Battery**
-#. For **Execution Interval**, select **In Periodic Interval**
-#. Click **Update**
-#. Go to **Policy > Node Policy** click on **Default Policy**
-#. Find **Agent Action**. Click **Assign**
-#. Find and double click **WMI Identify Internal Battery**
-#. Click **Add**
-#. Go to **Policy > Group > Node > Tasks > Create New Status Group**
-
-Under **General** section
-
-#. For **ID**, type **WMI Internal Battery Group**
 #. For **Application Mode**, **Enabled**
 
 Under **Condition** section
 
-#. For **Boolean**, select **AND**
-#. For **Settings**, click **Add**
+#. For **Boolean**, select "**AND**" or “**OR**” (*”AND” all conditions have to apply. “OR” any of the conditions have to apply*)
+#. For **Settings**, click **Add** (*These are the various conditions to be applied for proper grouping*)
 #. For **Options**, select **WMI**
-#. For **Operator**, select **class/property value are equal to**
-#. For **Value**, select **Win32_Battery/Caption, Internal Battery**   
+#. For **Operator**, select appropriate option from drop-down (*e.g. class/property value are equal to*)
+#. For **Value**,  type appropriate class/property value (*e.g. Win32_Battery/Caption, Internal Battery*)     
 #. Click **Add**
-#. Click **Apply**
+#. Click **Save**
 
 **WMI Query Examples:**
 
@@ -132,10 +103,10 @@ Under **Condition** section
 
 **WMI Status Group Examples:** (*Sample of the use of Operator: Equal to or Not Equal to, and Greater than or Less than*)
 
-+--------------------------+-------------+------------------------------------------------------------------------------------------+
-| Status Group             | Boolean     | Condition                                                                                |
-+==========================+=============+==========================================================================================+
-| WMI Internal Battery     | AND         | WMI / class/property, value are equal to / Win32_Battery/Caption, Internal Battery       |
-+--------------------------+-------------+------------------------------------------------------------------------------------------+
-| WMI HDD Size             | AND         | WMI / class/property, value are less then / Win32_DiskDrive/Size, 536870912000           |
-+--------------------------+-------------+------------------------------------------------------------------------------------------+
++------------------------+----------+--------------------------------------+-------------------------------------------+
+| Status Group           | Options  | Operator                             | Value                                     |
++========================+==========+======================================+===========================================+
+| WMI Internal Battery   | WMI      | class/property, value are equal to   | Win32_Battery/Caption, Internal Battery   |
++------------------------+----------+--------------------------------------+-------------------------------------------+
+| WMI HDD Size           | WMI      | class/property, value are less then  | Win32_DiskDrive/Size, 536870912000        |
++------------------------+----------+--------------------------------------+-------------------------------------------+
