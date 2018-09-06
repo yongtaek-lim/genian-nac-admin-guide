@@ -13,3 +13,4 @@ Systems consist of Policy Server and Sensor. You can customize admin interface, 
    system/backup
    system/system-software
    system/mobile-app
+   system/preferences

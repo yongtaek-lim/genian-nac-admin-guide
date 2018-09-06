@@ -6,6 +6,7 @@ You can monitor **Nodes** by grouping, filtering, and listing by various perspec
 .. toctree::
    :maxdepth: 1
 
+   network-nodes/viewing-page
    network-nodes/browsing-nodes
    network-nodes/filtering-nodes
    network-nodes/tagging-nodes
