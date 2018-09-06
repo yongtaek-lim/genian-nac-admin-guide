@@ -18,7 +18,7 @@ Under **Agent Actions** section
 #. For **Boolean Operator**, choose **AND** or **OR** to add optional conditions
 #. For **Settings**, click **Add** and select your optional conditions. **Criteria/Operator/Value**
 #. For **Plugin**, select **Collect System Information Using WMI** from drop-down
-#. For **Settings: Namespace**, select appropriate Namespace from drop-down or define Namespace in **User Defined Namespace** (*e.g. root\IMV2*)
+#. For **Settings: Namespace**, select appropriate Namespace from drop-down or define Namespace in **User Defined Namespace** (*e.g. root\CIMV2*)
 #. For **Settings: WMI Query**, type in optional queries separated by semicolon (*e.g. SELECT Caption FROM Win32_Battery*)
 #. For **Execution Interval**, adjust Periodic Interval (*seconds - months*)
 #. Click **Update**
