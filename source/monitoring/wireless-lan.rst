@@ -18,5 +18,3 @@ Network Sensor with built-in Wireless Adapter scans the network and detects all 
    wireless-lan/searching-stations
    
    wireless-lan/wireless-groups
-   
-   wireless-lan/wireless-adapter-compatibility

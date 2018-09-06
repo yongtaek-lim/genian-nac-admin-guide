@@ -1,3 +1,5 @@
+:orphan:
+
 How To Contribute Documents using VS Code
 =========================================
 
