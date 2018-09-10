@@ -1,5 +1,7 @@
-How To Contribute Documents
-===========================
+:orphan:
+
+How To Contribute Documents using Eclipse
+=========================================
 
 You may contribute to these documents through the following process.
 
@@ -32,7 +34,7 @@ Signup at `GitHub`_
  # git remote add upstream https://github.com/USERNAME/genian-nac-admin-guide
 
 
-**Install Sphinx on you PC**
+**Install Sphinx on your PC**
 
    - If you use Windows you need to install Python
    - Go to `Python`_ to download
@@ -210,7 +212,41 @@ Stay current with Main Repo changes
 
 (*Main repository moderator will approve changes, or ask you to make some suggested changes*)
 
+Clone other Repositories for testing
+------------------------------------
+
+#. Go to `Master Branch`_ 
+#. Click on Pull Requests to view all requests
+#. Find and click on Pull Request you want to clone and test
+#. Find and click on "command line instructions"
+#. Copy the https://...... line from Step 1.
+#. Open Command Prompt or Terminal
+#. Type "git clone (*Paste line that was copied*) <SomeTestName>
+
+.. code:: bash
+
+   git clone https://github.com/billeaton-master/genian-nac-admin-guide.git doc-test
+
+
+   Cloning into 'doc-test'...
+   remote: Counting objects: 2666, done.
+   remote: Total 2666 (delta 0), reused 0 (delta 0), pack-reused 2666
+   Receiving objects: 100% (2666/2666), 3.73 MiB | 6.04 MiB/s, done.
+   Resolving deltas: 100% (1728/1728), done.
+
+#. Change directories to doc-test. > cd doc-test
+
+Import Cloned Repository into Eclipse
+-------------------------------------
+
+#. Open Eclipse and right click onto **File** and **Open Projects from File System**
+#. Find Import source and locate doc-test directory and click **Finish** to open it
+#. You will now see the doc-test project under your current project to test and make changes
+#. Once you are complete delete this project by right clicking on project and selecting **Delete**
+#. Click **Checkbox** to **Delete project contents on disk** (*cannot be undone*) then click **OK**
+
 .. _GitHub: https://github.com/
 .. _Download Git: https://git-scm.com/download/win
 .. _Python: https://www.python.org/downloads/release/python-365/
 .. _Eclipse: https://www.eclipse.org/downloads/
+.. _Master Branch: https://github.com/genians/genian-nac-admin-guide

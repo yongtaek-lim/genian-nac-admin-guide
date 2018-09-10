@@ -1,6 +1,6 @@
 Installing Network Sensor
 =========================
-    
+
 Prepare Hardware
 ----------------
 
@@ -19,6 +19,8 @@ Prepare Network Connection
 Genian NAC requires a network connection with at least one static IP address. 
 You can use an 802.1Q trunk port to manage multiple VLANs on a single network connection.
 If you are using a virtual machine, be sure to select the network interface type in **Bridge** mode.
+It is recommended that the Wireless Network Adapter be installed in order for the network sensor to collect WLAN information.
+See :doc:`wireless-adapter-compatibility` 
 
 Download Software
 -----------------

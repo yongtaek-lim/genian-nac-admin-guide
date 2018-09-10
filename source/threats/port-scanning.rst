@@ -1,5 +1,5 @@
 Port Scan Run
-=========================
+=============
 
 Genian NAC can detect port scanning run in a variety of ways. 
 The Network Sensor monitors the network traffic flow to check the access event of ports.
@@ -8,7 +8,7 @@ In addition, if the ports are scanned more than the specified value within a per
 
 
 Step 1. Configure Threat Definition Settings for Port Scanning in Threat Definition
--------------------------------------------------
+-----------------------------------------------------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy > Threat Definition** in the left Policy panel
@@ -20,7 +20,7 @@ Step 1. Configure Threat Definition Settings for Port Scanning in Threat Definit
 #. Click **Update**
 
 Step 2. Create Status Group For Port Scan Run
-----------------------------------------------
+---------------------------------------------
 
 #. Go to **Policy** in the top panel
 #. Go to **Group > Node** in the left Policy panel
@@ -33,8 +33,7 @@ Step 2. Create Status Group For Port Scan Run
 #. Click **Update**
    
 Step 3. Create Node Policy For Port Scanning
-----------------------------------------------------
-
+--------------------------------------------
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Node Policy** in the left Policy panel
 #. Click on **Tasks > Create**

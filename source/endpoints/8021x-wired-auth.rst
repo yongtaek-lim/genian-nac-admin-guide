@@ -55,7 +55,7 @@ Step 4. Assign Agent Action to Node Policy
 #. Find and click **Node Policy name**
 #. Find **Agent Action** section. Click **Assign**
 #. Locate **Configuring 802.1X Wired Authentication** and move to **Selected** column
-#. click **Add**
+#. Click **Add**
 #. Click **Apply** in the top right. Click Close
 
 Remove Agent Action from Node Policy
