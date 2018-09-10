@@ -4,7 +4,7 @@ Detecting Internal SSID
 SSIDs are differentiated in the list from **Internal** to **Neighboring APs**
 
 Show Internal SSIDs
----------------------
+-------------------
 
 #. Go to **Management > WLAN** in the top panel
 #. Find and click column labeled **Internal** in the main WLANs window. All internal APs will be identified with a checkmark in this column
@@ -12,7 +12,7 @@ Show Internal SSIDs
 How to find the internal AP
 ---------------------------
 
-The AP detected by the GNAC Agent and the wireless sensor can be distinguished by an internally connected AP by several criteria.
+The AP detected by the Genian NAC Agent and the wireless sensor can be distinguished by an internally connected AP by several criteria.
 Internal AP detection method is as follows.
 
 **MAC Similarity Check**
