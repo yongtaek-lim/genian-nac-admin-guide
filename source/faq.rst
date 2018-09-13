@@ -39,4 +39,4 @@ Use step 1 on :doc:`endpoints/windows-update`
 How come the blocked Nodes cannot open the CWP through GNAC?
 ------------------------------------------------------------
 
-Use step 1 on :doc:`hsts-hpkp`
+Use step 1 on :doc:`onboarding/hsts-hpkp`
