@@ -249,4 +249,3 @@ Genian NAC uses filters in the audit log to integrate with SYSLOG.
    ---------------  -----      -------   --------------------     --------------            -------------
    172.29.101.1      vsys1     SYSLOGI    genian          2220                2220         
    Total: 1 users
-   

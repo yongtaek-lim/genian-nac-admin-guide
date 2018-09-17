@@ -10,4 +10,5 @@ You can customize Captive Web Portal, and Guest Management in this On-boarding p
 
    onboarding/configuring-cwp
    onboarding/configuring-guest
+   onboarding/hsts-hpkp
    
