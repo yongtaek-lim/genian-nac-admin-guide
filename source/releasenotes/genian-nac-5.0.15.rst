@@ -8,6 +8,7 @@ For upgrading system software, please see :doc:`/system/system-software`
 New Features
 ------------
 
+- #18357 Add RADIUS server provided in professional edition.
 - #18009 Add HTTP header setting function to log filter Webhook setting
 - #17944 Add multi-domain setting function with LDAP authentication integration
 - #17081 Add ability to collect open port information in macOS network information collection plug-in
@@ -17,6 +18,7 @@ New Features
 Enhancements
 ------------
 
+- #18171 RADIUS authentication and accounting secrets and client IP settings are combined into one.
 - #18102 Policy menu structure change. Moves the Windows Update and External Device menus that were under Node Policy to the top and move device under a group to external device policy
 - #18154 Add a Virtual Machine Default Node Group
 - #17969 Add Node Group Condition Agent Needs indication.
