@@ -9,4 +9,4 @@ Genan NAC can integrate with a variety of security vendors to establish security
    :maxdepth: 1
 
    integration-paloalto
-   
+   integration-fireeye
