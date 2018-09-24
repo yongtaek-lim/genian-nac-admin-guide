@@ -8,8 +8,7 @@ For upgrading system software, please see :doc:`/system/system-software`
 New Features
 ------------
 
-- #18357 Add RADIUS server provided in professional edition.
-- #18009 Add HTTP header setting function to log filter Webhook setting
+- #18009 Add HTTP header setting function to log filter web-hook settings. You can set Authorization, Content-type and more headers
 - #17944 Add multi-domain setting function with LDAP authentication integration
 - #17081 Add ability to collect open port information in macOS network information collection plug-in
 - #17680 Add macOS agent appearance and personalization plugin
@@ -18,14 +17,15 @@ New Features
 Enhancements
 ------------
 
+- #18357 RADIUS server provided in professional edition.
 - #18171 RADIUS authentication and accounting secrets and client IP settings are combined into one.
 - #18102 Policy menu structure change. Moves the Windows Update and External Device menus that were under Node Policy to the top and move device under a group to external device policy
 - #18154 Add a Virtual Machine Default Node Group
 - #17969 Add Node Group Condition Agent Needs indication.
 - #17081 Add ability to collect open port information in macOS network information collection plug-in
 - #17927 Add a hyperlink to switch and port information in node details
-- #18011 Add audit record if Webhook return value is not successful.
-- #18088 Add to switch management screen so that MAC can be output as tooltip in IP column.
+- #18011 Add audit record if web-hook return error code
+- #18088 Add to switch management screen so that MAC can be output as tooltip in IP column
 - #18161 User Information Synchronization Error Audit Record Improved to stay in detail
 
 Bug Fixes
