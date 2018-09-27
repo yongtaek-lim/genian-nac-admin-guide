@@ -17,16 +17,17 @@ New Features
 Enhancements
 ------------
 
-- #18357 RADIUS server provided in professional edition.
-- #18171 RADIUS authentication and accounting secrets and client IP settings are combined into one.
-- #18102 Policy menu structure change. Moves the Windows Update and External Device menus that were under Node Policy to the top and move device under a group to external device policy
-- #18154 Add a Virtual Machine Default Node Group
-- #17969 Add Node Group Condition Agent Needs indication.
-- #17081 Add ability to collect open port information in macOS network information collection plug-in
-- #17927 Add a hyperlink to switch and port information in node details
-- #18011 Add audit record if web-hook return error code
-- #18088 Add to switch management screen so that MAC can be output as tooltip in IP column
-- #18161 User Information Synchronization Error Audit Record Improved to stay in detail
+- #18357 RADIUS server now provided in professional edition.
+- #18171 RADIUS authentication and accounting secrets and client IP settings are combined into single setting.
+- #18102 Policy menu structure change. Moves the Windows Update and External Device menus that were under Node Policy to the top
+and move device under a group to external device policy.
+- #18154 Add a virtual machine default node group using most popular hypervisor vendor's MAC OUI.
+- #17969 Add node group condition's agent needs indication icon for easy to determine agent is required.
+- #17081 Add ability to collect open port information in macOS network information collection plug-in.
+- #17927 Add a hyperlink to switch and port information in node details.
+- #18011 Add audit record if log filter's web-hook return error code.
+- #18088 Add to switch management screen so that MAC can be output as tooltip in IP column.
+- #18161 User Information Synchronization Error Audit Record Improved to stay in detail.
 
 Bug Fixes
 ---------
