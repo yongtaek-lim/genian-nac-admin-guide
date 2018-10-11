@@ -1,18 +1,7 @@
 Installing Genian NAC
 =====================
 
-Genian NAC is organized by three main components.
-
-
-    **Policy Server**
-        Store all the collected data. Administrator's UI, Policy decision and distribute policy to network sensor and agent
-        
-    **Network Sensor**
-        Monitor wired and wireless network. detect and collect all network and node information and send to policy server.
-        
-    **Agent**
-        Install on Windows/macOS system. collect information and control system. Agent is optional components.
-
+This chapter guides you through installing Genian NAC on your system and accessing the administrator Web UI and CLI.
         
 .. toctree::
    :maxdepth: 1
@@ -23,5 +12,4 @@ Genian NAC is organized by three main components.
    install/license
    install/ssh
    install/installing-agent  
-   install/bootable-usbdrive   
    install/high-availability
