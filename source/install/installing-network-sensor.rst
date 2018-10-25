@@ -77,6 +77,9 @@ Initial Configuration
     * Enter DNS IP addresses (*Concatenated by comma*)
     
 #. Enter Policy Server IP or FQDN.
+
+    * X.X.X.X
+    * *sitename*.genians.net (In case Cloud-managed policy server)
     
 #. Verify all information
 
