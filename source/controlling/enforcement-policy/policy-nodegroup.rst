@@ -10,7 +10,7 @@ To Create An Enforcement Policy
 -------------------------------
 
 #. Go to **Policy** in the top panel
-#. Go to **Policy > Node Policy** in the left Policy panel
+#. Go to **Policy > Enforcement Policy** in the left Policy panel
 #. Click **Tasks > Create**
 #. **Action** tab click **Next**
 #. **General** tab create an **ID** and enter brief **Description** to identify what the Policy does (*Priority stays as default. Application mode should be Enable*) Click **Next**
