@@ -1,7 +1,7 @@
 Genian NAC v5.0.15 Release Notes
 ================================
 
-Release Date: 8/13/2018
+Release Date: 10/25/2018
 
 For upgrading system software, please see :doc:`/system/system-software` 
 
@@ -19,8 +19,7 @@ Enhancements
 
 - #18357 RADIUS server now provided in professional edition.
 - #18171 RADIUS authentication and accounting secrets and client IP settings are combined into single setting.
-- #18102 Policy menu structure change. Moves the Windows Update and External Device menus that were under Node Policy to the top
-and move device under a group to external device policy.
+- #18102 Policy menu structure change. Moves the Windows Update and External Device menus that were under Node Policy to the top and move device under a group to external device policy.
 - #18154 Add a virtual machine default node group using most popular hypervisor vendor's MAC OUI.
 - #17969 Add node group condition's agent needs indication icon for easy to determine agent is required.
 - #17081 Add ability to collect open port information in macOS network information collection plug-in.
