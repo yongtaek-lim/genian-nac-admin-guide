@@ -12,4 +12,4 @@ By default, Genian NAC provides Logs based on severities, and pre-defined Log Fi
    realtime-monitoring
    create-log-filter
    tagging-assets
-   
+   tagging-policy
