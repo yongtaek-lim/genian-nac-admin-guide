@@ -98,6 +98,16 @@ Initial Configuration
 
 #. Login to Genian NAC management UI. :doc:`gui`
 
+Unsupported Hardware
+--------------------
+
+If you find any device driver unsupported problems. please report to us.
+
+.. toctree::
+   :maxdepth: 1
+
+   report-unsupported-hw.rst
+
 .. _minimum specification: https://www.genians.com/download/
 .. _contact us: https://www.genians.com/hello/
 .. _download page: https://www.genians.com/download/

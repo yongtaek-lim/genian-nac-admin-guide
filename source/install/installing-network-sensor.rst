@@ -88,6 +88,16 @@ Initial Configuration
     
 #. If the connection to the policy server is successful, you can check the newly added network sensor in **System> System** menu of the management UI.
 
+Unsupported Hardware
+--------------------
+
+If you find any device driver unsupported problems. please report to us.
+
+.. toctree::
+   :maxdepth: 1
+
+   report-unsupported-hw.rst
+
 .. _minimum specification: https://www.genians.com/download/
 .. _contact us: https://www.genians.com/hello/
 .. _download page: https://www.genians.com/download/
