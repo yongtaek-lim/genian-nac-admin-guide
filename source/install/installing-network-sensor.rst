@@ -93,6 +93,8 @@ Unsupported Hardware
 
 If you find any device driver unsupported problems. please report to us.
 
+.. note:: If the storage device or network interface is not recognized when installing the virtual machine, please change the storage type to SATA or change the network interface driver to Intel series such as E1000.
+
 .. toctree::
    :maxdepth: 1
 
