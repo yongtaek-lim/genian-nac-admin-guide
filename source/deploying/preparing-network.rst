@@ -41,21 +41,31 @@ and External (Neighboring) to your network. Placement of the Network Sensor with
 to place this in a Data closet where you will only detect Wireless SSIDs near the data closet. You will want to place
 the Network Sensor with Wireless NIC centrally to where you can detect the majority of the SSIDs around it.
 
-Required firewall policy
-------------------------
+Allowed Ports
+-------------
 
-+-------------------+-------------------------------+-------------------------+--------------------+
-| SRC IP            | DST IP                        | Service                 | Note               |
-+===================+===============================+=========================+====================+
-| Policy Server     | 1.241.151.11                  | TCP/443                 | DPI, MS Patch      |
-|                   | (geniupdate.geninetworks.com) |                         | Data Update        |
-+-------------------+-------------------------------+-------------------------+--------------------+
-| Network Sensor    | Policy Server                 | TCP/80, TCP/443,        | Policy Download,   |
-|                   |                               | UDP/3870, TCP/37        | Keepalive, NTP     |
-+-------------------+-------------------------------+-------------------------+--------------------+
-| PC (Agent)        | Policy Server                 | TCP/80, TCP/443,        | Policy Download,   |
-|                   |                               | UDP/3870                | Keepalive          |
-+-------------------+-------------------------------+-------------------------+--------------------+
++-------------------+-------------------------------+-------------------------+------------------+
+| SRC IP            | DST IP                        | Service                 | Note             |
++===================+===============================+=========================+==================+
+|                   | 115.68.106.87, 1.241.151.0/24 | TCP/3898, 3899          |                  |
+| Policy Server IP  |                               | UDP/3898, 3899          | GENIAN Data SYNC |
+|                   |                               | TCP/37, 80, 443         |                  |
++-------------------+-------------------------------+-------------------------+------------------+
+| Policy Server IP  | 115.68.106.86, 1.241.151.0/24 | TCP/80                  | MS Patch         |
++-------------------+-------------------------------+-------------------------+------------------+
+|                   |                               | TCP/3870                |                  |
+| Network Sensor IP | Policy Server IP              | UDP/3870, 3871          |                  |
+|                   |                               | TCP/37, 80, 443         |                  |
+|                   |                               | UDP/514                 |                  |
++-------------------+-------------------------------+-------------------------+------------------+
+|                   | 115.68.106.86, 115.68.106.87  |                         |                  |
+| Network Sensor IP | 1.241.151.0/24                | TCP/80                  | MS Patch file    |
+|                   | (winupdate.geninetworks.com)  |                         |                  |
++-------------------+-------------------------------+-------------------------+------------------+
+| PC IP(Agent)      | Policy Server IP              | UDP/3870, 3871          |                  |
+|                   |                               | TCP/80, 443, 8000, 3910 |                  |
++-------------------+-------------------------------+-------------------------+------------------+
+
 
 .. note:: The above ports need to be open and accessible to allow the Policy Server to get weekly/monthly updates from the Genians Platform DB
 
