@@ -53,11 +53,10 @@ Agent
 -----
 
 Agent is software installed in the user's desktop system. It periodically collects operating system, hardware, and software related information and sends
-it to the policy server when a change is detected.
+it to the policy server when a change is detected. It also provides desktop configuration management capabilities, making it easy to manage the required
+settings for your organization's security policies. This is optional component.
 
-It also provides desktop configuration management capabilities, making it easy to manage the required settings for your organization's security policies.
-
-This is optional component.
+The agent provides its own security functions such as termination prevention and deletion prevention according to the administrator's setting.
 
 .. list-table:: Supported opertating systems
    :widths: 30 30
