@@ -58,3 +58,22 @@ it to the policy server when a change is detected.
 It also provides desktop configuration management capabilities, making it easy to manage the required settings for your organization's security policies.
 
 This is optional component.
+
+.. list-table:: Supported opertating systems
+   :widths: 30 30
+   :header-rows: 1
+
+   * - Windows
+     - macOS
+   * - Windows XP (SP2)
+     - Apple OS X Mavericks
+   * - Windows Vista
+     - Apple OS X Yosemite
+   * - Windows 7
+     - Apple OS X El Capitan
+   * - Windows 8
+     - Apple macOS Sierra
+   * - Windows 8.1
+     - Apple macOS High Sierra
+   * - Windows 10
+     - Apple macOS Mojave
