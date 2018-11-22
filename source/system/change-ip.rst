@@ -1,5 +1,5 @@
-To Change The Interface IP Address
-==================================
+Change The Interface IP Address
+===============================
 
 You can edit and change the appliance IP Address of any interface through the CLI
 
