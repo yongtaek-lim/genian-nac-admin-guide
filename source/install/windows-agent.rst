@@ -14,6 +14,8 @@ Install Windows Agent
   
    -  Windows installer version: GnUpdate_(*IP or FQDN*).exe
 
+#. Provides MSI packages for installation via Active Directory GPOs. Please contact us for further details.
+
 Verify Windows Agent installed
 ------------------------------
 
