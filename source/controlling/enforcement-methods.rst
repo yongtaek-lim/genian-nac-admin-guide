@@ -91,7 +91,7 @@ and transmitted, and the access point or switch receives the VLAN ID and assigns
 
 **Change of Authorization**
 
-If network access needs to be restricted due to device state changes, the device can be terminated using a RADIUS CoA (Change or Authorization).
+If network access needs to be restricted due to device state changes, the device can be terminated using a RADIUS CoA (Change of Authorization).
 The disconnected device will try a new connection and connect to the isolated VLAN at this time to securely isolate the device from the network.
 To do this, the access point or switch must support the *RFC 5176 - Dynamic Authorization Extensions to RADIUS* standard.
 
