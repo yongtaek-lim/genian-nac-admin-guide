@@ -10,4 +10,5 @@ You can connect through command line console change the interface IP address, or
    interface-alias-ip
    dhcp-interface
    adding-deleting-network-sensors
+   change-interface-type
    

@@ -21,16 +21,6 @@ What if I exceed the license amount?
 
 Use step 1 on :doc:`deploying/sizing`
 
-Why do I get certificate errors when connecting to the Admin console?
----------------------------------------------------------------------
-
-You need to install an trusted public certificate. Use :doc:`install-certificate`
-
-What is the difference between Windows and macOS agents?
---------------------------------------------------------
-
-Use :doc:`compare-agent-by-os`
-
 How can I check Windows update of endpoints?
 --------------------------------------------
 
