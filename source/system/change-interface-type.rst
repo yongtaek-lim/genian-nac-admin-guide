@@ -61,7 +61,7 @@ Restore other config for Management interface (Optional)
     genian(config)# interface eth0 node-server enable
     genian(config)# interface eth0 radius-server enable
 
-**Make sure all VLAN interface setup static IP or DHCP.**
+**Make sure all VLAN interface properly setup ether static IP or DHCP.**
 
 To configure running network sensor on VLAN interface:
 
@@ -82,17 +82,17 @@ To delete a sensor that no longer exists and the node it detects, follow these s
 Trunk Port to Access Port
 -------------------------
 
-1. Delete VLAN
+Delete VLAN
 
 .. code:: bash
 
     genian(config)# no interface eth0 vlan 10,20,30-35               // Replace by your VLAN IDs separated by comma or hypen
 
-2. Delete all VLAN interface settings
+Delete all VLAN interface settings
 
 .. code:: bash
 
     genian(config)# interface eth0.X address X.X.X.X
     genian(config)# interface eth0.X gateway X.X.X.X
 
-3. Setup eth0 address, gateway and other settings
+Setup eth0 address, gateway and other settings
