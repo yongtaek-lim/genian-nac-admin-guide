@@ -19,14 +19,14 @@ Yes, communication between each component is encrypted through TLS.
 What if I exceed the license amount?
 ------------------------------------
 
-Use step 1 on :doc:`deploying/sizing`
+See step 1 on :doc:`deploying/sizing`
 
 How can I check Windows update of endpoints?
 --------------------------------------------
 
-Use step 1 on :doc:`endpoints/windows-update`
+See step 1 on :doc:`endpoints/windows-update`
 
 How come the blocked Nodes cannot open the CWP through GNAC?
 ------------------------------------------------------------
 
-Use step 1 on :doc:`onboarding/hsts-hpkp`
+See step 1 on :doc:`onboarding/hsts-hpkp`

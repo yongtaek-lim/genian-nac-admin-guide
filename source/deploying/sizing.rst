@@ -22,6 +22,10 @@ This value can usually be found in the following ways:
 **All devices that use TCP/IP communication, such as IP phones, surveillance cameras, as well as PCs should be considered as devices.**
 
 As your network grows, and the number of devices exceed your License limit, the information and logs of those devices will be hidden and cannot be used.
+
+.. image:: /images/licenselimit.PNG
+   :width: 550px
+
 When devices are no longer seen on the network the License will then be carried over to the next active and running device.
 If you purchase an on-premise product, there are no licensing deadlines, only maintenance expirations. If maintenance contract expires, 
 then you cannot upgrade to a newer version or update any of the various databases.
