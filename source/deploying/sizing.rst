@@ -21,7 +21,8 @@ This value can usually be found in the following ways:
    
 **All devices that use TCP/IP communication, such as IP phones, surveillance cameras, as well as PCs should be considered as devices.**
 
-As your network grows, and the number of devices exceed your License limit, the information and logs of those devices will be hidden and cannot be used.
+As your network grows, and the number of devices exceed your License limit, some information of new devices will be hide.
+But all policies work normally. (Product feature limitations due to license overrun may change without notice.)
 
 .. image:: /images/licenselimit.PNG
    :width: 550px
