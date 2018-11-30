@@ -3,6 +3,11 @@
 Genian NAC Documentation
 ========================
 
+.. image:: images/download_pdf.png
+   :width: 120px
+   :target: genian-nac-admin-guide.pdf
+
+
 .. toctree::
    :maxdepth: 1
    :caption: Administrator's Guide
