@@ -24,24 +24,24 @@ The table below compares the advantages and disadvantages of each method.
      - Port Mirroring (SPAN)
      - 802.1x
      - Agent
-   * - **Pre Connect Control**
+   * - **Layer 2 Access Control**
      - | Yes 
      - | Yes
      - | No
      - | Yes
      - | No
-   * - **Post Connect Control**
-     - | Yes
-     - | Change VLAN/ACL/Shutdown
-     - | TCP Only
-     - | CoA* required
-     - | Yes
    * - **Layer 3 Access Control**
      - | RBAC
      - | Switch Port ACL
      - | RBAC
      - | Switch  Port ACL
      - | OS Firewall
+   * - **Post Connect Control**
+     - | Yes
+     - | Change VLAN/ACL/Shutdown
+     - | TCP Only
+     - | CoA* required
+     - | Yes
    * - **Additional Hardware**
      - | Network Sensor       
      - | Replace to Managed Switch
