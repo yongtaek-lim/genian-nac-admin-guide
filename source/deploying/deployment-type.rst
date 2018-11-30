@@ -38,7 +38,7 @@ The table below compares the advantages and disadvantages of each method.
      - | Yes
    * - **Layer 3 Access Control**
      - | RBAC
-     - | Swithch Port ACL
+     - | Switch Port ACL
      - | RBAC
      - | Switch  Port ACL
      - | OS Firewall
@@ -126,7 +126,7 @@ The table below compares the advantages and disadvantages of each method.
      - | High
      - | Intermediate
    * - **Recommended**
-     - | Basic monitoring anc control
+     - | Basic monitoring and control
      - | For extended information
        | and port control
      - | Not recommended
