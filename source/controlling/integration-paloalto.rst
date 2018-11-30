@@ -1,7 +1,7 @@
-Integration Guide of  Alto Networks Firewall
+Integration Guide of Palo Alto Networks Firewall
 ================================================
 
-This guide provides an overview of integration via  Alto firewall. It includes the following information:
+This guide provides an overview of integration via Palo Alto firewall. It includes the following information:
 
    -  `1. About This Guide`_
    -  `2. Deployment of Genian NAC using PAN Firewall`_
@@ -83,7 +83,7 @@ Genian NAC uses filters in the audit log to integrate with XML.
 - Go to **Log** > **Search** > **Advanced Search** > **Log ID** > **Check Authentication** > Click **Search** button in the left **Log** panel
 - You will see the Log of Authentication user and then you click the “**save as**” button
 
-Enter a **Name**: SSO_Alto
+Enter a **Name**: SSO_PaloAlto
 Set the **Webhook URL:**
 
 .. code:: bash
@@ -149,7 +149,7 @@ To enable User Identification
 ----------------------------------------------------------
 
 4.1 Create a filter.
-The  Alto Firewall creates a log filter to distinguish authentication-related messages when receiving Syslog messages from Genian NAC.
+The Palo Alto Firewall creates a log filter to distinguish authentication-related messages when receiving Syslog messages from Genian NAC.
 
 - Go to **Device** on the top panel
 - Go to User **Identification** > **User Mapping** > Click the Button look like **Gear** on PAN firewall **User-ID Agent Setup** Tab
@@ -218,7 +218,7 @@ Genian NAC uses filters in the audit log to integrate with SYSLOG.
 
    Enter values
    Enter a Name
-   Enter a Server IP address[ Alto IP]
+   Enter a Server IP address[ Palo Alto IP]
    Select the Protocol either UDP or TCP(TLS)
    Set a Server port(UDP for 514, TCP(TLS) for 6514)
    Enter the SYSLOG Message: USERAUTH, ID={ID}, IP={_IP}
