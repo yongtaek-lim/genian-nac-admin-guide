@@ -15,12 +15,12 @@ The switch port can be a standard connection or can be a trunked port for up to 
 Policy Server and Network Sensor Combined
 
 .. image:: /images/Deploying-PolicyServer-NetworkSensor-Combined.png
-   :width: 850px
+   :width: 600px
 
 Policy Server and Network Sensor Separated
 
 .. image:: /images/Deploying-PolicyServer-NetworkSensor.png
-   :width: 850px
+   :width: 600px
 
 Cloud-Managed
 -------------
@@ -28,4 +28,4 @@ Cloud-Managed
 **Policy Server** can be deployed in the Cloud, while **Network Sensors** can be deployed by connecting them to an Edge Switch at your Remote Site locations.  The Edge Switch ports can be a standard connection or can be trunked ports for up to 128 VLANs. If your location has more then 128 VLANs then a second **Network Sensor** would be required
 
 .. image:: /images/Deploying-PolicyServer-NetworkSensor-Cloud.png
-   :width: 850px
+   :width: 600px

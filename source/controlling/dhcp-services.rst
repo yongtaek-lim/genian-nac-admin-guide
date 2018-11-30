@@ -20,7 +20,7 @@ vGo to **System Defaults > Network Sensor** in the left System Management panel
 #. All **other settings** are **optional**
 #. Click **Update**
 
-To Configure DHCP Services To Network Sensor In Operation
+To Configure DHCP Services To 
 ---------------------------------------------------------
 
 #. Go to **System** in the top panel
@@ -36,7 +36,7 @@ To Configure DHCP Services To Network Sensor In Operation
 #. Click **Update**
 
 .. image:: /images/Genian-NAC-DHCP-Options-1.png
-   :width: 900 px
+   :width: 600px
 
 Managing DHCP Leases
 --------------------

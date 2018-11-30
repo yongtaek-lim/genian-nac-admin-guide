@@ -55,7 +55,7 @@ Basically, the problem occurs only when the PC is connected to a specific URL th
  
 
 .. image:: /images/communication-https.jpg
-   :width: 700px
+   :width: 600px
 
 HTTPS communication also requires intercommunication between the Web Server and the PC for encrypted communication before creating a cryptographic session.
 
