@@ -108,6 +108,23 @@ If you use a switch that supports SNMP, Genian NAC will collect SNMP and switch 
 This information can be used to shut down the switch port according to the security policy of the device. Switch port block is done
 via SNMP Write. The switch MUST provide a writable *SNMP MIB-2 ifAdminStatus* property.
 
+Inline packet filtering
+-----------------------
+
+To apply the access control policy determined by the enforcement policy, you can use a dual-homed packet filtering device between the two networks.
+This usually works the same way as a firewall. Two network interfaces operate as gateways in each network, and in the process of forwarding packets,
+it checks the policy and drops unauthorized packets.
+
+Unlike the out-of-band method such as ARP or Port Mirroring method, it provides higher security because it checks the security policy against all packets
+passing through and transfers only allowed packets.
+However, this inline device is subject to security policy checks on every packet it passes through, which can cause packet transmission delays. In addition,
+access control policies can not be applied to packets that do not pass through this inline device. Therefore, you need to be careful about where you will
+install it before deployment.
+
+For inline packet filtering, network sensor software must be installed on hardware that has two or more network interfaces. When the sensor operation mode
+is set to 'inline' through the setting, the security policy is applied to the received packet and then forwarded to another interface in the system according
+to the routing table.
+
 Agent Action
 ------------
 
