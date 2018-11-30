@@ -27,7 +27,7 @@ The table below compares the advantages and disadvantages of each method.
    * - **Pre Connect Control**
      - | Yes 
      - | Yes
-     - | TCP Only
+     - | No
      - | Yes
      - | No
    * - **Post Connect Control**
@@ -80,7 +80,7 @@ The table below compares the advantages and disadvantages of each method.
      - | No
      - | No
    * - **Network Config Change**
-     - | No
+     - | Config trunk port (optional)
      - | Switch Config,
        | VLAN/ACL
      - | Tap Device,
