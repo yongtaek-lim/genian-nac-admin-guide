@@ -12,7 +12,7 @@ Genian NAC support multi-layered deployment methods include:
   - 802.1x
   - Agent
 
-The table below compares the advantages and disadvantages of each method. 
+The table below compares the functional advantages and disadvantages of each method. 
 
 .. list-table::
    :widths: auto
@@ -79,6 +79,19 @@ The table below compares the advantages and disadvantages of each method.
      - | No
      - | No
      - | No
+
+The table below compares the management advantages and disadvantages of each method. 
+
+.. list-table::
+   :widths: auto
+   :header-rows: 1
+
+   * - Topic
+     - Layer 2 Sensor/Enforcer
+     - SNMP/CLI
+     - Port Mirroring (SPAN)
+     - 802.1x
+     - Agent
    * - **Network Config Change**
      - | Config trunk port (optional)
      - | Switch Config,
