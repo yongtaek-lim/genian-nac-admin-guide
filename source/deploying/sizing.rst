@@ -25,7 +25,7 @@ As your network grows, and the number of devices exceed your License limit, some
 But all policies work normally. (Product feature limitations due to license overrun may change without notice.)
 
 .. image:: /images/licenselimit.PNG
-   :width: 550px
+   :width: 800px
 
 When devices are no longer seen on the network the License will then be carried over to the next active and running device.
 If you purchase an on-premise product, there are no licensing deadlines, only maintenance expirations. If maintenance contract expires, 
