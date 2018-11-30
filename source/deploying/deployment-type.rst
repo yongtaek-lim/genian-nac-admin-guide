@@ -80,6 +80,11 @@ The table below compares the advantages and disadvantages of the functional poin
      - | No
      - | No
 
+*CoA\*: Change of Authorization, RFC 5176 - Dynamic Authorization Extensions to RADIUS*
+
+To build network access control effectively and quickly, it is necessary to use a variety of deployment methods that
+are appropriate for network characteristics and security requirements.
+
 The table below compares the advantages and disadvantages of the deployment and management point of view.
 
 .. list-table::
@@ -146,9 +151,6 @@ The table below compares the advantages and disadvantages of the deployment and 
      - | For wireless network
      - | For extended information
        | and enforce compliance
-
-
-*CoA\*: Change of Authorization, RFC 5176 - Dynamic Authorization Extensions to RADIUS*
 
 Policy Server Deployment Models
 -------------------------------
