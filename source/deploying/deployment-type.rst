@@ -38,13 +38,13 @@ The table below compares the advantages and disadvantages of the functional poin
      - | OS Firewall
    * - **Post Connect Control**
      - | Yes
-     - | Change VLAN/ACL/Shutdown
+     - | VLAN/ACL/Shutdown
      - | TCP Only
      - | CoA* required
      - | Yes
    * - **Additional Hardware**
      - | Network Sensor       
-     - | Replace to Managed Switch
+     - | Managed Switches
      - | Full traffic capable Device,
        | Tap Device,
        | SSL Decryption Device
@@ -98,7 +98,7 @@ The table below compares the advantages and disadvantages of the deployment and 
      - 802.1x
      - Agent
    * - **Network Config Change**
-     - | Config trunk port (optional)
+     - | Trunk port (optional)
      - | Switch Config,
        | VLAN/ACL
      - | Tap Device,
@@ -109,8 +109,8 @@ The table below compares the advantages and disadvantages of the deployment and 
      - | No
    * - **Compatibility Issue**
      - | No
-     - | SNMP MIB/CLI command
-       | support issue
+     - | Vendor-dependent
+       | SNMP MIB/CLI
      - | No
      - | RADIUS Vendor Attribute,
        | non-802.1x capable Device
@@ -143,13 +143,14 @@ The table below compares the advantages and disadvantages of the deployment and 
      - | No
      - | High
      - | Intermediate
-   * - **Recommended**
-     - | Basic monitoring and control
-     - | For extended information
+   * - **Recommended for**
+     - | Essential Discovery
+       | and Control
+     - | Extended information
        | and port control
-     - | Not recommended
-     - | For wireless network
-     - | For extended information
+     - | 
+     - | Wireless network
+     - | Extended iInformation
        | and enforce compliance
 
 Policy Server Deployment Models
