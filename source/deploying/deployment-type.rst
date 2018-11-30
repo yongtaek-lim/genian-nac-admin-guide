@@ -12,7 +12,7 @@ Genian NAC support multi-layered deployment methods include:
   - 802.1x
   - Agent
 
-The table below compares the functional advantages and disadvantages of each method. 
+The table below compares the advantages and disadvantages of the functional point of view.
 
 .. list-table::
    :widths: auto
@@ -80,7 +80,7 @@ The table below compares the functional advantages and disadvantages of each met
      - | No
      - | No
 
-The table below compares the management advantages and disadvantages of each method. 
+The table below compares the advantages and disadvantages of the deployment and management point of view.
 
 .. list-table::
    :widths: auto
