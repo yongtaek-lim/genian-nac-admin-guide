@@ -20,7 +20,7 @@ vGo to **System Defaults > Network Sensor** in the left System Management panel
 #. All **other settings** are **optional**
 #. Click **Update**
 
-To Configure DHCP Services To 
+To Configure DHCP Services To Network Sensor In Operation
 ---------------------------------------------------------
 
 #. Go to **System** in the top panel
