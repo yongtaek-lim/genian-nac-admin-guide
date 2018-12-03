@@ -150,7 +150,7 @@ The table below compares the advantages and disadvantages of the deployment and 
        | and port control
      - | 
      - | Wireless network
-     - | Extended iInformation
+     - | Extended information
        | and enforce compliance
 
 Policy Server Deployment Models
