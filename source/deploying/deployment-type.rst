@@ -4,6 +4,8 @@ Deployment Models
 Compare Deployment Methods
 --------------------------
 
+The deployment method describes how Genian NAC collects network information and controls the network access of devices. 
+
 Genian NAC support multi-layered deployment methods include:
 
   - Layer 2 Sensor/Enforcer (*Mandatory*)
@@ -11,6 +13,9 @@ Genian NAC support multi-layered deployment methods include:
   - Port Mirroring (SPAN)
   - 802.1x
   - Agent
+
+Of these, Layer 2 Networks Sensors must be installed with Policy Server when deployed as an integral component of Genian NAC.
+Other deployment methods can be optionally applied.
 
 The table below compares the advantages and disadvantages of the functional point of view.
 
