@@ -49,6 +49,8 @@ Under **Authentication Server**
 #. For **Generating Accounting**, select **On** if RADIUS client(authenticator) not support generating RADIUS accounting packet
 #. Click **Update**
 
+For user directory integration, See :doc:`/authentication/enabling-authentication/8021x`
+
 MAC Authentication Bypass (MAB)
 ```````````````````````````````
  
