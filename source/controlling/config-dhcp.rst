@@ -1,5 +1,5 @@
-Configuring DHCP Services
-=========================
+Configuring DHCP Server
+=======================
 
 The Dynamic Host Configuration Protocol (DHCP) is a standardized network protocol used on IP networks. The DHCP is controlled by the Policy Server/Sensor that dynamically distributes network configuration parameters, such as IP addresses. You will be able to configure and manage the Built-In DHCP Options and configure Policy Server/Sensor to utilize the three DHCP Services (Local, Remote, and Global)
 

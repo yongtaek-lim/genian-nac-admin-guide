@@ -5,8 +5,8 @@ You need a way to control what devices violate network access control policies d
 layers of enforcement methods from Layer 2 network to agent-based. Depending on your network environment or security level requirements,
 you can leverage the following options:
 
-ARP Poisoning
--------------
+ARP Enforcement
+---------------
 
 Controlling network access according to the status of devices in the internal network has always been a challenge. Setting ACLs on routers
 to control access between internal networks can provide only a simple access control. 
@@ -81,7 +81,7 @@ and a RADIUS server. Genian NAC provides a built-in RADIUS server and provides t
 **User Authentication**
 
 802.1x allows access to the network through user-based authentication instead of a weak authentication method such as a shared secret.
-For more information about User Authentication, see :doc:`/authentication/enabling-authentication/8021x`
+For more information about User Authentication, see :doc:`/controlling/config-802.1x`
 
 **Quarantine VLAN**
 
