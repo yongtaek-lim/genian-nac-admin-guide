@@ -39,9 +39,7 @@ Enable Built-In RADIUS Server
 
 #. Go to **Preferences** in the top panel
 #. Go to **Service > RADIUS Server** in the left panel
-
-Under **Authentication Server**
-
+#. Under **Authentication Server**
 #. For **Shared Secret Key**, enter the pre-shared secret key for RADIUS client(authenticator) authentication.
 #. For **RADIUS Client IP**, enter the IP address or addresses to be allowed as Clients separated by new line.
 #. For **Server Port**, enter the RADIUS authentication port number (*Default is 1812*)
@@ -65,9 +63,7 @@ the authentication is allowed; otherwise, the authentication is denied.
 
 #. Go to **Preferences** in the top panel
 #. Go to **Service > RADIUS Server** in the left panel
-
-Under **Authentication Server**
-
+#. Under **Authentication Server**
 #. For **MAC Authentication**, select **On** for enable MAC Authentication bypass (MAB)
 #. For **Node Group**, select Node Group for allow MAC authentication
 #. Click **Update**
@@ -85,9 +81,7 @@ Genian NAC provides the ability to specify which VLANs to assign to devices belo
 
 #. Go to **Preferences** in the top panel
 #. Go to **Service > RADIUS Server** in the left panel
-
-Under **Authentication Server**
-
+#. Under **Authentication Server**
 #. For **EAP Authentication**, select **On**
 #. For **Quarantine VLAN**, select **On**
 #. For **VLAN Number**, enter VLAN ID for non compliant device
@@ -107,11 +101,9 @@ The disconnected device will attempt to reconnect and then move to the isolated 
 #. Go to **Policy** in the top panel
 #. Go to **Policy > Enforcement Policy** in the left panel
 #. Click the name of the Enforcement Policy you want to disconnect
-
-Under **Enforcement Options > RADIUS Control**
-
+#. Under **Enforcement Options > RADIUS Control**
 #. For **RADIUS CoA**, select **On**
 #. For **CoA Commands**, select **Terminate Session** for standard attribute or select other VSA (Vendor Specific Attribute)
 #. For **Vendor-Specific-Attribute**, enter VSA values (eg Nas-filter-Rule='permit in tcp from any to any 23')
-
-Under **Authentication Server**
+#. Click **Update**
+#. Click **Apply** on top right
