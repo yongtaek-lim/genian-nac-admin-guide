@@ -23,14 +23,15 @@ You can install Policy Server on a physical machine or virtual machine. Please r
     If you have any hardware comparability issue, please `contact us`_
     
 **Virtual Machine**
-    You can install Policy Server on virtual machine. We support various hypervisor 
+    You can install Policy Server on virtual machine. We support various hypervisor. 
 
 Prepare Network Connection
 --------------------------
 
 Genian NAC requires a network connection with at least one static IP address. 
 If you configure the All-in-One to use the network sensor function, You can use an 802.1Q trunk port to manage multiple VLANs on a single network connection.
-If you are using a virtual machine, be sure to select the network interface type in **Bridge** mode.
+
+.. note:: If you are using a virtual machine, be sure to select the network interface type in **Bridge** mode.
 
 Download Software
 -----------------
@@ -97,6 +98,18 @@ Initial Configuration
     * Something wrong. Type "n" to restart configuration
 
 #. Login to Genian NAC management UI. :doc:`gui`
+
+Unsupported Hardware
+--------------------
+
+If you find any device driver unsupported problems. please report to us.
+
+.. note:: If the storage device or network interface is not recognized when installing the virtual machine, please change the storage type to SATA or change the network interface driver to Intel series such as E1000.
+
+.. toctree::
+   :maxdepth: 1
+
+   report-unsupported-hw.rst
 
 .. _minimum specification: https://www.genians.com/download/
 .. _contact us: https://www.genians.com/hello/

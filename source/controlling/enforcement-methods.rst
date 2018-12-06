@@ -5,8 +5,8 @@ You need a way to control what devices violate network access control policies d
 layers of enforcement methods from Layer 2 network to agent-based. Depending on your network environment or security level requirements,
 you can leverage the following options:
 
-ARP Poisoning
--------------
+ARP Enforcement
+---------------
 
 Controlling network access according to the status of devices in the internal network has always been a challenge. Setting ACLs on routers
 to control access between internal networks can provide only a simple access control. 
@@ -81,7 +81,7 @@ and a RADIUS server. Genian NAC provides a built-in RADIUS server and provides t
 **User Authentication**
 
 802.1x allows access to the network through user-based authentication instead of a weak authentication method such as a shared secret.
-For more information about User Authentication, see :doc:`/authentication/enabling-authentication/8021x`
+For more information about User Authentication, see :doc:`/controlling/config-802.1x`
 
 **Quarantine VLAN**
 
@@ -91,7 +91,7 @@ and transmitted, and the access point or switch receives the VLAN ID and assigns
 
 **Change of Authorization**
 
-If network access needs to be restricted due to device state changes, the device can be terminated using a RADIUS CoA (Change or Authorization).
+If network access needs to be restricted due to device state changes, the device can be terminated using a RADIUS CoA (Change of Authorization).
 The disconnected device will try a new connection and connect to the isolated VLAN at this time to securely isolate the device from the network.
 To do this, the access point or switch must support the *RFC 5176 - Dynamic Authorization Extensions to RADIUS* standard.
 
@@ -107,6 +107,23 @@ Switch Port Block
 If you use a switch that supports SNMP, Genian NAC will collect SNMP and switch and port information connected to each node.
 This information can be used to shut down the switch port according to the security policy of the device. Switch port block is done
 via SNMP Write. The switch MUST provide a writable *SNMP MIB-2 ifAdminStatus* property.
+
+Inline packet filtering
+-----------------------
+
+To apply the access control policy determined by the enforcement policy, you can use a dual-homed packet filtering device between the two networks.
+This usually works the same way as a firewall. Two network interfaces operate as gateways in each network, and in the process of forwarding packets,
+it checks the policy and drops unauthorized packets.
+
+Unlike the out-of-band method such as ARP or Port Mirroring method, it provides higher security because it checks the security policy against all packets
+passing through and transfers only allowed packets.
+However, this inline device is subject to security policy checks on every packet it passes through, which can cause packet transmission delays. In addition,
+access control policies can not be applied to packets that do not pass through this inline device. Therefore, you need to be careful about where you will
+install it before deployment.
+
+For inline packet filtering, network sensor software must be installed on hardware that has two or more network interfaces. When the sensor operation mode
+is set to 'inline' through the setting, the security policy is applied to the received packet and then forwarded to another interface in the system according
+to the routing table.
 
 Agent Action
 ------------

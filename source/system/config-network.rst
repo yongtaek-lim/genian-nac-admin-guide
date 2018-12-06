@@ -7,6 +7,8 @@ You can connect through command line console change the interface IP address, or
    :maxdepth: 1
 
    change-ip
+   interface-alias-ip
    dhcp-interface
    adding-deleting-network-sensors
+   change-interface-type
    

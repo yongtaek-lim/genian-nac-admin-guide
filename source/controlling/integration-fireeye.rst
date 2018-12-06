@@ -19,7 +19,7 @@ Genian NAC will be able to prevent the spread of threats by quarantine the threa
 ---------------------------------------------
 
 .. image:: /images/Integration_FireEye.jpg
-   :width: 700px
+   :width: 600px
 
 #. FireEye detect the threaten device.
 #. FireEye sends a threat information to Genian NAC via SYSLOG.

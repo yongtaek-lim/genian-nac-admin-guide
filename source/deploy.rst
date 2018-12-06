@@ -8,6 +8,7 @@ This chapter introduces you to basic information you should know before installi
 
    deploying/components
    deploying/deployment-type
+   deploying/editions
    deploying/sizing
    deploying/preparing-network
    

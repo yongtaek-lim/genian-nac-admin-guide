@@ -3,24 +3,11 @@ Authentication using RADIUS (802.1x)
 
 .. note:: This feature required Enterprise Edition
  
-Genian NAC includes a built-in RADIUS server to support 802.1x port-based access control. In general, 802.1x is widely used to provide improved user authentication for devices that access wireless networks. In a wired network, a user authentication function can be provided for a device connected to the network through a switch supporting 802.1x.
+Genian NAC includes a built-in RADIUS server to support 802.1x port-based access control. In general,
+802.1x is widely used to provide improved user authentication for devices that access wireless networks.
+In a wired network, a user authentication function can be provided for a device connected to the network through a switch supporting 802.1x.
 
-Enable Built-In RADIUS Server
------------------------------
-
-#. Go to **Preferences** in the top panel
-#. Go to **Service > RADIUS Server** in the left Preferences panel
-
-Under **Authentication Server**
-
-#. For **Shared Secret Key**, enter the pre-shared secret key for RADIUS client authentication.
-#. For **RADIUS Client IP**, enter the IP address or addresses to be allowed as Clients separated by new line.
-#. For **Server Port**, enter the RADIUS authentication port number (*Default is 1812*)
-#. For **EAP Authentication**, select **On**
-#. For **Quarantine VLAN**, turn on to specify a VLAN ID to be assigned
-#. For **MAC Authentication**, select **On** for enable MAC Authentication bypass (MAB)
-#. For **Generating Accounting**, select **On** if RADIUS Client not support generating RADIUS accounting packet
-#. Click **Update**
+First, you need to configure RADIUS server. See, :doc:`/controlling/config-802.1x`
 
 The RADIUS accounting server must be activated in order for the authentication result to be updated in the node information. See :doc:`sso-radius-account`
 

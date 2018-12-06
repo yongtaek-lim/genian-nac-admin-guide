@@ -18,7 +18,7 @@ Internal AP detection method is as follows.
 **MAC Similarity Check**
 
 .. image:: /images/similarity.jpg
-   :width: 700px
+   :width: 600px
 
 #. The network sensor collects the wired interface MAC information of the internally connected AP.
 #. The wireless sensor collects the AP's wireless interface MAC information and sends it to the policy server.
@@ -27,7 +27,7 @@ Internal AP detection method is as follows.
 **Packet broadcasting**
 
 .. image:: /images/packet.jpg
-   :width: 700px
+   :width: 600px
 
 #. The network sensor broadcasts a virtual MAC to the network.
 #. At this time, AP connected to the internal network broadcasts the virtual MAC received from the network sensor to the AP's wireless band.
