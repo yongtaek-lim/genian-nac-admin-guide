@@ -14,6 +14,10 @@ New & Enhanced Features
     :width: 600px
 
 - #18273 Added dashboard periodic PDF export and email delivery
+
+ .. image:: /images/dashboard_report.png
+    :width: 500px
+    
 - #18234 User authentication execution time monitoring and processing delay warning function added. Monitor processing delay when setting up external authentication integration
 - #18182 Display SSID information of node when RADIUS Accounting SSO is enabled
 - #12441 Improved problem that does not display version information by agent platform in widgets and status
