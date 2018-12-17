@@ -174,6 +174,11 @@ Please refer to the function comparison table for each edition below to select t
      - 
      - Yes
    * - 
+     - **Multilingual Support**
+     - 
+     - 
+     - Yes
+   * - 
      - **Consent Pages**
      - 
      - 
