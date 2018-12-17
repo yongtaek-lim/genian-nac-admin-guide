@@ -13,7 +13,7 @@ New & Enhanced Features
  .. image:: /images/ipv6_popup.png
     :width: 600px
 
-- #18273 Added dashboard periodic PDF export and email delivery
+- #18273 Added dashboard periodic PDF export and receive them via email
 
  .. image:: /images/dashboard_report.png
     :width: 500px

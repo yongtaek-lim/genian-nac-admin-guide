@@ -54,6 +54,11 @@ Please refer to the function comparison table for each edition below to select t
      - Yes
      - Yes
    * - 
+     - **Network Anomaly Detection (MAC Spoofing, Rogue Gateway, Ad-hoc)**
+     - Yes
+     - Yes
+     - Yes
+   * - 
      - **Report (Basic, Custom, Export)**
      - 
      - Yes
@@ -95,11 +100,6 @@ Please refer to the function comparison table for each edition below to select t
      - Yes
    * - 
      - **DHCP Server**
-     - 
-     - Yes
-     - Yes
-   * - 
-     - **Network Anomaly Detection (MAC Spoofing, Rogue Gateway, Ad-hoc)**
      - 
      - Yes
      - Yes
