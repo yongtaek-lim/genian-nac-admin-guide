@@ -34,7 +34,7 @@ Please refer to the function comparison table for each edition below to select t
      - Yes
      - Yes
    * - 
-     - **Endpoint Basic Information (OS, HW, Software) by Agent**
+     - **Endpoint Basic Information (OS, HW, Software) by Windows/macOS Agent**
      - Yes
      - Yes
      - Yes
@@ -149,12 +149,12 @@ Please refer to the function comparison table for each edition below to select t
      - 
      - Yes
    * - 
-     - **REST API**
+     - **REST API (Inbound)**
      - 
      - 
      - Yes
    * - 
-     - **Syslog Listener**
+     - **Syslog Listener (Inbound)**
      - 
      - 
      - Yes
@@ -188,8 +188,18 @@ Please refer to the function comparison table for each edition below to select t
      - 
      - 
      - Yes
-   * - **Large Deployment**
-     - **High Availability**
+   * - **Scalability and Availability**
+     - **High Availability (Policy Server / Network Sensor)**
      - 
      - 
-     - Yes     
+     - Yes
+   * -
+     - **Interface Channel Bonding**
+     - 
+     - 
+     - Yes
+   * -
+     - **Multi Policy Server Support on Agent**
+     - 
+     - 
+     - Yes
