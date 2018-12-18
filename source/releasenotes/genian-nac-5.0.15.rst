@@ -1,5 +1,5 @@
-Genian NAC v5.0.15 Release Notes
-================================
+Genian NAC v5.0.15 Release Notes (October 2018)
+===============================================
 
 Release Date: 10/25/2018
 
