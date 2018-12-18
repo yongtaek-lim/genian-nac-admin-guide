@@ -20,19 +20,22 @@ Step 3. To configure the **Group Policy Management Editor**
 
 - Expand the **Policies** and **Software Settings** folder in left panel > click the **Software installation** > Click the right mouse button in right panel and click the **New** and **Package**
 - To move on share folder path like (ex. \\[domain]\Share folder) and then select the Agent MSI file > select **Advanced** in **Deploy Software popup** 
-- Click the **Deployment** tab > check the **Uninstall this application when it falls out of the scope of management** > click the **advanced** > check the **Ignore language when deploying this package** > **OK**
+- click the **advanced** > check the **Ignore language when deploying this package** > **OK**
 
 Step 4.To apply the GPO policy in **Group Policy Management**
 -------------------------------------------------------------
 
-- Click the **Computers** folder on the mouse right button in left panel > click the **Link an Existing GPO** > Select the **genian GPO**
+.. note:: GPOs can contain both **computer** and **user** sets of policies. 
+
+.. code:: bash
+
+   The **Computer section** of a GPO is applied during boot. 
+   The **User section** of a GPO is applied at user login.
+
+- Click the **Computers** or **user** folder on the mouse right button in left panel > click the **Link an Existing GPO** > Select the **genian GPO**
 
 Step 5. Verification
 --------------------
-
-GPOs can contain both **computer** and **user** sets of policies. 
-The **Computer section** of a GPO is applied during boot. 
-The **User section** of a GPO is applied at user login.
 
 - **run** > **cmd** > put the command **gpupdate /force**
 - Check the **GnAgent.exe, GnPlugin.exe, GnStart.exe** process in the **task manage**
