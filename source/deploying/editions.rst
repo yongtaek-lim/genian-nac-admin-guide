@@ -59,7 +59,12 @@ Please refer to the function comparison table for each edition below to select t
      - Yes
      - Yes
    * - 
-     - **Report (Basic, Custom, Export)**
+     - **Basic Reports (Node, WLAN, Log)**
+     - Yes
+     - Yes
+     - Yes
+   * - 
+     - **Custom Reports**
      - 
      - Yes
      - Yes
@@ -74,7 +79,7 @@ Please refer to the function comparison table for each edition below to select t
      - Yes
      - Yes
    * - 
-     - **LDAP/RADIUS/SMTP/POP3/IMAP Integration**
+     - **External User Directory Integration (LDAP/RADIUS/SMTP/POP3/IMAP)**
      - 
      - Yes
      - Yes
