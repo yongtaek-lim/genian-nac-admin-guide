@@ -12,8 +12,8 @@ This guide provides an overview of integration via FireEye. It includes the foll
 
 The guide describes how to integrate with Genian NAC and FireEye.
 
-When a specific threat is detected by FireEye, FireEye sends a threat information detected to Genian NAC through SYSLOG
-Genian NAC will be able to prevent the spread of threats by quarantine the threat target.
+When a specific anomaly is detected by FireEye, FireEye sends anomaly information detected to Genian NAC through SYSLOG
+Genian NAC will be able to prevent the spread of anomalies by quarantine the anomaly target.
 
 **2. Deployment of Genian NAC using FireEye**
 ---------------------------------------------
@@ -22,7 +22,7 @@ Genian NAC will be able to prevent the spread of threats by quarantine the threa
    :width: 600px
 
 #. FireEye detect the threaten device.
-#. FireEye sends a threat information to Genian NAC via SYSLOG.
+#. FireEye sends the anomaly information to Genian NAC via SYSLOG.
 #. Genian NAC quarantines the threaten device and then Threaten device can't connect to another network.
 
 **3. Configuring FireEye for integration via SYSLOG**

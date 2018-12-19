@@ -11,7 +11,7 @@ By default, the “**Denied by IPAM**” enforcement policy is disabled. Before 
 #. Go to **Policy** in the top panel
 #. Go to **Enforcement Policy** in the left Policy panel
 #. Click **IPAM Denied** name in the Enforcement Policy window
-#. Find **General > Application Mode** section to **Enable**
+#. Find **General > Status** section to **Enabled**
 #. Click **Update**
 #. Click **Apply** in top right corner
 

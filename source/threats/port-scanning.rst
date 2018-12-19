@@ -1,4 +1,4 @@
-Port Scan Run
+Port Scanning
 =============
 
 Genian NAC can detect port scanning run in a variety of ways. 
@@ -7,46 +7,48 @@ If a port scan is run to find a virtual IP address in order to exploit a known v
 In addition, if the ports are scanned more than the specified value within a period of time, then designated as a critical Node.
 
 
-Step 1. Configure Threat Definition Settings for Port Scanning in Threat Definition
------------------------------------------------------------------------------------
+Step 1. Configure Settings for Port Scanning in Anomaly Definition
+------------------------------------------------------------------
 
 #. Go to **Policy** in the top panel
-#. Go to **Policy > Node Policy > Threat Definition** in the left Policy panel
+#. Go to **Policy > Node Policy > Anomaly Definition** in the left Policy panel
 #. Click **Port Scan**
-#. Find **Threat Definition Settings** section
-#. Specify **Event Duration**
-#. Specify **Number of Allowable Ports** 
-#. Specify **Attribute to Match** to find a Node running a Port Scan
+#. Find **Anomaly Event** section to configure more options
+
+   - For **Event Duration**, optional setting to specify how long the port scan is run:
+   - For **Number of Allowable Ports**, optional setting to specify the threshold to trigger the anomaly detection
+   - For **Attribute to Match**, optional setting to find a Node running the port scan
+
 #. Click **Update**
 
 Step 2. Create Status Group For Port Scan Run
 ---------------------------------------------
 
 #. Go to **Policy** in the top panel
-#. Go to **Group > Node** in the left Policy panel
+#. Go to **Policy > Group > Node** in the left Policy panel
 #. Click on **Tasks > Create New Status Group**
-#. Enter in the following:
+#. For **ID:** Port Scan Run
+#. For **Status:** Enabled 
+#. For **Boolean Operator**  select **OR**
+#. Find and click on **Add** in **Condition** section
+#. For each **Anomaly** you want to add use the followings:
 
-   - **ID**: "Port Scan Run", Application Mode "Enable"
-   - **Condition**: Criteria: **Threat**,   Operator: **Detected is one of**,   Value: **Port Scan**
+   - **Options:** Anomaly
+   - **Operator:** Detected is one of
+   - **Value:** Port Scanning
 
-#. Click **Update**
+#. Click **Add**
+#. Keep adding **Conditions** as needed   
+#. Click **Save**
    
-Step 3. Create Node Policy For Port Scanning
+Step 3. Detect Port Scan Through Node Policy
 --------------------------------------------
-#. Go to **Policy** in the top panel
-#. Go to **Policy > Node Policy** in the left Policy panel
-#. Click on **Tasks > Create**
-#. Click **Next**
-#. On **General** tab enter the following:
 
-   - ID "Port Scan Run", Application Mode "Enable"
+You may assign the Status Group of Port Scan Run you created in Step 2 into an existing Node Policy or create a dedicated Node Policy to detect **Port Scanning** pre-configured in Step 1. 
+The anomaly, **Port Scanning**, detected through either an existing Node Policy or a new Node Policy will be seen a variety of ways, please see :doc:`/threats/detecting-threats`.
 
-#. Click **Next**
-#. On **Node Group** tab, select newly created Node Group **Port Scan Run Group**
-#. Click Next**
-#. On **Policy Preferences** tab, you may change some configuration settings if needed
-#. Click **Next**
-#. On **Agent Action** tab click **Next** 
-#. On **Threat** tab, select **Port Scan**
-#. Click **Finish**
+Step 4. Block Port Scan Through Enforcement Policy
+--------------------------------------------------
+
+You may assign the Status Group of Port Scan Run you created in Step 2 into an existing Enforcement Policy or create a dedicated Enforcement Policy to block the Nodes with **Port Scanning** pre-configured in Step 1. 
+Please see :doc:`/threats/blocking-threats`.

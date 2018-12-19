@@ -30,7 +30,7 @@ Step 2. Create Node Policy for Agent Authentication
 #. On **Node Group** tab. Select **Agent Authentication** Node Group and move it to **Selected** column
 #. On **Preferences** tab. Enter in **desired Options**
 #. On **Agent Action** tab. Select **Authenticate User Using Genian Agent** and move to **Selected** column
-#. On **Threat Definition** tab. (*Nothing required on this tab*)
+#. On **Anomaly Definition** tab. (*Nothing required on this tab*)
 #. Click **Finish**
 #. Click **Apply** in the top right. Click Close
 

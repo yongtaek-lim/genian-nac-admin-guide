@@ -19,8 +19,8 @@ To See Group Policy Widgets and Nodes go to Status & Filter
 - **Node Policy**: View which Nodes fall under the Default Policy or other Policy
 - **Enforcement Policy**:  View a percentage breakdown of which Nodes belong to which Policy
 - **Node Group**: View Node Group Assigned to Policy Enabled/Disabled widgets and gain a more detailed view of Group Categories
-- **Threat Definition**: View the percentages of each Threat Definition detected on Nodes
-- **Threat Detection**: View which Nodes have a detected Threat
+- **Anomaly Definition**: View the percentages of each Anomaly Definition detected on Nodes
+- **Anomaly Detection**: View which Nodes have a detected Anomaly
 - **Network Group**: View the Network Group Status and clickable numbers that apply to each
 - **Service**: View Services and the number of services detected. View Auth Users
 - **Node Type**: View Node Type Status and statistics by individual Node Types in Bar and Pie Chart format
