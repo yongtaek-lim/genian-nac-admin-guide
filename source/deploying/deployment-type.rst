@@ -9,8 +9,8 @@ Genian NAC collects network information and controls the network access of devic
   - 802.1x
   - Agent
 
-Technical Consideration
------------------------
+Technical Considerations
+------------------------
 
 .. list-table::
    :widths: auto
@@ -75,8 +75,8 @@ Technical Consideration
 
 *CoA\*: Change of Authorization, RFC 5176 - Dynamic Authorization Extensions to RADIUS*
 
-Management Consideration
-------------------------
+Management Considerations
+-------------------------
 
 .. list-table::
    :widths: auto
