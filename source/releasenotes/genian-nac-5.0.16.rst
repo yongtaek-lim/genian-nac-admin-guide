@@ -3,39 +3,41 @@ Genian NAC v5.0.16 Release Notes (Coming in January 2019)
 
 .. Release Date: 12/21/2018
 
-For upgrading system software, please see :doc:`/system/system-software` 
+For instructions on installing and updating Genian NAC, please see :doc:`/system/system-software`  
 
-New & Enhanced Features
------------------------
+New Features and Improvements
+-----------------------------
 
-- #12840 IPv6 node detection via network sensor and related node group condition added. Now you can find and block IPv6 enabled nodes
+- #12840 Added Sensor-based IPv6 support 
+  You may now find IPv6 enabled Nodes detected via Network Sensor and configure Node Group Condition settings accordingly to block IPv6 Nodes as needed.
 
  .. image:: /images/ipv6_popup.png
     :width: 600px
 
-- #18273 Added dashboard periodic PDF export and receive them via email
+- #18273 Scheduled export of Dashboard Report to PDF and email delivery 
+  You may now export a Dashboard using PDF format and configure the Dashboard Report settings to be scheduled and emailed.
 
  .. image:: /images/dashboard_report.png
     :width: 500px
     
-- #18234 User authentication execution time monitoring and processing delay warning function added. Monitor processing delay when setting up external authentication integration
-- #18182 Display SSID information of node when RADIUS Accounting SSO is enabled
-- #12441 Improved problem that does not display version information by agent platform in widgets and status
-- #17638 Add support OAuth2 mail server (like Google) when setting outgoing mail server
-- #17855 Improved to select Anti-virus name when creating node group condition for Anti-virus information
-- #18034 Terminology change. Threat -> Anomaly
-- #18201 Add Authorization header Settings to Log Filter Webhook Settings
+- #18234 User authentication execution time monitoring and processing delay warning function added
+- #18182 Display SSID information of Node when RADIUS Accounting SSO is enabled
+- #12441 Improved problem that does not display version information by Agent platform in Widgets and Status
+- #17638 Added Google mail server (Google OAuth2 authentication) when setting outgoing mail server for mail notifications
+- #17855 Improved to select Antivirus name when creating Node Group conditions for Antivirus information
+- #18034 Term changed, Threat -> Anomaly
+- #18201 Added Authorization header Settings to Log Filter Webhook settings
 
-Bug Fixes
----------
+Issues Fixed in 5.0.16
+----------------------
 
-- #18418 Fixed an issue where OS update via NAC Proxy could not work on Windows 10
+- #18418 OS update via NAC Proxy does not work on Windows 10
 - #18164 CLI vlan setting does not work if input is long
-- #18260 Some programs are not removed by the uninstall program agent action
+- #18260 Some programs are not removed by the Uninstall Program
 - #18312 Wireless Connection Manager can not connect to 802.1x (GTC) when deleting GnEapGTC.dll from system folder
-- #18334 Fixed an issue where node information would not remain in the audit trail when the tag was automatically released due to expiration
-- #18368 Fixed an error that repeatedly selected application button when applying for IP request application
+- #18334 Fixed an issue where Node information would not remain in the Log when the tag was automatically removed due to expiration
+- #18368 Fixed an error of duplicate click events for Submit button when submitting for IP Request
 - #18370 Agent did not work properly after installing IPv6 feature in Windows XP Fixed
-- #18411 Node Group Condition Equipment Name / Equipment Description Problems with duplicate problems and conditions that are not working have been fixed
-- #18597 Fixed an issue where interface blocking for virtual interfaces did not work
-- #18473 Fixed an issue where some network scans did not remove detected node information if it was no longer valid
+- #18411 Device Name / Device Description of Node Group Condition settings do not work properly and the duplicate Condition Criteria have been fixed
+- #18597 Critical interface blocking for virtual interfaces not working
+- #18473 Improved to remove if the Node information detected by the network scan is no longer valid

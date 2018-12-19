@@ -9,7 +9,7 @@ Edit “User Not Authenticated” Status Group
 #. Go to **Policy** in top panel
 #. Go to **Group > Node** in the left Policy panel
 #. Find and click on **User Not Authenticated** in the Node Group window
-#. Find **General/Application Mode** section and select **Enable**
+#. Find **General > Status** section and select **Enabled**
 #. Click **Update**
 #. Click **Apply** in top right corner
 
@@ -19,7 +19,7 @@ Apply “User Not Authenticated” Status Group to “User Not Authenticated” 
 #. Go to **Policy** in the top panel
 #. Go to **Enforcement Policy** in the left Policy panel
 #. Find and click on **User Not Authenticated** Enforcement Policy
-#. Find **General/Application Mode** section and select **Enable**
+#. Find **General> Status** section and select **Enabled**
 #. Find **Node Group** section and verify **User Not Authenticated** is added (*If not then click Assign and add it in*)
 #. Click **Update**
 #. Click **Apply** in top right corner

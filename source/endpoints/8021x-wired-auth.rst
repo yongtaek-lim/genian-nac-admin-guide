@@ -31,7 +31,7 @@ Step 2. Create Node Policy for 802.1x Authentication
 #. On **Node Group** tab. Select **802.1x Authentication** Node Group and move it to **Selected** column
 #. On **Policy Preferences** tab. Enter in **desired Options**
 #. On **Agent Action** tab. Select **Configuring 802.1X Wired Authentication** and move to **Selected** column
-#. On **Threat Definition** tab. (*Nothing required on this tab*)
+#. On **Anomaly Definition** tab. (*Nothing required on this tab*)
 #. Click **Finish**
 #. Click **Apply** in the top right. Click Close
 

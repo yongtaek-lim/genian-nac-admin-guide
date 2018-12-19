@@ -13,7 +13,7 @@ To Create An Enforcement Policy
 #. Go to **Policy > Enforcement Policy** in the left Policy panel
 #. Click **Tasks > Create**
 #. **Action** tab click **Next**
-#. **General** tab create an **ID** and enter brief **Description** to identify what the Policy does (*Priority stays as default. Application mode should be Enable*) Click **Next**
+#. **General** tab create an **ID** and enter brief **Description** to identify what the Policy does (*Priority stays as default. Status should be Enabled*) Click **Next**
 #. **Node Group** tab select the **Node Group** that was created, move to **Selected** section and click **Next**
 #. **Permission** tab select **Available Permission** and move to **Selected** and click **Next**
 #. **Redirection** tab is **optiona**l to set **CWP** and **Switch Block options**. Click **Next**

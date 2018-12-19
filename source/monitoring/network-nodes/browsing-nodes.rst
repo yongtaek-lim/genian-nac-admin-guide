@@ -13,7 +13,7 @@ List Nodes By Various Views
 
    -  **Node**
    -  **IPAM**
-   -  **Threat**
+   -  **Anomaly**
    -  **Windows Updates**
    -  **Asset Management**
    -  **Agent Action**

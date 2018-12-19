@@ -15,7 +15,7 @@ Under **General**
 #. For **Category**, Choose default or Create New (*This allows you to categorize your Node Groups*)
 #. For **ID**, type unique name
 #. For **Description** (*Brief description of what this Node Group is for*)
-#. For **Application Mode**, **Enabled**
+#. For **Status**, **Enabled**
 
 #. Enter the following in Condition section:
 

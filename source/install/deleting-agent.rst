@@ -13,7 +13,7 @@ Create Node Group To Delete Agent
 Under **General**
 
 #. For **ID**, type unique name.
-#. For **Application Mode**, select **Enable**
+#. For **Status**, select **Enabled**
 
 Under **Condition**
 
@@ -56,7 +56,7 @@ Under **Agent Action** tab
 
 #. Click **Next**
 
-Under **Threat Definition** tab 
+Under **Anomaly Definition** tab 
 
 #. Click **Finish**
 
