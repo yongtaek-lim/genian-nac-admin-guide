@@ -57,7 +57,7 @@ Under **General** section
 #. For **Category**, Choose default or Create New (*This allows you to categorize your Node Groups*)
 #. For **ID**, type unique name (*e.g. WMI Internal Battery Group*)
 #. For **Description** (*Brief description of what this Node Group is for*)
-#. For **Application Mode**, **Enabled**
+#. For **Status**, **Enabled**
 
 Under **Condition** section
 

@@ -46,7 +46,7 @@ Icon and Buttons                    Explanation
 .. image:: /images/export-icon.PNG  Exports the data displayed on View Pane with the format .xlsx
 .. image:: /images/tasks-icon.PNG   Displays what task you can run on View Pane
 .. image:: /images/search-bar.PNG   Indicates the search box to look for the information and pre-defined properties and operators will appear accordingly
-.. image:: /images/menu-button.PNG  Displays the view you configured and the options are **View Criteria** (Node / Device) and **Views** (Overview / Node View / IPAM View / Threat View...)
+.. image:: /images/menu-button.PNG  Displays the view you configured and the options are **View Criteria** (Node / Device) and **Views** (Overview / Node View / IPAM View / Anomaly View...)
 .. image:: /images/tooltip-icon.PNG Indicates a tooltip (*You can mouse over the tooltip icon to view the description*)
 .. image:: /images/node-count.PNG   Indicates the number of Nodes displayed in a page out of total number of Nodes with a drop-down selector to change the maximum numbers of Nodes to be displayed in a page
 =================================== =========================================================================================================================================================================

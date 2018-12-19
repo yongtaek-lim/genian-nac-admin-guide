@@ -16,7 +16,7 @@ Under **General**
 
 #. For **ID**, enter unique name
 #. For **Description**, type what this group consists of
-#. For **Application Mode**, select **Enabled** from drop-down
+#. For **Status**, select **Enabled** from drop-down
 #. For **Generating Logs** turn **On** to show logs when SSIDs are added to the group
 
 Under **Condition**

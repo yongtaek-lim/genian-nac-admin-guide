@@ -15,7 +15,7 @@ Under **General**
 
 #. For **Title**, type unique name
 #. For **Description**, type what this report will do
-#. For **Application Mode**, select **Enable**
+#. For **Status**, select **Enabled**
 #. For **Auto Generating**, select **Enable** for executing at set times
 
 Under **Advanced**
@@ -63,7 +63,7 @@ Under **General**
 
 #. For **Title**, type unique name
 #. For **Description**, type what this report will do
-#. For **Application Mode**, select **Enable**
+#. For **Status**, select **Enabled**
 #. For **Auto Generating**, select **Enable** for executing at set times
 
 Under **Advanced**

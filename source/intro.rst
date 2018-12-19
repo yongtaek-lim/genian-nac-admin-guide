@@ -159,7 +159,7 @@ There are a variety of enforcement and control options available, such as using 
 
   Each control option essentially prevents access to your internal network unless the user follows directions to remediate the endpoint devices to be compliant.
 
-The Enforcement Policy can be integrated with third-party security solutions such as a Next-generation Firewall, IDS/IPS, to receive Syslog messages about potential threat events. When an endpoint triggers such a critical security event, the integrated security device forwards the event message to the Genian NAC Policy Server, which marks the endpoint as out-of-compliance. What happens thereafter depends on the actions set up in the Node and Enforcement policies for that endpoint.
+The Enforcement Policy can be integrated with third-party security solutions such as a Next-generation Firewall, IDS/IPS, to receive Syslog messages about potential abnormal events. When an endpoint triggers such a critical security event, the integrated security device forwards the event message to the Genian NAC Policy Server, which marks the endpoint as out-of-compliance. What happens thereafter depends on the actions set up in the Node and Enforcement policies for that endpoint.
 
 **Node Control**
 
@@ -199,7 +199,7 @@ The endpoint is the ultimate threat to the safety and security of the internal n
 
   Both methods require the Agent. Basically, the Agent installed on endpoint devices communicates with the Genian NAC Policy Server directly to monitor policy compliance and, as necessary, control. Through the Agent, Genian NAC Policy Server provides notification messages to the endpoints, as well as the appropriate stakeholders (for example, Administrators).
 
-The Agent can control the endpoint’s system configurations such as Network Interface Card (NIC) and Power. For example, an enforcement policy can be set up to shut off the NIC or just power off the device immediately when one of its assigned devices is detected as a source of a possible threat. Additional control options include:
+The Agent can control the endpoint’s system configurations such as Network Interface Card (NIC) and Power. For example, an enforcement policy can be set up to shut off the NIC or just power off the device immediately when one of its assigned devices is detected as a source of an anomaly. Additional control options include:
 
   - Application management: Force to install/remove software
   - Operating System configuration: Control Registry

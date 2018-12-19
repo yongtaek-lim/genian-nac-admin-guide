@@ -1,5 +1,5 @@
-Ad Hoc Network Connected
-========================
+Multi-Homed / Ad hoc Network
+============================
 
 A Genian Agent can immediately detect a multi-homed configuration and Ad hoc network connection in a variety of ways.
 If a computer having more than one IP address configured connects to more than one network and one of them is not on the trusted network, then Genians designates the Node as a critical one. 
@@ -8,55 +8,53 @@ This may go with not only an Agent Control option in Definition configuration se
 
 For running an Agent Action to control an interface, please see :doc:`/endpoints/network-interface` 
 
-Step 1. Configure Threat Definition Settings for Ad Hoc Network in Threat Definition
-------------------------------------------------------------------------------------
+
+Step 1. Configure Settings for Multi-Homed / Ad hoc Network in Anomaly Definition
+---------------------------------------------------------------------------------
 
 #. Go to **Policy** in the top panel
-#. Go to **Policy > Node Policy > Threat Definition** in the left Policy panel
-#. Click **Ad Hoc Network Connected**
-#. Find **Threat Definition Settings** section
-#. Specify **Trusted Network Scope** (*An option may be configurable in Policy > Object > Network.*)
-#. Specify **Sensor Network as Trusted** (*This prevents from not being on the trusted network if a Sensor changes.*)
-#. Select **Yes** to configure more options for Agent Control
-#. For **Agent Control** you may specify the followings:
+#. Go to **Policy > Node Policy > Anomaly Definition** in the left Policy panel
+#. Click **Multi-Homed / Ad hoc Network**
+#. Find **Anomaly Event** section to configure more options
+#. For **Trusted Network Scope** (*An option may be configurable in Policy > Object > Network.*)
+#. For **Sensor Network as Trusted** (*This prevents from not being on the trusted network if a Sensor changes its management scope.*)
+#. For **Agent Control** select **Yes** to configure more options and you may specify the followings:
 
-   - Response, you can choose either "Disabling Device" or "Generating Logs"
-   - Interface Disabled Notification
-   - External Device Exceptions, you can enter a device name (*The name must be the exact match, therefore, you may also configure Network Exceptions by specifying the network type, wired or wireless, instead*)
-   - Network Exceptions, you can choose one of No Exceptions, Wired or Wireless
+   - **Response:** Disabling Device or Generating Logs
+   - **Interface Disabled Notification:** Yes or No
+   - **External Device Exceptions:** optional setting to specify the device to be an exception to this Anomaly (*The name must be the exact match, therefore, you had better configure Interface Type Exception instead*)  
+   - **Interface Type Exception:** Wired, Wireless or Virtual
 
 #. Click **Update**
 
-Step 2. Create Status Group For Ad Hoc Network Connected
---------------------------------------------------------
+Step 2. Create Status Group For Multi-Homed / Ad hoc Network Conected
+---------------------------------------------------------------------
 
 #. Go to **Policy** in the top panel
-#. Go to **Group > Node** in the left Policy panel
+#. Go to **Policy > Group > Node** in the left Policy panel
 #. Click on **Tasks > Create New Status Group**
-#. Enter in the following:
+#. For **ID:** Multi-Homed / Ad hoc Network Connected
+#. For **Status:** Enabled 
+#. For **Boolean Operator**  select **OR**
+#. Find and click on **Add** in **Condition** section
+#. For each **Anomaly** you want to add use the followings:
 
-   - **ID**: "Ad Hoc Network Connected", Application Mode "Enable"
-   - **Condition**: Criteria: **Threat**,   Operator: **Detected is one of**,   Value: **Ad Hoc Network**
+   - **Options:** Anomaly
+   - **Operator:** Detected is one of
+   - **Value:** Multi-Homed / Ad hoc Network
 
-#. Click **Update**
+#. Click **Add**
+#. Keep adding **Conditions** as needed   
+#. Click **Save**
    
-Step 3. Create Node Policy For Ad Hoc Network
----------------------------------------------
+Step 3. Detect Multi-Homed / Ad hoc Network Through Node Policy
+---------------------------------------------------------------
 
-#. Go to **Policy** in the top panel
-#. Go to **Policy > Node Policy** in the left Policy panel
-#. Click on **Tasks > Create**
-#. Click **Next**
-#. On **General** tab enter the following:
+You may assign the Status Group of Spoofed ARP Sent you created in Step 2 into an existing Node Policy or create a dedicated Node Policy to detect **Multi-Homed / Ad hoc Network** pre-configured in Step 1. 
+The anomaly, **Multi-Homed / Ad hoc Network**, detected through either an existing Node Policy or a new Node Policy will be seen a variety of ways, please see :doc:`/threats/detecting-threats`.
 
-   - ID "Ad Hoc Network Connected", Application Mode "Enable"
+Step 4. Block Multi-Homed / Ad hoc Network Through Enforcement Policy
+---------------------------------------------------------------------
 
-#. Click **Next**
-#. On **Node Group** tab, select newly created Node Group **Ad Hoc Network Connected Group**
-#. Click Next**
-#. On **Policy Preferences** tab, you may change some configuration settings if needed
-#. Click **Next**
-#. On **Agent Action** tab click **Next** (*Or you may select configured Agent Action* **Control Network Interface**)
-#. On **Threat** tab, select **Ad Hoc Network**
-#. Click **Finish**
-
+You may assign the Status Group of Multi-Homed / Ad hoc Network Connected you created in Step 2 into an existing Enforcement Policy or create a dedicated Enforcement Policy to block the Nodes with **Multi-Homed / Ad hoc Network** pre-configured in Step 1. 
+Please see :doc:`/threats/blocking-threats`.
