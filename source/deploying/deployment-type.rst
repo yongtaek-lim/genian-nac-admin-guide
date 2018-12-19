@@ -1,23 +1,16 @@
 Deployment Models
 =================
 
-Compare Deployment Methods
---------------------------
+Genian NAC collects network information and controls the network access of devices by leveraging the following methods:
 
-The deployment method describes how Genian NAC collects network information and controls the network access of devices. 
-
-Genian NAC support multi-layered deployment methods include:
-
-  - Layer 2 Sensor/Enforcer (*Mandatory*)
+  - Layer 2 (ARP, DHCP, etc.)
   - SNMP/CLI
-  - Port Mirroring (SPAN)
+  - Port Mirror (SPAN)
   - 802.1x
   - Agent
 
-Of these, Layer 2 Networks Sensors must be installed with Policy Server when deployed as an integral component of Genian NAC.
-Other deployment methods can be optionally applied.
-
-The table below compares the advantages and disadvantages of the functional point of view.
+Technical Consideration
+-----------------------
 
 .. list-table::
    :widths: auto
@@ -26,34 +19,34 @@ The table below compares the advantages and disadvantages of the functional poin
    * - Topic
      - Layer 2 Sensor/Enforcer
      - SNMP/CLI
-     - Port Mirroring (SPAN)
+     - Port Mirror (SPAN)
      - 802.1x
      - Agent
-   * - **Layer 2 Access Control**
+   * - **Access Control at Layer 2**
      - | Yes 
      - | Yes
      - | No
      - | Yes
      - | No
-   * - **Layer 3 Access Control**
+   * - **Access Control at Layer 3**
      - | RBAC
      - | Switch Port ACL
      - | RBAC
      - | Switch  Port ACL
      - | OS Firewall
-   * - **Post Connect Control**
-     - | Yes
+   * - **Post-admission Control**
+     - | ARP, DHCP
      - | VLAN/ACL/Shutdown
-     - | TCP Only
-     - | CoA* required
-     - | Yes
+     - | TCP RST, ICMP unreach.
+     - | CoA*
+     - | OS Firewall
    * - **Additional Hardware**
      - | Network Sensor       
      - | Managed Switches
      - | Full traffic capable Device,
        | Tap Device,
        | SSL Decryption Device
-     - | 802.1x supported Switches
+     - | 802.1x Switch/AP
      - | No
    * - **Endpoint Dependency**
      - | No
@@ -61,21 +54,16 @@ The table below compares the advantages and disadvantages of the functional poin
      - | No
      - | 802.1x Supplicant
      - | Agent required
-   * - **Secure WiFi**
+   * - | **WLAN Security**
+     - | Monitoring
+       | (WNIC on Sensor)
+     - | Monitoring
+       | (SNMP with Controller)
      - | No
-     - | No
-     - | No
-     - | WPA2-Enterprise,
-       | EAP-TLS, EAP-TTLS
-     - | Yes
-   * - | **WiFi Security**
-       | - Rogue AP Detect
-       | - Connection Monitor
-     - | Yes
-     - | Through AP or Controller
-     - | No
-     - | No
-     - | Yes
+     - | Monitoring / Control
+       | (WPA2-Enterprise)
+     - | Monitoring / Control
+       | (SSID Whitelist)
    * - **Layer 2 Security**
      - | Detect MAC Spoofing,
        | Detect Rogue DHCP,
@@ -87,10 +75,8 @@ The table below compares the advantages and disadvantages of the functional poin
 
 *CoA\*: Change of Authorization, RFC 5176 - Dynamic Authorization Extensions to RADIUS*
 
-To build network access control effectively and quickly, it is necessary to use a variety of deployment methods that
-are appropriate for network characteristics and security requirements.
-
-The table below compares the advantages and disadvantages of the deployment and management point of view.
+Management Consideration
+------------------------
 
 .. list-table::
    :widths: auto
@@ -99,7 +85,7 @@ The table below compares the advantages and disadvantages of the deployment and 
    * - Topic
      - Layer 2 Sensor/Enforcer
      - SNMP/CLI
-     - Port Mirroring (SPAN)
+     - Port Mirror (SPAN)
      - 802.1x
      - Agent
    * - **Network Config Change**
@@ -128,8 +114,7 @@ The table below compares the advantages and disadvantages of the deployment and 
      - | Very Difficult
      - | Intermediate
    * - | **Phased Deployment**
-       | - Discover First
-       | - Control Later
+       | (Discover First, Control Later)
      - | Yes
      - | Yes
      - | Yes
