@@ -16,7 +16,7 @@ Signup at `GitHub`_
 
    - Visit https://github.com/genians/genian-nac-admin-guide
    - Click Fork Icon top right
-   - Your forked repo https://github.com/USERNAME/genian-nac-admin-guide
+   - Your forked repo *https://github.com/USERNAME/genian-nac-admin-guide*
 
 **Make local repository on your PC**
 
