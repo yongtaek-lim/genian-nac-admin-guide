@@ -68,6 +68,11 @@ Please refer to the function comparison table for each edition below to select t
      - 
      - Yes
      - Yes
+   * - 
+     - Remote Network Sensor
+     - 
+     - Yes
+     - Yes     
    * - User Authentication
      - Captive Portal Login
      - 
