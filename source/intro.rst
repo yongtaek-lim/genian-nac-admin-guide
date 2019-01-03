@@ -98,7 +98,7 @@ Group based on Node-related information such as Node type, address information (
 
 Group based on the Node status measured by policies and the associated conditions.
 
-Both groups can be used to assess the current security practices in your organization. A status group can be used to enforce policy on non-compliant Nodes (refer to “Access Control”).
+.. note:: Both groups can be used to assess the current security practices in your organization. A status group can be used to enforce policy on non-compliant Nodes (refer to “Access Control”).
 
 Grouping Nodes provides significant administrative benefits by simplifying tasks, organizing resources, and applying policies dynamically across the network. When you need to make changes affecting every Node in a group, it is easier to modify the settings for the Node group.
 
