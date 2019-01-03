@@ -13,8 +13,8 @@ Typically, the policy server resides in the organization's data center and is in
 Another role of the policy server is to provide the administrator's management console. You can configure and manage other components
 through a web-based management console. You can also view the collected information and establish your organization's security policies.
 
-Networks Sensor
----------------
+Network Sensor
+--------------
 
 The network sensor is located in each network segment, monitors the network, collects the information, and transmits it to the policy server.
 
