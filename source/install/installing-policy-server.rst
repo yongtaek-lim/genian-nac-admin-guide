@@ -111,6 +111,6 @@ If you find any device driver unsupported problems. please report to us.
 
    report-unsupported-hw.rst
 
-.. _minimum specification: https://www.genians.com/download/
+.. _minimum specification: https://docs.genians.com/deploying/sizing.html
 .. _contact us: https://www.genians.com/hello/
 .. _download page: https://www.genians.com/download/
