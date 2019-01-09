@@ -3,6 +3,8 @@ Genian NAC v5.0.15 Release Notes (October 2018)
 
 Release Date: 10/25/2018
 
+:download:`Download 5.0.15 <https://www.genians.com/get-files/12761/?version=5.0.15>` 
+
 For upgrading system software, please see :doc:`/system/system-software` 
 
 New Features
