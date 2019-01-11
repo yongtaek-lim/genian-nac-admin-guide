@@ -22,15 +22,14 @@ This will automate the deletion of the agent from the designated devices when th
 Delete Agent Using Authentication Code
 --------------------------------------
 
-This option is ideal for when a single device is scheduled to be decommissioned from the environment, but will be used by
-another organization or individual who does not require the agent.
+This option is ideal for a user to request agent removal. An administrator can approve this request. 
 
 Deleting as **Endpoint user**:
 
 #. Go to the task bar on Windows or OSX machine and find the Genians logo.
 #. Right click the logo and select the ***Delete Agent(D)** option.
 #. find the **Agent Code** in the pop up window, and provide it to your Genians NAC Administrator who will use it to generate an **Authentication Code**. 
-#. Enter the **Authentication Code** provided into the designated form, and clicke the **Delete** button.
+#. Enter the **Authentication Code** provided into the designated form, and click the **Delete** button.
 
 Claiming ***Authentication Code** as an **Administrator**
 
