@@ -61,17 +61,21 @@ Under **Anomaly Definition** tab
 
 #. Click **Finish**
 
-.. attention:: In **Node Policy**, you should see your newly created Policy and a number of **Node(s)** in Nodes column(*Device will not be prompted to do anything upon connecting to the network. Administrator will soon see these Nodes without the Agent Icon in the Management Node list*)
+.. attention:: In **Node Policy**, you should see your newly created Policy and a number of **Node(s)** in Nodes
+ column(*Device will not be prompted to do anything upon connecting to the network. Administrator will soon see these
+  Nodes without the Agent Icon in the Management Node list*)
 
-Delete Agent Using Agent Code
------------------------------
-This option is ideal for when a single device is scheduled to be decommissioned from the environment, but will be used by another organization or individual who does not require te agent.
+Delete Agent Using Authentication Code
+--------------------------------------
+This option is ideal for when a single device is scheduled to be decommissioned from the environment, but will be used by
+ another organization or individual who does not require te agent.
 
 Deleting as **Endpoint user**:
 
 #. Go to the task bar on Windows or OSX machine and find the Genians logo.
 #. Right click the logo and select the ***Delete Agent(D)** option.
-#. find the **Agent Code** in the pop up window, and provide it to your Genians NAC Administrator who will use it to generate an **Authentication Code**. 
+#. find the **Agent Code** in the pop up window, and provide it to your Genians NAC Administrator who will use it to
+ generate an **Authentication Code**. 
 #. Enter the **Authentication Code** provided into the designated form, and clicke the **Delete** button.
 
 Claiming ***Authentication Code** as an **Administrator**
