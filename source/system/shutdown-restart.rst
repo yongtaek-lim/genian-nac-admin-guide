@@ -1,5 +1,5 @@
-Shutdown and Restart Controls
-=============================
+Shutdown and Restart System
+===========================
 .. warning:: To avoid system corruption, never remove device power source, or manually power off device before properly shutting down Genian NAC.
 
 Control Power Through Web console
