@@ -3,6 +3,8 @@ Genian NAC v5.0.13 Release Notes (April 2018)
 
 Release Date: 4/18/2018
 
+:download:`Download 5.0.13 <https://www.genians.com/get-files/12761/?version=5.0.13>`
+
 **New Feature & Improvement**
 
 - #17206 Improved policy server to enable external connections through Proxy server setting.
