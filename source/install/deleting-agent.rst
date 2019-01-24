@@ -1,64 +1,52 @@
 Deleting Agent
 ==============
 
-You can uninstall the Agent on the endpoints by using a Group Policy which allows you to group many devices together and uninstall the Agent as each device comes onto the network. This is useful if you have a large number of devices that will no longer be seen on the network. (*e.g. A School with Seniors graduating will have no need for the Agent to remain on their devices.*)
-
-Create Node Group To Delete Agent
----------------------------------
-
-#. Go to **Policy** in the top panel
-#. Go to **Group > Node** in the Policy panel
-#. Go to **Tasks > Create New Policy Group**
-
-Under **General**
-
-#. For **ID**, type unique name.
-#. For **Status**, select **Enabled**
-
-Under **Condition**
-
-#. For **Boolean Operator**, select **OR** from drop-down
-#. For **Settings**, click **Add**
-#. Enter the following condition:
-
-   -  **Options: MAC** from drop-down
-   -  **Operator: is equal to** from drop-down
-   -  **Value** is the MAC Address of Node (*e.g. XX:XX:XX:XX:XX:XX*)
-
-#. Click **Update**
+You can uninstall the Agent on the endpoints either by using a Node Policy which allows you to
+group many devices together or by using an Authentication Code which allows you to delete an individual agent.  
 
 Delete Agent Using Policy
 -------------------------
 
-#. Go to **Policy** in the top panel
-#. Go to **Policy > Node Policy** in the Policy panel
-#. Go to **Tasks > Create**
+This method is ideal for deleting the agent from a large number of devices, without end user involvement.
 
-Under **Agent** tab
+#. Create a **Node Group** to select which nodes to delete agent.
 
-#. Click **Next**
+#. Create a **Node Policy** to delete agent from the selected nodes.
+  
+   - Under: **Policy Preferences** find the  **Agent Policy** section and set the **Agent** drop down menu to **Delete**.
 
-Under **General** tab 
+#. After creating the node policy, click the **apply** option in the top right corner. 
 
-#. For **ID** , type unique name. (*e.g. ID = “Delete Agent”*)
-#. Click **Next** 
+This will automate the deletion of the agent from the designated devices when the node policy updates on the agent.  
 
-Under **Node Group** tab 
+Delete Agent Using Authentication Code
+--------------------------------------
 
-#. Double click **Delete Agent Group**
-#. Click **Next**
+This option is ideal for a user to request agent removal. An administrator can approve this request. 
 
-Under **Policy Preferences** tab 
+Deleting as **Endpoint user**:
 
-#. Click **Next**
+#. Go to the task bar on Windows or OSX machine and find the Genians logo.
+#. Right click the logo and select the ***Delete Agent(D)** option.
+#. find the **Agent Code** in the pop up window, and provide it to your Genians NAC Administrator who will use it to generate an **Authentication Code**. 
+#. Enter the **Authentication Code** provided into the designated form, and click the **Delete** button.
 
-Under **Agent Action** tab 
+Claiming ***Authentication Code** as an **Administrator**
 
-#. Click **Next**
+#. Log in to Policy server Management console. 
+#. Mouse over the **Management** tab on the menu bar and select the **Request** option underneath.
+#. In the tree panel on the left of the page, find **Agent Authentication Code**, and select **Generator**
+#. Enter the **Agent Code** supplied by the endpoint user and click **Generate** button.
+#. An  **Authentication Code** will be displayed. Provide this code to the end user. 
 
-Under **Anomaly Definition** tab 
+.. note:: Authentication Code based deletion method is still possible when endpoint is offline, as long as policy server is active. 
 
-#. Click **Finish**
+Delete Agent When Policy Server Is No Longer Available
+------------------------------------------------------
 
-.. attention:: In **Node Policy**, you should see your newly created Policy and a number of **Node(s)** in Nodes column(*Device will not be prompted to do anything upon connecting to the network. Administrator will soon see these Nodes without the Agent Icon in the Management Node list*)
+The Policy Server used to install the agent is needed to delete the agent. 
+If this Policy Server is no longer available, a new policy server is needed.
 
+#. Install new Policy Server.
+#. Reinstall Agent from Policy Server using standard agent installation. This will overwrite the existing agent.
+#. Delete the agent using Node Policy or Authentication Code. 

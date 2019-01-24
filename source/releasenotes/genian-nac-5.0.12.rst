@@ -3,6 +3,8 @@ Genian NAC v5.0.12 Release Notes (February 2018)
 
 Release Date: 2/8/2018
 
+:download:`Download 5.0.12 <https://www.genians.com/get-files/12761/?version=5.0.12>`
+
 **New Feature & Improvement**
 
 - #17214 Support LSI Logic SAS adapter

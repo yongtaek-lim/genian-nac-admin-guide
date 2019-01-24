@@ -1,7 +1,9 @@
-Genian NAC v5.0.16 Release Notes (Coming in January 2019)
-=========================================================
+Genian NAC v5.0.16 Release Notes (January 2019)
+===============================================
 
-.. Release Date: 12/21/2018
+Release Date: 1/7/2019
+
+:download:`Download 5.0.16 <https://www.genians.com/get-files/12761/?version=5.0.16>` 
 
 For instructions on installing and updating Genian NAC, please see :doc:`/system/system-software`  
 

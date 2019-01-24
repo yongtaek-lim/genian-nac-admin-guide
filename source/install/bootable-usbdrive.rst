@@ -1,5 +1,7 @@
 Create a  USB drive
-===========================
+===================
+
+.. caution:: All files in the USB drive will be deleted during the process so back up your files from the USB Drive to move forward.
 
 .. caution:: All files in the USB drive will be deleted during the process so back up your files from the USB Drive to move forward.
 
@@ -17,7 +19,7 @@ Genians recommend `UNETbootin`_ which allows you to create a  USB flash drives f
    - `64-bit binary`_
 
 Creating a USB drive
------------------------------
+--------------------
 Ensure that your USB drive is formated FAT32. Other file systems may not be supported.
 
 Once UNETbootin is installed, follow the steps below.

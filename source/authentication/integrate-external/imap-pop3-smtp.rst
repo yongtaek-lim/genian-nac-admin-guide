@@ -61,3 +61,13 @@ Service Name                 Server Name           Port     Domain
 ============================ ===================== ======== ==============
 Google G Suites              smtp.gmail.com        465      Your Domain
 ============================ ===================== ======== ==============
+
+Troubleshooting
+---------------
+
+.. error:: **Gmail SMTP Integration known issue:** 
+
+                * Authentiction Test: Authentication failed.Authentication failed.SMTP(535-5.7.8:Username and Password not accepted. Learn more at 535 5.7.8 https://support.google.com/mail/?p=BadCredentialsy32sm41405227qt)
+                * Genian NAC log : 	Login failed. ERRMSG='Authorize(Account disabled)'
+                * **Fix:** Turn on Less secure app access in Google account settings / security
+ 
