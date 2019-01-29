@@ -49,3 +49,4 @@ Enable Request notification and response from Administrator email
 #. Find and enable **Email Approval for guest** in the main window
 #. Designate approver, expiry and request fields.
 #. Click **Assign**
+
