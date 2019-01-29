@@ -12,6 +12,7 @@ Systems consist of Policy Server and Sensor. You can customize admin interface, 
    system/config-network
    system/default-settings
    system/backup
+   system/email
    system/system-software
    system/mobile-app
    system/preferences
