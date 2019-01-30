@@ -1,5 +1,5 @@
-Configuring 802.1x Wired Authentication
-=======================================
+Configuring 802.1x Wired Authentications
+========================================
 
 802.1x is an IEEE Standard Switch-Port Authentication which provides assurance that a person claims to be behind an Endpoint Device. In the wired environment, this is a physical port on a switch. In a wireless environment, it is an association with an Access Point(AP). Port-Based Authentication is that an Endpoint Device attempting to connect to a network will use an 802.1x supplicant and be challenged at the point of connection using EAP messages before communication with any other internal network devices can start.
 You can configure the Policy Server to authenticate users access through 802.1x.
